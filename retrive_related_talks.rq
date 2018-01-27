@@ -1,0 +1,4 @@
+prefix properties: <http://example.org/properties/>
+select * where {
+  ?x properties:related_talks ?y
+}

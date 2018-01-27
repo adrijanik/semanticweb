@@ -1,0 +1,7 @@
+prefix properties: <http://example.org/properties/>
+select * where {
+  ?x properties:related_talks ?y
+  ?z properties:related_talks ?x
+
+  filter contains (?x, "Doschoolskillcreativity")
+}
