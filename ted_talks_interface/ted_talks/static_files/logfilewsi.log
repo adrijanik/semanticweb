@@ -1,0 +1,257 @@
+*** Starting uWSGI 2.0.14 (64bit) on [Mon Nov 21 17:50:13 2016] ***
+compiled with version: 4.9.2 on 21 November 2016 17:48:16
+os: Linux-3.16.0-4-amd64 #1 SMP Debian 3.16.7-ckt25-2+deb8u3 (2016-07-02)
+nodename: vagrant
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /vagrant/cms
+detected binary path: /home/vagrant/.pyenv/versions/3.5.2/envs/cms/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7976
+your memory page size is 4096 bytes
+detected max file descriptor number: 65536
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :8000 fd 4
+spawned uWSGI http 1 (pid: 17028)
+uwsgi socket 0 bound to TCP address 127.0.0.1:60351 (port auto-assigned) fd 3
+Python version: 3.5.2 (default, Jul  5 2016, 13:09:22)  [GCC 4.9.2]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x2187ba0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 72768 bytes (71 KB) for 1 cores
+*** Operational MODE: single process ***
+[DEBUG] [base] Configuring Raven for host: <raven.conf.remote.RemoteConfig object at 0x7fdeb1e10b38>
+[INFO] [base] Raven is not configured (logging is disabled). Please see the documentation for more information.
+WSGI app 0 (mountpoint='') ready in 2 seconds on interpreter 0x2187ba0 pid: 16992 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (and the only) (pid: 16992, cores: 1)
+[pid: 16992|app: 0|req: 1/1] 127.0.0.1 () {44 vars in 833 bytes} [Mon Nov 21 17:50:21 2016] GET /admin => generated 23614 bytes in 993 msecs (HTTP/1.1 404) 3 headers in 94 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 2/2] 127.0.0.1 () {44 vars in 857 bytes} [Mon Nov 21 17:50:25 2016] GET /admin/sonel_core/ => generated 23650 bytes in 389 msecs (HTTP/1.1 404) 3 headers in 94 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 3/3] 127.0.0.1 () {44 vars in 823 bytes} [Mon Nov 21 17:50:28 2016] GET / => generated 28462 bytes in 766 msecs (HTTP/1.1 200) 6 headers in 251 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 4/4] 127.0.0.1 () {46 vars in 915 bytes} [Mon Nov 21 17:50:32 2016] GET /sonel_core/permissiongroup/ => generated 27739 bytes in 496 msecs (HTTP/1.1 200) 7 headers in 373 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 5/5] 127.0.0.1 () {44 vars in 796 bytes} [Mon Nov 21 17:50:33 2016] GET /jsi18n/ => generated 6544 bytes in 52 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 6/6] 127.0.0.1 () {46 vars in 926 bytes} [Mon Nov 21 17:50:34 2016] GET /sonel_core/product/ => generated 44213 bytes in 5314 msecs (HTTP/1.1 200) 7 headers in 373 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 7/7] 127.0.0.1 () {46 vars in 946 bytes} [Mon Nov 21 17:50:40 2016] GET /sonel_core/permissiongroup/1/ => generated 40071 bytes in 6758 msecs (HTTP/1.1 200) 7 headers in 373 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 8/8] 127.0.0.1 () {46 vars in 924 bytes} [Mon Nov 21 17:50:46 2016] GET /sonel_core/ticket/ => generated 26811 bytes in 519 msecs (HTTP/1.1 200) 7 headers in 373 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 9/9] 127.0.0.1 () {44 vars in 787 bytes} [Mon Nov 21 17:50:47 2016] GET /jsi18n/ => generated 6544 bytes in 99 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 10/10] 127.0.0.1 () {46 vars in 923 bytes} [Mon Nov 21 17:50:52 2016] GET /sonel_core/ticket/add/ => generated 71606 bytes in 835 msecs (HTTP/1.1 200) 7 headers in 373 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 11/11] 127.0.0.1 () {44 vars in 791 bytes} [Mon Nov 21 17:50:53 2016] GET /jsi18n/ => generated 6544 bytes in 108 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 12/12] 127.0.0.1 () {54 vars in 1095 bytes} [Mon Nov 21 17:50:56 2016] POST /sonel_core/ticket/add/ => generated 71883 bytes in 846 msecs (HTTP/1.1 200) 7 headers in 373 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 13/13] 127.0.0.1 () {44 vars in 791 bytes} [Mon Nov 21 17:50:56 2016] GET /jsi18n/ => generated 6544 bytes in 105 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 14/14] 127.0.0.1 () {46 vars in 903 bytes} [Mon Nov 21 17:51:03 2016] GET /autocomplete/customers/ => generated 46 bytes in 29 msecs (HTTP/1.1 200) 3 headers in 94 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 15/15] 127.0.0.1 () {46 vars in 918 bytes} [Mon Nov 21 17:51:04 2016] GET /autocomplete/customers/?q=lpert => generated 46 bytes in 20 msecs (HTTP/1.1 200) 3 headers in 94 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 16/16] 127.0.0.1 () {46 vars in 949 bytes} [Mon Nov 21 17:51:06 2016] GET /autocomplete/customers/?q=lpert4t5o9-54jw-0y9j => generated 46 bytes in 15 msecs (HTTP/1.1 200) 3 headers in 94 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 17/17] 127.0.0.1 () {46 vars in 917 bytes} [Mon Nov 21 17:51:09 2016] GET /autocomplete/customers/?q=herh => generated 46 bytes in 14 msecs (HTTP/1.1 200) 3 headers in 94 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 18/18] 127.0.0.1 () {46 vars in 913 bytes} [Mon Nov 21 17:51:10 2016] GET /autocomplete/customers/?q=he => generated 46 bytes in 15 msecs (HTTP/1.1 200) 3 headers in 94 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 19/19] 127.0.0.1 () {46 vars in 919 bytes} [Mon Nov 21 17:51:11 2016] GET /autocomplete/customers/?q=hehe+ => generated 46 bytes in 14 msecs (HTTP/1.1 200) 3 headers in 94 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 20/20] 127.0.0.1 () {46 vars in 921 bytes} [Mon Nov 21 17:51:11 2016] GET /autocomplete/customers/?q=hehe+e => generated 46 bytes in 24 msecs (HTTP/1.1 200) 3 headers in 94 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 21/21] 127.0.0.1 () {46 vars in 925 bytes} [Mon Nov 21 17:51:12 2016] GET /autocomplete/customers/?q=hehe+eas => generated 46 bytes in 22 msecs (HTTP/1.1 200) 3 headers in 94 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 22/22] 127.0.0.1 () {46 vars in 943 bytes} [Mon Nov 21 17:51:13 2016] GET /autocomplete/customers/?q=hehe+easter+egggg => generated 46 bytes in 15 msecs (HTTP/1.1 200) 3 headers in 94 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 23/23] 127.0.0.1 () {46 vars in 941 bytes} [Mon Nov 21 17:51:15 2016] GET /autocomplete/customers/?q=hehe+easter+eggg => generated 46 bytes in 14 msecs (HTTP/1.1 200) 3 headers in 94 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 24/24] 127.0.0.1 () {46 vars in 909 bytes} [Mon Nov 21 17:51:15 2016] GET /autocomplete/customers/?q= => generated 46 bytes in 16 msecs (HTTP/1.1 200) 3 headers in 94 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 25/25] 127.0.0.1 () {46 vars in 911 bytes} [Mon Nov 21 17:51:15 2016] GET /autocomplete/customers/?q=h => generated 46 bytes in 14 msecs (HTTP/1.1 200) 3 headers in 94 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 26/26] 127.0.0.1 () {46 vars in 944 bytes} [Mon Nov 21 17:51:26 2016] GET /sonel_core/mailhrconfiguration/ => generated 0 bytes in 60 msecs (HTTP/1.1 302) 7 headers in 321 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 27/27] 127.0.0.1 () {46 vars in 948 bytes} [Mon Nov 21 17:51:26 2016] GET /sonel_core/mailhrconfiguration/1/ => generated 28276 bytes in 572 msecs (HTTP/1.1 200) 7 headers in 373 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 28/28] 127.0.0.1 () {44 vars in 801 bytes} [Mon Nov 21 17:51:27 2016] GET /jsi18n/ => generated 6544 bytes in 104 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 29/29] 127.0.0.1 () {46 vars in 965 bytes} [Mon Nov 21 17:51:29 2016] GET /sonel_core/mailrentbuyconfiguration/ => generated 0 bytes in 58 msecs (HTTP/1.1 302) 7 headers in 326 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 30/30] 127.0.0.1 () {46 vars in 969 bytes} [Mon Nov 21 17:51:30 2016] GET /sonel_core/mailrentbuyconfiguration/2/ => generated 28320 bytes in 506 msecs (HTTP/1.1 200) 7 headers in 373 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 31/31] 127.0.0.1 () {44 vars in 806 bytes} [Mon Nov 21 17:51:30 2016] GET /jsi18n/ => generated 6544 bytes in 131 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 32/32] 127.0.0.1 () {54 vars in 1142 bytes} [Mon Nov 21 17:51:33 2016] POST /sonel_core/mailrentbuyconfiguration/2/ => generated 0 bytes in 92 msecs (HTTP/1.1 302) 8 headers in 579 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 33/33] 127.0.0.1 () {48 vars in 1228 bytes} [Mon Nov 21 17:51:33 2016] GET /sonel_core/mailrentbuyconfiguration/2/ => generated 28660 bytes in 477 msecs (HTTP/1.1 200) 8 headers in 457 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 34/34] 127.0.0.1 () {44 vars in 807 bytes} [Mon Nov 21 17:51:34 2016] GET /jsi18n/ => generated 6544 bytes in 103 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 35/35] 127.0.0.1 () {46 vars in 899 bytes} [Mon Nov 21 17:51:45 2016] GET / => generated 28502 bytes in 697 msecs (HTTP/1.1 200) 6 headers in 251 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 36/36] 127.0.0.1 () {44 vars in 849 bytes} [Mon Nov 21 17:51:53 2016] GET /gdziejajestem => generated 23638 bytes in 403 msecs (HTTP/1.1 404) 3 headers in 94 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 37/37] 127.0.0.1 () {44 vars in 823 bytes} [Mon Nov 21 17:51:58 2016] GET / => generated 28502 bytes in 713 msecs (HTTP/1.1 200) 6 headers in 251 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 38/38] 127.0.0.1 () {46 vars in 901 bytes} [Mon Nov 21 17:52:09 2016] GET /sonel_core/training/ => generated 35464 bytes in 622 msecs (HTTP/1.1 200) 7 headers in 373 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 39/39] 127.0.0.1 () {44 vars in 789 bytes} [Mon Nov 21 17:52:10 2016] GET /jsi18n/ => generated 6544 bytes in 88 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 40/40] 127.0.0.1 () {46 vars in 925 bytes} [Mon Nov 21 17:52:13 2016] GET /sonel_core/training/1/ => generated 42610 bytes in 695 msecs (HTTP/1.1 200) 7 headers in 373 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 41/41] 127.0.0.1 () {44 vars in 791 bytes} [Mon Nov 21 17:52:14 2016] GET /jsi18n/ => generated 6544 bytes in 51 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 42/42] 127.0.0.1 () {54 vars in 1095 bytes} [Mon Nov 21 17:52:18 2016] POST /sonel_core/training/1/ => generated 0 bytes in 255 msecs (HTTP/1.1 302) 8 headers in 545 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 43/43] 127.0.0.1 () {48 vars in 1162 bytes} [Mon Nov 21 17:52:19 2016] GET /sonel_core/training/1/ => generated 42926 bytes in 657 msecs (HTTP/1.1 200) 8 headers in 457 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 44/44] 127.0.0.1 () {44 vars in 791 bytes} [Mon Nov 21 17:52:19 2016] GET /jsi18n/ => generated 6544 bytes in 124 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 45/45] 127.0.0.1 () {46 vars in 929 bytes} [Mon Nov 21 17:52:24 2016] GET /sonel_core/certificate/ => generated 26967 bytes in 583 msecs (HTTP/1.1 200) 7 headers in 373 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 46/46] 127.0.0.1 () {44 vars in 792 bytes} [Mon Nov 21 17:52:25 2016] GET /jsi18n/ => generated 6544 bytes in 80 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 47/47] 127.0.0.1 () {46 vars in 938 bytes} [Mon Nov 21 17:52:27 2016] GET /sonel_core/certificate/add/ => generated 31147 bytes in 659 msecs (HTTP/1.1 200) 7 headers in 373 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 48/48] 127.0.0.1 () {44 vars in 796 bytes} [Mon Nov 21 17:52:27 2016] GET /jsi18n/ => generated 6544 bytes in 104 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 49/49] 127.0.0.1 () {46 vars in 910 bytes} [Mon Nov 21 17:52:30 2016] GET /autocomplete/trainings/ => generated 98 bytes in 16 msecs (HTTP/1.1 200) 3 headers in 94 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 50/50] 127.0.0.1 () {54 vars in 1109 bytes} [Mon Nov 21 17:52:39 2016] POST /sonel_core/certificate/add/ => generated 31462 bytes in 551 msecs (HTTP/1.1 200) 7 headers in 373 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 51/51] 127.0.0.1 () {44 vars in 796 bytes} [Mon Nov 21 17:52:39 2016] GET /jsi18n/ => generated 6544 bytes in 81 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 52/52] 127.0.0.1 () {54 vars in 1109 bytes} [Mon Nov 21 17:52:43 2016] POST /sonel_core/certificate/add/ => generated 0 bytes in 146 msecs (HTTP/1.1 302) 8 headers in 498 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 53/53] 127.0.0.1 () {48 vars in 1121 bytes} [Mon Nov 21 17:52:43 2016] GET /sonel_core/certificate/ => generated 29129 bytes in 519 msecs (HTTP/1.1 200) 8 headers in 457 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 54/54] 127.0.0.1 () {44 vars in 792 bytes} [Mon Nov 21 17:52:44 2016] GET /jsi18n/ => generated 6544 bytes in 46 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 55/55] 127.0.0.1 () {46 vars in 934 bytes} [Mon Nov 21 17:52:49 2016] GET /sonel_core/certificate/1/ => generated 31990 bytes in 595 msecs (HTTP/1.1 200) 7 headers in 373 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 56/56] 127.0.0.1 () {44 vars in 794 bytes} [Mon Nov 21 17:52:50 2016] GET /jsi18n/ => generated 6544 bytes in 56 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 57/57] 127.0.0.1 () {46 vars in 976 bytes} [Mon Nov 21 17:52:52 2016] GET /sonel_core/certificate/1/certificate_preview/ => generated 3305422 bytes in 289 msecs (HTTP/1.1 200) 7 headers in 313 bytes (2 switches on core 0)
+[pid: 16992|app: 0|req: 58/58] 127.0.0.1 () {46 vars in 918 bytes} [Mon Nov 21 17:53:09 2016] GET /sonel_core/page/ => generated 33073 bytes in 477 msecs (HTTP/1.1 200) 7 headers in 373 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 59/59] 127.0.0.1 () {46 vars in 1002 bytes} [Mon Nov 21 17:53:10 2016] GET /sonel_core/page/tree_json/?language=pl-pl&selected_node=393&_=1479747190347 => generated 44610 bytes in 1619 msecs (HTTP/1.1 200) 6 headers in 243 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 60/60] 127.0.0.1 () {46 vars in 913 bytes} [Mon Nov 21 17:53:17 2016] GET /sonel_core/report/ => generated 34915 bytes in 3130 msecs (HTTP/1.1 200) 7 headers in 373 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 61/61] 127.0.0.1 () {44 vars in 787 bytes} [Mon Nov 21 17:53:20 2016] GET /jsi18n/ => generated 6544 bytes in 31 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 62/62] 127.0.0.1 () {46 vars in 917 bytes} [Mon Nov 21 17:53:23 2016] GET /sonel_core/product/ => generated 44213 bytes in 4692 msecs (HTTP/1.1 200) 7 headers in 373 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 63/63] 127.0.0.1 () {44 vars in 788 bytes} [Mon Nov 21 17:53:27 2016] GET /jsi18n/ => generated 6544 bytes in 56 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 64/64] 127.0.0.1 () {46 vars in 912 bytes} [Mon Nov 21 17:53:38 2016] GET /sonel_core/page/ => generated 33074 bytes in 566 msecs (HTTP/1.1 200) 7 headers in 373 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 65/65] 127.0.0.1 () {46 vars in 1002 bytes} [Mon Nov 21 17:53:39 2016] GET /sonel_core/page/tree_json/?language=pl-pl&selected_node=393&_=1479747219134 => generated 44610 bytes in 1806 msecs (HTTP/1.1 200) 6 headers in 243 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 66/66] 127.0.0.1 () {46 vars in 913 bytes} [Mon Nov 21 17:53:43 2016] GET /sonel_core/page/5/ => generated 61788 bytes in 958 msecs (HTTP/1.1 200) 7 headers in 373 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 67/67] 127.0.0.1 () {44 vars in 787 bytes} [Mon Nov 21 17:53:44 2016] GET /jsi18n/ => generated 6544 bytes in 74 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 68/68] 127.0.0.1 () {54 vars in 1044 bytes} [Mon Nov 21 17:53:55 2016] POST /translations/clone/ => generated 62 bytes in 22 msecs (HTTP/1.1 200) 4 headers in 135 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 69/69] 127.0.0.1 () {46 vars in 982 bytes} [Mon Nov 21 17:53:55 2016] GET /translations/clone/?task_id=e8b7ed1d-7d60-4e13-bb9f-bacc290608a1 => generated 66 bytes in 11 msecs (HTTP/1.1 200) 4 headers in 135 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 70/70] 127.0.0.1 () {46 vars in 982 bytes} [Mon Nov 21 17:53:57 2016] GET /translations/clone/?task_id=e8b7ed1d-7d60-4e13-bb9f-bacc290608a1 => generated 66 bytes in 11 msecs (HTTP/1.1 200) 4 headers in 135 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 71/71] 127.0.0.1 () {46 vars in 982 bytes} [Mon Nov 21 17:53:59 2016] GET /translations/clone/?task_id=e8b7ed1d-7d60-4e13-bb9f-bacc290608a1 => generated 66 bytes in 14 msecs (HTTP/1.1 200) 4 headers in 135 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 72/72] 127.0.0.1 () {46 vars in 982 bytes} [Mon Nov 21 17:54:01 2016] GET /translations/clone/?task_id=e8b7ed1d-7d60-4e13-bb9f-bacc290608a1 => generated 66 bytes in 13 msecs (HTTP/1.1 200) 4 headers in 135 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 73/73] 127.0.0.1 () {46 vars in 982 bytes} [Mon Nov 21 17:54:03 2016] GET /translations/clone/?task_id=e8b7ed1d-7d60-4e13-bb9f-bacc290608a1 => generated 66 bytes in 12 msecs (HTTP/1.1 200) 4 headers in 135 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 74/74] 127.0.0.1 () {46 vars in 982 bytes} [Mon Nov 21 17:54:05 2016] GET /translations/clone/?task_id=e8b7ed1d-7d60-4e13-bb9f-bacc290608a1 => generated 66 bytes in 12 msecs (HTTP/1.1 200) 4 headers in 135 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 75/75] 127.0.0.1 () {46 vars in 982 bytes} [Mon Nov 21 17:54:07 2016] GET /translations/clone/?task_id=e8b7ed1d-7d60-4e13-bb9f-bacc290608a1 => generated 66 bytes in 12 msecs (HTTP/1.1 200) 4 headers in 135 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 76/76] 127.0.0.1 () {46 vars in 982 bytes} [Mon Nov 21 17:54:09 2016] GET /translations/clone/?task_id=e8b7ed1d-7d60-4e13-bb9f-bacc290608a1 => generated 66 bytes in 12 msecs (HTTP/1.1 200) 4 headers in 135 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 77/77] 127.0.0.1 () {46 vars in 982 bytes} [Mon Nov 21 17:54:11 2016] GET /translations/clone/?task_id=e8b7ed1d-7d60-4e13-bb9f-bacc290608a1 => generated 66 bytes in 12 msecs (HTTP/1.1 200) 4 headers in 135 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 78/78] 127.0.0.1 () {46 vars in 982 bytes} [Mon Nov 21 17:54:13 2016] GET /translations/clone/?task_id=e8b7ed1d-7d60-4e13-bb9f-bacc290608a1 => generated 66 bytes in 13 msecs (HTTP/1.1 200) 4 headers in 135 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 79/79] 127.0.0.1 () {46 vars in 982 bytes} [Mon Nov 21 17:54:15 2016] GET /translations/clone/?task_id=e8b7ed1d-7d60-4e13-bb9f-bacc290608a1 => generated 66 bytes in 12 msecs (HTTP/1.1 200) 4 headers in 135 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 80/80] 127.0.0.1 () {46 vars in 982 bytes} [Mon Nov 21 17:54:17 2016] GET /translations/clone/?task_id=e8b7ed1d-7d60-4e13-bb9f-bacc290608a1 => generated 66 bytes in 10 msecs (HTTP/1.1 200) 4 headers in 135 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 81/81] 127.0.0.1 () {46 vars in 982 bytes} [Mon Nov 21 17:54:19 2016] GET /translations/clone/?task_id=e8b7ed1d-7d60-4e13-bb9f-bacc290608a1 => generated 66 bytes in 14 msecs (HTTP/1.1 200) 4 headers in 135 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 82/82] 127.0.0.1 () {46 vars in 982 bytes} [Mon Nov 21 17:54:21 2016] GET /translations/clone/?task_id=e8b7ed1d-7d60-4e13-bb9f-bacc290608a1 => generated 66 bytes in 10 msecs (HTTP/1.1 200) 4 headers in 135 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 83/83] 127.0.0.1 () {46 vars in 982 bytes} [Mon Nov 21 17:54:23 2016] GET /translations/clone/?task_id=e8b7ed1d-7d60-4e13-bb9f-bacc290608a1 => generated 66 bytes in 17 msecs (HTTP/1.1 200) 4 headers in 135 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 84/84] 127.0.0.1 () {46 vars in 982 bytes} [Mon Nov 21 17:54:25 2016] GET /translations/clone/?task_id=e8b7ed1d-7d60-4e13-bb9f-bacc290608a1 => generated 66 bytes in 27 msecs (HTTP/1.1 200) 4 headers in 135 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 85/85] 127.0.0.1 () {46 vars in 982 bytes} [Mon Nov 21 17:54:27 2016] GET /translations/clone/?task_id=e8b7ed1d-7d60-4e13-bb9f-bacc290608a1 => generated 66 bytes in 33 msecs (HTTP/1.1 200) 4 headers in 135 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 86/86] 127.0.0.1 () {46 vars in 890 bytes} [Mon Nov 21 17:54:29 2016] GET /sonel_core/page/5/ => generated 61789 bytes in 1138 msecs (HTTP/1.1 200) 7 headers in 373 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 87/87] 127.0.0.1 () {46 vars in 982 bytes} [Mon Nov 21 17:54:30 2016] GET /translations/clone/?task_id=e8b7ed1d-7d60-4e13-bb9f-bacc290608a1 => generated 66 bytes in 34 msecs (HTTP/1.1 200) 4 headers in 135 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 88/88] 127.0.0.1 () {44 vars in 787 bytes} [Mon Nov 21 17:54:30 2016] GET /jsi18n/ => generated 6544 bytes in 85 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 89/89] 127.0.0.1 () {46 vars in 917 bytes} [Mon Nov 21 17:54:46 2016] GET /sonel_core/product/ => generated 44213 bytes in 5160 msecs (HTTP/1.1 200) 7 headers in 373 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 90/90] 127.0.0.1 () {44 vars in 788 bytes} [Mon Nov 21 17:54:51 2016] GET /jsi18n/ => generated 6544 bytes in 38 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 91/91] 127.0.0.1 () {46 vars in 955 bytes} [Mon Nov 21 17:55:00 2016] GET /sonel_core/product/765/?language=pl-pl => generated 105228 bytes in 2802 msecs (HTTP/1.1 200) 7 headers in 373 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 92/92] 127.0.0.1 () {44 vars in 807 bytes} [Mon Nov 21 17:55:02 2016] GET /jsi18n/ => generated 6544 bytes in 98 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 93/93] 127.0.0.1 () {54 vars in 1143 bytes} [Mon Nov 21 17:55:07 2016] POST /sonel_core/product/765/?language=pl-pl => generated 105906 bytes in 3039 msecs (HTTP/1.1 200) 7 headers in 373 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 94/94] 127.0.0.1 () {44 vars in 807 bytes} [Mon Nov 21 17:55:10 2016] GET /jsi18n/ => generated 6544 bytes in 75 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 95/95] 127.0.0.1 () {44 vars in 898 bytes} [Mon Nov 21 17:55:13 2016] GET /sonel_core/product/765/?language=pl-pp => generated 103477 bytes in 1554 msecs (HTTP/1.1 200) 7 headers in 373 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 96/96] 127.0.0.1 () {44 vars in 807 bytes} [Mon Nov 21 17:55:15 2016] GET /jsi18n/ => generated 6544 bytes in 51 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 97/97] 127.0.0.1 () {44 vars in 894 bytes} [Mon Nov 21 17:55:21 2016] GET /sonel_core/product/765/?language=ll- => generated 103465 bytes in 1572 msecs (HTTP/1.1 200) 7 headers in 373 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 98/98] 127.0.0.1 () {44 vars in 805 bytes} [Mon Nov 21 17:55:22 2016] GET /jsi18n/ => generated 6544 bytes in 47 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 0)
+[ERROR] [base] Internal Server Error: /sonel_core/product/765/
+Traceback (most recent call last):
+  File "/home/vagrant/.pyenv/versions/3.5.2/envs/cms/lib/python3.5/site-packages/parler/forms.py", line 123, in _clean_translation_model
+    exclude=exclude, validate_unique=False)
+  File "/home/vagrant/.pyenv/versions/3.5.2/envs/cms/lib/python3.5/site-packages/django/db/models/base.py", line 1171, in full_clean
+    raise ValidationError(errors)
+django.core.exceptions.ValidationError: {'name': ['To pole nie może być puste.'], 'language_code': ["Wartość 'll-' nie jest poprawnym wyborem."], 'slug': ['To pole nie może być puste.'], 'model': ['To pole nie może być puste.']}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/vagrant/.pyenv/versions/3.5.2/envs/cms/lib/python3.5/site-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vagrant/.pyenv/versions/3.5.2/envs/cms/lib/python3.5/site-packages/django/contrib/admin/options.py", line 618, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/vagrant/.pyenv/versions/3.5.2/envs/cms/lib/python3.5/site-packages/django/utils/decorators.py", line 110, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/vagrant/.pyenv/versions/3.5.2/envs/cms/lib/python3.5/site-packages/django/views/decorators/cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/vagrant/.pyenv/versions/3.5.2/envs/cms/lib/python3.5/site-packages/django/contrib/admin/sites.py", line 233, in inner
+    return view(request, *args, **kwargs)
+  File "./dook/sonel/cms/admin/utils.py", line 232, in change_view
+    extra_context=extra_context)
+  File "/home/vagrant/.pyenv/versions/3.5.2/envs/cms/lib/python3.5/site-packages/django/contrib/admin/options.py", line 1521, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "/home/vagrant/.pyenv/versions/3.5.2/envs/cms/lib/python3.5/site-packages/django/utils/decorators.py", line 34, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "/home/vagrant/.pyenv/versions/3.5.2/envs/cms/lib/python3.5/site-packages/django/utils/decorators.py", line 110, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/vagrant/.pyenv/versions/3.5.2/envs/cms/lib/python3.5/site-packages/django/utils/decorators.py", line 30, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "/home/vagrant/.pyenv/versions/3.5.2/lib/python3.5/contextlib.py", line 30, in inner
+    return func(*args, **kwds)
+  File "/home/vagrant/.pyenv/versions/3.5.2/envs/cms/lib/python3.5/site-packages/django/contrib/admin/options.py", line 1461, in changeform_view
+    if form.is_valid():
+  File "/home/vagrant/.pyenv/versions/3.5.2/envs/cms/lib/python3.5/site-packages/django/forms/forms.py", line 184, in is_valid
+    return self.is_bound and not self.errors
+  File "/home/vagrant/.pyenv/versions/3.5.2/envs/cms/lib/python3.5/site-packages/django/forms/forms.py", line 176, in errors
+    self.full_clean()
+  File "/home/vagrant/.pyenv/versions/3.5.2/envs/cms/lib/python3.5/site-packages/django/forms/forms.py", line 394, in full_clean
+    self._post_clean()
+  File "/home/vagrant/.pyenv/versions/3.5.2/envs/cms/lib/python3.5/site-packages/parler/forms.py", line 83, in _post_clean
+    self.save_translated_fields()
+  File "/home/vagrant/.pyenv/versions/3.5.2/envs/cms/lib/python3.5/site-packages/parler/forms.py", line 110, in save_translated_fields
+    self._clean_translation_model(translation_model, exclude)
+  File "/home/vagrant/.pyenv/versions/3.5.2/envs/cms/lib/python3.5/site-packages/parler/forms.py", line 125, in _clean_translation_model
+    self._update_errors(e)
+  File "/home/vagrant/.pyenv/versions/3.5.2/envs/cms/lib/python3.5/site-packages/django/forms/models.py", line 402, in _update_errors
+    self.add_error(None, errors)
+  File "/home/vagrant/.pyenv/versions/3.5.2/envs/cms/lib/python3.5/site-packages/django/forms/forms.py", line 360, in add_error
+    "'%s' has no field named '%s'." % (self.__class__.__name__, field))
+ValueError: 'ProductForm' has no field named 'language_code'.
+[pid: 16992|app: 0|req: 99/99] 127.0.0.1 () {54 vars in 1137 bytes} [Mon Nov 21 17:55:35 2016] POST /sonel_core/product/765/?language=ll- => generated 500433 bytes in 777 msecs (HTTP/1.1 500) 3 headers in 106 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 100/100] 127.0.0.1 () {44 vars in 843 bytes} [Mon Nov 21 17:55:51 2016] GET /sonel_core => generated 0 bytes in 9 msecs (HTTP/1.1 301) 3 headers in 148 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 101/101] 127.0.0.1 () {44 vars in 845 bytes} [Mon Nov 21 17:55:51 2016] GET /sonel_core/ => generated 48840 bytes in 701 msecs (HTTP/1.1 200) 6 headers in 251 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 102/102] 127.0.0.1 () {46 vars in 918 bytes} [Mon Nov 21 17:55:54 2016] GET /sonel_core/certificate/ => generated 28846 bytes in 508 msecs (HTTP/1.1 200) 7 headers in 373 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 103/103] 127.0.0.1 () {44 vars in 792 bytes} [Mon Nov 21 17:55:54 2016] GET /jsi18n/ => generated 6544 bytes in 49 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 104/104] 127.0.0.1 () {46 vars in 922 bytes} [Mon Nov 21 17:55:56 2016] GET /sonel_core/product/ => generated 44213 bytes in 5054 msecs (HTTP/1.1 200) 7 headers in 373 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 105/105] 127.0.0.1 () {46 vars in 930 bytes} [Mon Nov 21 17:56:01 2016] GET /sonel_core/participant/ => generated 25821 bytes in 469 msecs (HTTP/1.1 200) 7 headers in 373 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 106/106] 127.0.0.1 () {44 vars in 792 bytes} [Mon Nov 21 17:56:01 2016] GET /jsi18n/ => generated 6544 bytes in 59 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 107/107] 127.0.0.1 () {46 vars in 944 bytes} [Mon Nov 21 17:56:03 2016] GET /sonel_core/newsentryknowledge/ => generated 29248 bytes in 489 msecs (HTTP/1.1 200) 7 headers in 373 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 108/108] 127.0.0.1 () {44 vars in 799 bytes} [Mon Nov 21 17:56:03 2016] GET /jsi18n/ => generated 6544 bytes in 74 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 109/109] 127.0.0.1 () {46 vars in 925 bytes} [Mon Nov 21 17:56:07 2016] GET /sonel_core/award/ => generated 30698 bytes in 1247 msecs (HTTP/1.1 200) 7 headers in 373 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 110/110] 127.0.0.1 () {44 vars in 786 bytes} [Mon Nov 21 17:56:08 2016] GET /jsi18n/ => generated 6544 bytes in 41 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 111/111] 127.0.0.1 () {46 vars in 916 bytes} [Mon Nov 21 17:56:10 2016] GET /sonel_core/award/2/ => generated 42198 bytes in 708 msecs (HTTP/1.1 200) 7 headers in 373 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 112/112] 127.0.0.1 () {44 vars in 788 bytes} [Mon Nov 21 17:56:11 2016] GET /jsi18n/ => generated 6544 bytes in 42 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 113/113] 127.0.0.1 () {44 vars in 823 bytes} [Mon Nov 21 17:56:40 2016] GET / => generated 28540 bytes in 654 msecs (HTTP/1.1 200) 6 headers in 251 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 114/114] 127.0.0.1 () {46 vars in 854 bytes} [Mon Nov 21 17:56:42 2016] GET / => generated 28540 bytes in 705 msecs (HTTP/1.1 200) 6 headers in 251 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 115/115] 127.0.0.1 () {46 vars in 854 bytes} [Mon Nov 21 17:56:43 2016] GET / => generated 28540 bytes in 943 msecs (HTTP/1.1 200) 6 headers in 251 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 116/116] 127.0.0.1 () {46 vars in 854 bytes} [Mon Nov 21 17:56:44 2016] GET / => generated 28541 bytes in 765 msecs (HTTP/1.1 200) 6 headers in 251 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 117/117] 127.0.0.1 () {46 vars in 854 bytes} [Mon Nov 21 17:56:45 2016] GET / => generated 28540 bytes in 893 msecs (HTTP/1.1 200) 6 headers in 251 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 118/118] 127.0.0.1 () {46 vars in 854 bytes} [Mon Nov 21 17:56:46 2016] GET / => generated 28540 bytes in 672 msecs (HTTP/1.1 200) 6 headers in 251 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 119/119] 127.0.0.1 () {46 vars in 854 bytes} [Mon Nov 21 17:56:46 2016] GET / => generated 28540 bytes in 704 msecs (HTTP/1.1 200) 6 headers in 251 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 120/120] 127.0.0.1 () {46 vars in 854 bytes} [Mon Nov 21 17:56:47 2016] GET / => generated 28541 bytes in 788 msecs (HTTP/1.1 200) 6 headers in 251 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 121/121] 127.0.0.1 () {46 vars in 854 bytes} [Mon Nov 21 17:56:48 2016] GET / => generated 28540 bytes in 738 msecs (HTTP/1.1 200) 6 headers in 251 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 122/122] 127.0.0.1 () {46 vars in 854 bytes} [Mon Nov 21 17:56:49 2016] GET / => generated 28540 bytes in 676 msecs (HTTP/1.1 200) 6 headers in 251 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 123/123] 127.0.0.1 () {46 vars in 854 bytes} [Mon Nov 21 17:56:49 2016] GET / => generated 28540 bytes in 794 msecs (HTTP/1.1 200) 6 headers in 251 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 124/124] 127.0.0.1 () {46 vars in 854 bytes} [Mon Nov 21 17:56:50 2016] GET / => generated 28540 bytes in 696 msecs (HTTP/1.1 200) 6 headers in 251 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 125/125] 127.0.0.1 () {46 vars in 854 bytes} [Mon Nov 21 17:56:51 2016] GET / => generated 28540 bytes in 758 msecs (HTTP/1.1 200) 6 headers in 251 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 126/126] 127.0.0.1 () {46 vars in 854 bytes} [Mon Nov 21 17:56:52 2016] GET / => generated 28540 bytes in 751 msecs (HTTP/1.1 200) 6 headers in 251 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 127/127] 127.0.0.1 () {46 vars in 854 bytes} [Mon Nov 21 17:56:52 2016] GET / => generated 28540 bytes in 688 msecs (HTTP/1.1 200) 6 headers in 251 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 128/128] 127.0.0.1 () {46 vars in 854 bytes} [Mon Nov 21 17:56:53 2016] GET / => generated 28540 bytes in 656 msecs (HTTP/1.1 200) 6 headers in 251 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 129/129] 127.0.0.1 () {46 vars in 854 bytes} [Mon Nov 21 17:56:54 2016] GET / => generated 28540 bytes in 667 msecs (HTTP/1.1 200) 6 headers in 251 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 130/130] 127.0.0.1 () {46 vars in 854 bytes} [Mon Nov 21 17:56:54 2016] GET / => generated 28540 bytes in 665 msecs (HTTP/1.1 200) 6 headers in 251 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 131/131] 127.0.0.1 () {46 vars in 854 bytes} [Mon Nov 21 17:56:55 2016] GET / => generated 28540 bytes in 776 msecs (HTTP/1.1 200) 6 headers in 251 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 132/132] 127.0.0.1 () {46 vars in 854 bytes} [Mon Nov 21 17:56:56 2016] GET / => generated 28540 bytes in 663 msecs (HTTP/1.1 200) 6 headers in 251 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 133/133] 127.0.0.1 () {46 vars in 852 bytes} [Mon Nov 21 17:56:57 2016] GET / => generated 28540 bytes in 780 msecs (HTTP/1.1 200) 6 headers in 251 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 134/134] 127.0.0.1 () {46 vars in 852 bytes} [Mon Nov 21 17:56:57 2016] GET / => generated 28540 bytes in 818 msecs (HTTP/1.1 200) 6 headers in 251 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 135/135] 127.0.0.1 () {46 vars in 853 bytes} [Mon Nov 21 17:56:58 2016] GET / => generated 28540 bytes in 704 msecs (HTTP/1.1 200) 6 headers in 251 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 136/136] 127.0.0.1 () {46 vars in 853 bytes} [Mon Nov 21 17:56:59 2016] GET / => generated 28540 bytes in 675 msecs (HTTP/1.1 200) 6 headers in 251 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 137/137] 127.0.0.1 () {46 vars in 853 bytes} [Mon Nov 21 17:56:59 2016] GET / => generated 28541 bytes in 665 msecs (HTTP/1.1 200) 6 headers in 251 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 138/138] 127.0.0.1 () {46 vars in 853 bytes} [Mon Nov 21 17:57:00 2016] GET / => generated 28540 bytes in 602 msecs (HTTP/1.1 200) 6 headers in 251 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 139/139] 127.0.0.1 () {46 vars in 853 bytes} [Mon Nov 21 17:57:01 2016] GET / => generated 28540 bytes in 595 msecs (HTTP/1.1 200) 6 headers in 251 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 140/140] 127.0.0.1 () {46 vars in 853 bytes} [Mon Nov 21 17:57:01 2016] GET / => generated 28540 bytes in 653 msecs (HTTP/1.1 200) 6 headers in 251 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 141/141] 127.0.0.1 () {46 vars in 853 bytes} [Mon Nov 21 17:57:02 2016] GET / => generated 28540 bytes in 679 msecs (HTTP/1.1 200) 6 headers in 251 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 142/142] 127.0.0.1 () {46 vars in 853 bytes} [Mon Nov 21 17:57:03 2016] GET / => generated 28540 bytes in 740 msecs (HTTP/1.1 200) 6 headers in 251 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 143/143] 127.0.0.1 () {46 vars in 853 bytes} [Mon Nov 21 17:57:03 2016] GET / => generated 28540 bytes in 919 msecs (HTTP/1.1 200) 6 headers in 251 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 144/144] 127.0.0.1 () {46 vars in 853 bytes} [Mon Nov 21 17:57:04 2016] GET / => generated 28540 bytes in 773 msecs (HTTP/1.1 200) 6 headers in 251 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 145/145] 127.0.0.1 () {46 vars in 853 bytes} [Mon Nov 21 17:57:05 2016] GET / => generated 28540 bytes in 745 msecs (HTTP/1.1 200) 6 headers in 251 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 146/146] 127.0.0.1 () {46 vars in 853 bytes} [Mon Nov 21 17:57:06 2016] GET / => generated 28540 bytes in 777 msecs (HTTP/1.1 200) 6 headers in 251 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 147/147] 127.0.0.1 () {46 vars in 853 bytes} [Mon Nov 21 17:57:07 2016] GET / => generated 28540 bytes in 662 msecs (HTTP/1.1 200) 6 headers in 251 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 148/148] 127.0.0.1 () {46 vars in 853 bytes} [Mon Nov 21 17:57:07 2016] GET / => generated 28540 bytes in 669 msecs (HTTP/1.1 200) 6 headers in 251 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 149/149] 127.0.0.1 () {46 vars in 853 bytes} [Mon Nov 21 17:57:08 2016] GET / => generated 28540 bytes in 654 msecs (HTTP/1.1 200) 6 headers in 251 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 150/150] 127.0.0.1 () {46 vars in 853 bytes} [Mon Nov 21 17:57:09 2016] GET / => generated 28540 bytes in 648 msecs (HTTP/1.1 200) 6 headers in 251 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 151/151] 127.0.0.1 () {46 vars in 853 bytes} [Mon Nov 21 17:57:09 2016] GET / => generated 28540 bytes in 705 msecs (HTTP/1.1 200) 6 headers in 251 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 152/152] 127.0.0.1 () {46 vars in 853 bytes} [Mon Nov 21 17:57:10 2016] GET / => generated 28540 bytes in 689 msecs (HTTP/1.1 200) 6 headers in 251 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 153/153] 127.0.0.1 () {46 vars in 854 bytes} [Mon Nov 21 17:57:11 2016] GET / => generated 28540 bytes in 714 msecs (HTTP/1.1 200) 6 headers in 251 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 154/154] 127.0.0.1 () {46 vars in 854 bytes} [Mon Nov 21 17:57:11 2016] GET / => generated 28540 bytes in 708 msecs (HTTP/1.1 200) 6 headers in 251 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 155/155] 127.0.0.1 () {46 vars in 854 bytes} [Mon Nov 21 17:57:12 2016] GET / => generated 28540 bytes in 675 msecs (HTTP/1.1 200) 6 headers in 251 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 156/156] 127.0.0.1 () {46 vars in 854 bytes} [Mon Nov 21 17:57:13 2016] GET / => generated 28540 bytes in 646 msecs (HTTP/1.1 200) 6 headers in 251 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 157/157] 127.0.0.1 () {46 vars in 854 bytes} [Mon Nov 21 17:57:13 2016] GET / => generated 28540 bytes in 856 msecs (HTTP/1.1 200) 6 headers in 251 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 158/158] 127.0.0.1 () {46 vars in 854 bytes} [Mon Nov 21 17:57:14 2016] GET / => generated 28540 bytes in 732 msecs (HTTP/1.1 200) 6 headers in 251 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 159/159] 127.0.0.1 () {46 vars in 854 bytes} [Mon Nov 21 17:57:15 2016] GET / => generated 28540 bytes in 667 msecs (HTTP/1.1 200) 6 headers in 251 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 160/160] 127.0.0.1 () {46 vars in 854 bytes} [Mon Nov 21 17:57:16 2016] GET / => generated 28540 bytes in 768 msecs (HTTP/1.1 200) 6 headers in 251 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 161/161] 127.0.0.1 () {46 vars in 854 bytes} [Mon Nov 21 17:57:16 2016] GET / => generated 28540 bytes in 660 msecs (HTTP/1.1 200) 6 headers in 251 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 162/162] 127.0.0.1 () {46 vars in 854 bytes} [Mon Nov 21 17:57:17 2016] GET / => generated 28540 bytes in 686 msecs (HTTP/1.1 200) 6 headers in 251 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 163/163] 127.0.0.1 () {46 vars in 854 bytes} [Mon Nov 21 17:57:18 2016] GET / => generated 28540 bytes in 854 msecs (HTTP/1.1 200) 6 headers in 251 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 164/164] 127.0.0.1 () {46 vars in 917 bytes} [Mon Nov 21 17:57:20 2016] GET /sonel_core/customeruser/add/ => generated 35830 bytes in 632 msecs (HTTP/1.1 200) 7 headers in 373 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 165/165] 127.0.0.1 () {44 vars in 797 bytes} [Mon Nov 21 17:57:21 2016] GET /jsi18n/ => generated 6544 bytes in 69 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 166/166] 127.0.0.1 () {46 vars in 994 bytes} [Mon Nov 21 17:57:26 2016] GET /sonel_core/permissiongroup/add/?_to_field=id&_popup=1 => generated 22679 bytes in 383 msecs (HTTP/1.1 200) 7 headers in 373 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 167/167] 127.0.0.1 () {44 vars in 822 bytes} [Mon Nov 21 17:57:26 2016] GET /jsi18n/ => generated 6544 bytes in 90 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 168/168] 127.0.0.1 () {46 vars in 949 bytes} [Mon Nov 21 17:57:28 2016] GET /autocomplete/permissions/?q=jk => generated 46 bytes in 27 msecs (HTTP/1.1 200) 3 headers in 94 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 169/169] 127.0.0.1 () {46 vars in 951 bytes} [Mon Nov 21 17:57:29 2016] GET /autocomplete/permissions/?q=jkj => generated 46 bytes in 15 msecs (HTTP/1.1 200) 3 headers in 94 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 170/170] 127.0.0.1 () {46 vars in 949 bytes} [Mon Nov 21 17:57:30 2016] GET /autocomplete/permissions/?q=jk => generated 46 bytes in 18 msecs (HTTP/1.1 200) 3 headers in 94 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 171/171] 127.0.0.1 () {46 vars in 945 bytes} [Mon Nov 21 17:57:30 2016] GET /autocomplete/permissions/?q= => generated 512 bytes in 96 msecs (HTTP/1.1 200) 3 headers in 94 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 172/172] 127.0.0.1 () {46 vars in 947 bytes} [Mon Nov 21 17:57:30 2016] GET /autocomplete/permissions/?q=j => generated 809 bytes in 97 msecs (HTTP/1.1 200) 3 headers in 94 bytes (1 switches on core 0)
+[pid: 16992|app: 0|req: 173/173] 127.0.0.1 () {54 vars in 1187 bytes} [Mon Nov 21 17:57:33 2016] POST /sonel_core/permissiongroup/add/?_to_field=id&_popup=1 => generated 10521 bytes in 253 msecs (HTTP/1.1 200) 6 headers in 251 bytes (1 switches on core 0)
+          

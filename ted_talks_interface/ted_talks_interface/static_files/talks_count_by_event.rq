@@ -1,0 +1,8 @@
+prefix talk: <http://www.example.org/talks.rdfs>
+prefix properties: <http://example.org/properties/>
+
+select ?x  (count(?y) as ?count) where {
+  ?x a talk:Event
+  ?y properties:event ?x
+}group by ?x
+  

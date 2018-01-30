@@ -1,0 +1,4 @@
+prefix properties: <http://example.org/properties/>
+select ?x ?y where {
+  ?x properties:funny ?y
+} order by desc (?y) limit 1

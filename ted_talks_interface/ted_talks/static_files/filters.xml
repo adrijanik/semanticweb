@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+    <filters>
+        <filter>
+            <id>21</id>
+            <file_name>speed.txt</file_name>
+            <search_phrase>Speed:</search_phrase>
+            <position>3</position>
+            <labelx>date</labelx>
+	    <labely>speed [m/s]</labely>
+            <title>Speed</title>
+            <legend>speed</legend>
+            <default>true</default>
+        </filter>
+        <filter>
+            <id>22</id>
+            <file_name>velocity.txt</file_name>
+            <search_phrase>Acceleration:</search_phrase>
+            <position>3</position>
+            <labelx>date</labelx>
+	    <labely>acc [m/s^2]</labely>
+            <title>Acceleration</title>
+            <legend>acc</legend>
+            <default>true</default>
+        </filter>
+    </filters>

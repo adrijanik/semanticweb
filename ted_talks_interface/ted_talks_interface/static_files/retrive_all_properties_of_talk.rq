@@ -1,0 +1,4 @@
+select ?p ?y where 
+{
+  <$talk> ?p ?y
+}

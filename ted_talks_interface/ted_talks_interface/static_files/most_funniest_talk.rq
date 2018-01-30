@@ -1,0 +1,4 @@
+prefix properties: <http://example.org/properties/>
+select ?x (max(?y) as ?z) where {
+  ?x properties:funny ?y
+}

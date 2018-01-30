@@ -1,0 +1,12 @@
+prefix properties: <http://example.org/properties/>
+prefix talk: <http://www.example.org/talks.rdfs>
+select ?type where {
+ {
+  ?x properties:related_talks ?y
+  filter contains (?x, "Doschoolskillcreativity") . BIND (?y as ?type)
+} UNION
+{
+  ?x properties:related_talks ?y
+  filter contains (?y, "Doschoolskillcreativity") . BIND (?x as ?type)
+}
+}

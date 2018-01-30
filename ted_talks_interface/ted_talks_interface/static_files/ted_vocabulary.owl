@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rdf [
+   <!ENTITY talks   "http://www.example.org/talks.rdfs"> 
+      <!ENTITY rdfs     "http://www.w3.org/2000/01/rdf-schema">
+          ]>
+	  <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns="http://www.w3.org/2000/01/rdf-schema#" xml:base="http://www.example.org/talks.rdfs">
+
+<owl:Class rdf:ID="Animal">
+  <label xml:lang="en">animal</label>
+  <comment xml:lang="en">a living organism characterized by voluntary movement.</comment>
+  <label xml:lang="fr">animal</label>
+  <comment xml:lang="fr">être vivant doué de sensibilite de mobilité.</comment>
+</owl:Class>
+
+<owl:Class rdf:ID="Male">
+  <subClassOf rdf:resource="#Animal"/>
+  <label xml:lang="en">male</label>
+  <comment xml:lang="en">an animal that produces gametes (spermatozoa) that can fertilize female gametes (ova).</comment>
+  <label xml:lang="fr">mâle</label>
+  <comment xml:lang="fr">individu appartenant au sexe qui possède le pouvoir de fécondation.</comment>
+</owl:Class>
+
+<owl:Class rdf:ID="Female">
+  <subClassOf rdf:resource="#Animal"/>
+  <label xml:lang="en">female</label>
+  <comment xml:lang="en"> an animal that produces gametes (ova) that can be fertilized by male gametes (spermatozoa).</comment>
+  <label xml:lang="fr">femelle</label>
+  <comment xml:lang="fr">animal appartenant au sexe apte à produire des ovules.</comment>
+</owl:Class>
+
+<owl:Class rdf:ID="Man">
+  <subClassOf rdf:resource="#Person"/>
+  <subClassOf rdf:resource="#Male"/>
+  <label xml:lang="en">man</label>
+  <comment xml:lang="en">an adult male person</comment>
+  <label xml:lang="fr">homme</label>
+  <comment xml:lang="fr">mâle adulte de l'espèce humaine.</comment>
+</owl:Class>
+
+<owl:Class rdf:ID="Person">
+  <subClassOf rdf:resource="#Animal"/>
+  <label xml:lang="en">person</label>
+  <label xml:lang="en">human being</label>
+  <label xml:lang="en">human</label>
+  <comment xml:lang="en">a member of the human species</comment>
+  <label xml:lang="fr">personne</label>
+  <label xml:lang="fr">être humain</label>
+  <label xml:lang="fr">humain</label>
+  <label xml:lang="fr">homme</label>
+  <comment xml:lang="fr">un membre de l'espèce humaine.</comment>
+</owl:Class>
+
+<owl:Class rdf:ID="Woman">
+  <subClassOf rdf:resource="#Person"/>
+  <subClassOf rdf:resource="#Female"/>
+  <label xml:lang="en">woman</label>
+  <comment xml:lang="en">an adult female person</comment>
+  <label xml:lang="fr">femme</label>
+  <comment xml:lang="fr">femelle adulte de l'espèce humaine.</comment>
+</owl:Class>
+
+<owl:Class rdf:ID="Talk">
+  <label xml:lang="en">talk</label>
+  <comment xml:lang="en">speach given by speaker</comment>
+</owl:Class>
+
+<owl:Class rdf:ID="Speaker">
+  <subClassOf rdf:resource="#Person"/>
+  <label xml:lang="en">speaker</label>
+  <comment xml:lang="en">someone who gives the speach</comment>
+</owl:Class>
+
+<owl:Class rdf:ID="Event">
+  <label xml:lang="en">event</label>
+  <comment xml:lang="en">TED conference with a lot of speaches</comment>
+</owl:Class>
+
+<owl:Class rdf:ID="Tag">
+  <label xml:lang="en">tag</label>
+  <comment xml:lang="en">Abstract description of a talk</comment>
+</owl:Class>
+
+</rdf:RDF>
+
+
