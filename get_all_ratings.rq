@@ -1,0 +1,4 @@
+select * where {
+  ?x ?p ?y
+  filter contains(?p, 'ratings')
+} order by desc(?y)

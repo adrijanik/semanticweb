@@ -1,4 +1,4 @@
-prefix properties: <http://example.org/properties/>
+prefix ratings: <http://example.org/ratings/>
 select ?x ?y where {
-  ?x properties:funny ?y
+  ?x ratings:funny ?y
 } order by desc (?y) limit 1

@@ -2,14 +2,13 @@
 
 import csv
 from string import Template
-import re
-import json
 
 rdf_prefixes = """
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix properties: <http://example.org/properties/> .
+@prefix ratings: <http://example.org/ratings/> .
 @prefix talks: <http://example.org/talks/> .
-@prefix ma: <http://www.w3.org/ns/ma-ont.html> .
+@prefix ma: <http://www.w3.org/ns/ma-ont.html/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix talk: <http://www.example.org/talks.rdfs> .
@@ -91,7 +90,7 @@ with open('ted_talks.rdf', 'w') as out:
             record = row_blueprint.substitute(header=filter(str.isalnum,row[14].replace(' ','')), comment=row[0], description=row[1], duration=row[2],event=row[3].replace(' ','').strip().replace('>','').replace('<',''),film_date=row[4],languages=row[5],main_speaker=row[6].replace(' ','').strip(),name=row[7],num_speaker=row[8],published_date=row[9], related_talks=rel_string, tags=tag_string,title=row[14], url=row[15], views=row[16])
             rating_string = []
             for score in ratings:
-                rating_string.append("properties:" + score[0].lower().replace(' ','_') + ' ' + score[1])
+                rating_string.append("ratings:" + score[0].lower().replace(' ','_') + ' ' + score[1])
 
             out.write(record + ';'.join(rating_string) + '.')
             speakers[filter(str.isalnum,row[6].replace(' ','').strip())] = (row[6], row[12])

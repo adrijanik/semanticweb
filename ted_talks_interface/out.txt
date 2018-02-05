@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:lexvo="http://lexvo.org/ontology#" xmlns:dbpedia="http://dbpedia.org/resource/" xmlns:dbpo="http://dbpedia.org/ontology/">
+<head>
+<title>DBpedia Spotlight annotation</title>
+</head>
+<body>
+<div>
+<a about="http://dbpedia.org/resource/Ken_Robinson_(educationalist)" typeof="http://dbpedia.org/ontology/Person" href="http://dbpedia.org/resource/Ken_Robinson_(educationalist)" title="http://dbpedia.org/resource/Ken_Robinson_(educationalist)">Sir Ken Robinson</a> makes an entertaining and profoundly moving case for creating an <a about="http://dbpedia.org/resource/Education" href="http://dbpedia.org/resource/Education" title="http://dbpedia.org/resource/Education" target="_blank" >education system</a> that nurtures (rather than undermines) <a about="http://dbpedia.org/resource/Creativity" href="http://dbpedia.org/resource/Creativity" title="http://dbpedia.org/resource/Creativity" target="_blank" >creativity</a>.
+</div>
+</body>
+</html>

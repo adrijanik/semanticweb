@@ -262,6 +262,11 @@ tr:nth-child(even) {
     opacity: 0.7;
     width: 550px;
 }
+.table a
+{
+    display:block;
+    text-decoration:none;
+}
 </style>
 
 
@@ -284,6 +289,7 @@ tr:nth-child(even) {
 <link href='http://fonts.googleapis.com/css?family=Lato:400,700,900,300' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800,600,300' rel='stylesheet' type='text/css'>
 <script src="{% static 'js/modernizr.custom.js' %}"></script>
+<script src="{% static 'js/sorttable.js' %}"></script>
 
 <link href="{% static 'css/dropzone.css' %}" type="text/css" rel="stylesheet"/>
 <link href="{% static 'css/basic.css' %}" type="text/css" rel="stylesheet"/>
@@ -339,6 +345,95 @@ $('#fake').on('submit', function(event) {
     <p style="color:black; opacity: 0.7; background-color:white;"> Extract information about TED talks! </p>
 </div>
 
+
+    <style>
+    th, td {
+        padding: 5px;
+        text-align: left;
+        overflow:hidden;
+    }
+    tr:nth-child(even) {
+        background-color: #f2f2f2;
+        overflow:hidden;
+    }
+    tr:hover {
+        background-color: #ffff99;
+    }
+    div.ui-menu li {
+        list-style:none;
+        background-image:none;
+        background-repeat:none;
+        background-position:0;
+        overflow:hidden;
+    }
+    ul {
+        list-style-type:none;
+        padding:0px;
+        margin:0px;
+        overflow:hidden;
+    }
+    li {
+        background-image:url(sqpurple.gif);
+        background-repeat:no-repeat;
+        background-position:0px 5px;
+        padding-left:14px;
+        overflow:hidden;
+    }
+    /* Sortable tables */
+    table.sortable thead {
+        background-color:#eee;
+        color:#666666;
+        font-weight: bold;
+        cursor: default;
+        overflow:hidden;
+    }
+    #myInput {
+        background-image: url('/css/searchicon.png'); /* Add a search icon to input */
+        background-position: 10px 12px; /* Position the search icon */
+        background-repeat: no-repeat; /* Do not repeat the icon image */
+        width: 95%; /* Full-width */
+        font-size: 16px; /* Increase font-size */
+        padding: 12px 20px 12px 40px; /* Add some padding */
+        border: 1px solid #ddd; /* Add a grey border */
+        margin-bottom: 12px; /* Add some space below the input */
+        overflow:hidden;
+    }
+    #myTable {
+        border-collapse: collapse; /* Collapse borders */
+        width: 95%; /* Full-width */
+        border: 1px solid #ddd; /* Add a grey border */
+        font-size: 13px; /* Increase font-size */
+        overflow:hidden;
+    }
+    #myTable tr.header, #myTable tr:hover {
+        /* Add a grey background color to the table header and on hover */
+        background-color: #f1f1f1;
+    }
+    </style>
+
+
+    <script>
+    function myFunction() {
+      // Declare variables
+      var input, filter, table, tr, td, i;
+      input = document.getElementById("myInput");
+      filter = input.value.toUpperCase();
+      table = document.getElementById("myTable");
+      tr = table.getElementsByTagName("tr");
+      // Loop through all table rows, and hide those who don't match the search query
+      for (i = 0; i < tr.length; i++) {
+        td = tr[i].getElementsByTagName("td")[0];
+        if (td) {
+          if (td.innerHTML.toUpperCase().indexOf(filter) > -1) {
+            tr[i].style.display = "";
+          } else {
+            tr[i].style.display = "none";
+          }
+        }
+      }
+    }
+    </script>
+
 </header>
 <!-- About Section -->
 <div id="about-section">
@@ -347,15 +442,27 @@ $('#fake').on('submit', function(event) {
       <h2>About TED+</h2>
       <hr>
       <div class="clearfix"></div>
-      <p>TED+ - get more information about your favourite TED talks, or analyse them in general</p>
-      <table>
+      <p>TED+ - get more information about your favourite TED talks, or analyse them in general</p><br><br>
+
+<h2>Which talk is the most...</h2>
+    <form method="POST" class="post-form">{% csrf_token %}
+       {{ form }}
+        <button type="submit" class="save btn btn-default">Show me!</button>
+    </form>
+<h2>The most {{ title }} talk - {{ name }}</h2>
+                <input type="text"
+                       id="myInput"
+                       onkeyup="myFunction()"
+                       placeholder="Search...">
+
+      <table width="100%", border="1" class="sortable display" id="myTable">
   <tr>
     <th>property</th>
     <th>value</th>
   </tr>
       {% for key,value in talks.items %}
         <tr>
-        <td>{{key}}</td> <td>{{ value }}</td>
+        <td>{{key}}</td> <td>{{ value|safe }}</td>
         </tr>
       {% endfor %}
       </table>

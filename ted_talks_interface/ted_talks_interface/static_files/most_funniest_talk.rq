@@ -1,4 +1,4 @@
-prefix properties: <http://example.org/properties/>
+prefix ratings: <http://example.org/ratings/>
 select ?x (max(?y) as ?z) where {
-  ?x properties:funny ?y
+  ?x ratings:funny ?y
 }
