@@ -1,3 +1,3 @@
 select ?x where {
-  ?x  ?p <http://example.org/talks/children>
+  ?x  ?p <http://dbpedia.org/resource/Category:children>
 }

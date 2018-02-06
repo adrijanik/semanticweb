@@ -6,7 +6,7 @@
 </head>
 <body>
 <div>
-teaching, <a about="http://dbpedia.org/resource/Creativity" href="http://dbpedia.org/resource/Creativity" title="http://dbpedia.org/resource/Creativity" target="_blank" >creativity</a>, <a about="http://dbpedia.org/resource/Parenting" href="http://dbpedia.org/resource/Parenting" title="http://dbpedia.org/resource/Parenting" target="_blank" >parenting</a>, <a about="http://dbpedia.org/resource/Education" href="http://dbpedia.org/resource/Education" title="http://dbpedia.org/resource/Education" target="_blank" >education</a>, <a about="http://dbpedia.org/resource/Dance" href="http://dbpedia.org/resource/Dance" title="http://dbpedia.org/resource/Dance" target="_blank" >dance</a>, children, <a about="http://dbpedia.org/resource/Culture" href="http://dbpedia.org/resource/Culture" title="http://dbpedia.org/resource/Culture" target="_blank" >culture</a>
+teaching, <a about="http://dbpedia.org/resource/Dance" href="http://dbpedia.org/resource/Dance" title="http://dbpedia.org/resource/Dance" target="_blank" >dance</a>, <a about="http://dbpedia.org/resource/Culture" href="http://dbpedia.org/resource/Culture" title="http://dbpedia.org/resource/Culture" target="_blank" >culture</a>, children, <a about="http://dbpedia.org/resource/Parenting" href="http://dbpedia.org/resource/Parenting" title="http://dbpedia.org/resource/Parenting" target="_blank" >parenting</a>, <a about="http://dbpedia.org/resource/Creativity" href="http://dbpedia.org/resource/Creativity" title="http://dbpedia.org/resource/Creativity" target="_blank" >creativity</a>, <a about="http://dbpedia.org/resource/Education" href="http://dbpedia.org/resource/Education" title="http://dbpedia.org/resource/Education" target="_blank" >education</a>
 </div>
 </body>
 </html>

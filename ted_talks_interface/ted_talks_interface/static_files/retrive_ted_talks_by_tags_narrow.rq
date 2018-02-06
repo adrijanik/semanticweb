@@ -1,0 +1,6 @@
+prefix skos: <http://www.w3.org/2004/02/skos/core#>
+prefix dcterms: <http://purl.org/dc/terms/>
+select ?y where {
+    ?x skos:narrower <http://dbpedia.org/resource/Category:Law>.
+    ?y dcterms:subject ?y.
+}

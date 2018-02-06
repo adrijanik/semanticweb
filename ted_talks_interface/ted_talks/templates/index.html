@@ -329,7 +329,10 @@ $('#fake').on('submit', function(event) {
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#home" class="page-scroll">Home</a></li>
-        <li><a href="#about-section" class="page-scroll">About</a></li>
+        <li><a href="#ratings-section" class="page-scroll">Highest ratings</a></li>
+        <li><a href="#subject-section" class="page-scroll">Subject related talks</a></li>
+        <li><a href="#all-section" class="page-scroll">All related talks</a></li>
+
       </ul>
     </div>
     <!-- /.navbar-collapse --> 
@@ -436,7 +439,7 @@ $('#fake').on('submit', function(event) {
 
 </header>
 <!-- About Section -->
-<div id="about-section">
+<div id="ratings-section">
   <div class="container">
     <div class="section-title text-center center">
       <h2>About TED+</h2>
@@ -446,10 +449,10 @@ $('#fake').on('submit', function(event) {
 
 <h2>Which talk is the most...</h2>
     <form method="POST" class="post-form">{% csrf_token %}
-       {{ form }}
-        <button type="submit" class="save btn btn-default">Show me!</button>
+       {{ rating_form }}
+        <button type="submit" class="save btn btn-default" name="ratings_btn" value="ratings_btn">Show me!</button>
     </form>
-<h2>The most {{ title }} talk - {{ name }}</h2>
+<h2>The most {{ rating_title }} talk - {{ name }}</h2>
                 <input type="text"
                        id="myInput"
                        onkeyup="myFunction()"
@@ -460,33 +463,88 @@ $('#fake').on('submit', function(event) {
     <th>property</th>
     <th>value</th>
   </tr>
-      {% for key,value in talks.items %}
+      {% for key,value in ratings.items %}
         <tr>
         <td>{{key}}</td> <td>{{ value|safe }}</td>
         </tr>
       {% endfor %}
       </table>
-<script>
-var myIndex = 0;
-carousel();
-
-function carousel() {
-    var i;
-    var x = document.getElementsByClassName("mySlides");
-    for (i = 0; i < x.length; i++) {
-      x[i].style.display = "none";  
-    }
-    myIndex++;
-    if (myIndex > x.length) {myIndex = 1}    
-    x[myIndex-1].style.display = "block";  
-    setTimeout(carousel, 2500);    
-}
-</script>
-
 
     </div>
   </div>
 </div>
+
+
+<div id="subject-section">
+  <div class="container">
+    <div class="section-title text-center center">
+      <h2>Subject related talks</h2>
+      <hr>
+      <div class="clearfix"></div>
+      <p>Get list of talks related by subject from dropdown menu</p><br><br>
+
+<h2>Talks about...</h2>
+    <form method="POST" class="post-form">{% csrf_token %}
+       {{ tag_form }}
+        <button type="submit" class="save btn btn-default" name="subject_btn" value="subject_btn">Show me!</button>
+    </form>
+                <input type="text"
+                       id="myInput"
+                       onkeyup="myFunction()"
+                       placeholder="Search...">
+
+      <table width="100%", border="1" class="sortable display" id="myTable">
+  <tr>
+    <th>property</th>
+    <th>value</th>
+  </tr>
+      {% for key,value in talks_by_tag.items %}
+        <tr>
+        <td>{{key}}</td> <td>{{ value|safe }}</td>
+        </tr>
+      {% endfor %}
+      </table>
+
+    </div>
+  </div>
+</div>
+
+<div id="all-section">
+  <div class="container">
+    <div class="section-title text-center center">
+      <h2>All related talks</h2>
+      <hr>
+      <div class="clearfix"></div>
+      <p>Get list of talks related to one specific talk</p><br><br>
+
+<h2>Talks related to...</h2>
+    <form method="POST" class="post-form">{% csrf_token %}
+       {{ talks_form }}
+        <button type="submit" class="save btn btn-default" name="related_btn" value="related_btn">Show me!</button>
+    </form>
+                <input type="text"
+                       id="myInput"
+                       onkeyup="myFunction()"
+                       placeholder="Search...">
+
+      <table width="100%", border="1" class="sortable display" id="myTable">
+  <tr>
+    <th>property</th>
+    <th>value</th>
+  </tr>
+      {% for key,value in talks_by_talk.items %}
+        <tr>
+        <td>{{key}}</td> <td>{{ value|safe }}</td>
+        </tr>
+      {% endfor %}
+      </table>
+
+    </div>
+  </div>
+</div>
+
+
+
 
 <div id="footer">
   <div class="container">

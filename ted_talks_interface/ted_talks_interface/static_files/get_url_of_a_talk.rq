@@ -1,0 +1,4 @@
+prefix properties: <http://example.org/properties/>
+select ?y where {
+   <$talk_name> properties:url ?y
+}

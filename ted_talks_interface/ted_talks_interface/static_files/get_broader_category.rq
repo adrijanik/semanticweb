@@ -1,0 +1,6 @@
+prefix skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX cat: <http://dbpedia.org/resource/Category:> 
+select * where {
+	cat:$name skos:broader ?broaderConcept .
+}
+

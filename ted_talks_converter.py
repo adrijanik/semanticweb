@@ -86,7 +86,7 @@ with open('ted_talks.rdf', 'w') as out:
                         related_talks_titles.append(x.split(': ')[1].replace("'",''))
             related_talks_template = "talks:$title"
             rel_string = ', '.join([Template(related_talks_template).substitute(title=filter(str.isalnum,t.replace(' ',''))) for t in related_talks_titles])
-            tag_string = ', '.join([Template("talks:$name").substitute(name=t.strip().replace(' ','_')) for t in row[13][1:-1].replace("'",'').split(',')])
+            tag_string = ', '.join([Template("<http://dbpedia.org/resource/Category:$name>").substitute(name=t.strip().replace(' ','_').title()) for t in row[13][1:-1].replace("'",'').split(',')])
             record = row_blueprint.substitute(header=filter(str.isalnum,row[14].replace(' ','')), comment=row[0], description=row[1], duration=row[2],event=row[3].replace(' ','').strip().replace('>','').replace('<',''),film_date=row[4],languages=row[5],main_speaker=row[6].replace(' ','').strip(),name=row[7],num_speaker=row[8],published_date=row[9], related_talks=rel_string, tags=tag_string,title=row[14], url=row[15], views=row[16])
             rating_string = []
             for score in ratings:
@@ -96,15 +96,17 @@ with open('ted_talks.rdf', 'w') as out:
             speakers[filter(str.isalnum,row[6].replace(' ','').strip())] = (row[6], row[12])
             events.add(filter(str.isalnum,row[3]))
             tags.union(set(row[13][1:-1].split()))
-    for tag in tags:
-        t = Template(tag_template).substitute(name=tag, tag=tag)
-        out.write(t)
+#    for tag in tags:
+#        t = Template(tag_template).substitute(name=tag, tag=tag)
+#        out.write(t)
     for speaker in speakers:
         person = Template(person_template).substitute(name=speaker, main_speaker=speakers[speaker][0], speaker_occupation=speakers[speaker][1])
         out.write(person)
     for event in events:
         e = Template(event_template).substitute(name=event.replace(' ','').strip().replace('>','').replace('<',''), event=event)
         out.write(e)
+    with open('categories.ttl') as cat:
+        out.write(cat.read())
 
 
 

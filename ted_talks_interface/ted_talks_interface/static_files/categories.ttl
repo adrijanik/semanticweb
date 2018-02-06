@@ -1,0 +1,3296 @@
+
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+<http://dbpedia.org/resource/Category:Prison> a skos:Concept;
+skos:prefLabel"prison"@en.
+
+<http://dbpedia.org/resource/Category:Men> a skos:Concept;
+skos:prefLabel"men"@en.
+
+<http://dbpedia.org/resource/Category:Folklore_by_type> a skos:Concept;
+skos:prefLabel"Folklore_by_type"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Storytelling> .
+<http://dbpedia.org/resource/Category:Alphabet_Inc.> a skos:Concept;
+skos:prefLabel"Alphabet_Inc."@en;
+skos:narrower <http://dbpedia.org/resource/Category:Google> .
+<http://dbpedia.org/resource/Category:Injustice> a skos:Concept;
+skos:prefLabel"Injustice"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Inequality> .
+<http://dbpedia.org/resource/Category:Embedded_systems> a skos:Concept;
+skos:prefLabel"Embedded_systems"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Robots> .
+<http://dbpedia.org/resource/Category:Outer_space> a skos:Concept;
+skos:prefLabel"Outer_space"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Astronomy> .
+<http://dbpedia.org/resource/Category:Medical_ethics> a skos:Concept;
+skos:prefLabel"Medical_ethics"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Privacy> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Addiction> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Suicide> .
+<http://dbpedia.org/resource/Category:Graphic_design> a skos:Concept;
+skos:prefLabel"Graphic_design"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Typography> .
+<http://dbpedia.org/resource/Category:Software_companies_established_in_1975> a skos:Concept;
+skos:prefLabel"Software_companies_established_in_1975"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Microsoft> .
+<http://dbpedia.org/resource/Category:Oil> a skos:Concept;
+skos:prefLabel"oil"@en.
+
+<http://dbpedia.org/resource/Category:Maintenance> a skos:Concept;
+skos:prefLabel"Maintenance"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Failure> .
+<http://dbpedia.org/resource/Category:Prokaryotes> a skos:Concept;
+skos:prefLabel"Prokaryotes"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Bacteria> .
+<http://dbpedia.org/resource/Category:Economic_development> a skos:Concept;
+skos:prefLabel"Economic_development"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Microfinance> .
+<http://dbpedia.org/resource/Category:Fruit_of_the_Holy_Spirit> a skos:Concept;
+skos:prefLabel"Fruit_of_the_Holy_Spirit"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Peace> .
+<http://dbpedia.org/resource/Category:Nothing> a skos:Concept;
+skos:prefLabel"Nothing"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Space> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Death> .
+<http://dbpedia.org/resource/Category:Leisure_activities> a skos:Concept;
+skos:prefLabel"Leisure_activities"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Gaming> .
+<http://dbpedia.org/resource/Category:Types_of_travel> a skos:Concept;
+skos:prefLabel"Types_of_travel"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Exploration> .
+<http://dbpedia.org/resource/Category:Blindness> a skos:Concept;
+skos:prefLabel"blindness"@en.
+
+<http://dbpedia.org/resource/Category:Telescopes> a skos:Concept;
+skos:prefLabel"telescopes"@en.
+
+<http://dbpedia.org/resource/Category:Evolution> a skos:Concept;
+skos:prefLabel"evolution"@en.
+
+<http://dbpedia.org/resource/Category:Organs_(anatomy)> a skos:Concept;
+skos:prefLabel"Organs_(anatomy)"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Brain> .
+<http://dbpedia.org/resource/Category:Planets> a skos:Concept;
+skos:prefLabel"planets"@en.
+
+<http://dbpedia.org/resource/Category:Illness> a skos:Concept;
+skos:prefLabel"illness"@en.
+
+<http://dbpedia.org/resource/Category:Rebellions_by_type> a skos:Concept;
+skos:prefLabel"Rebellions_by_type"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Terrorism> .
+<http://dbpedia.org/resource/Category:Creator_deities> a skos:Concept;
+skos:prefLabel"Creator_deities"@en;
+skos:narrower <http://dbpedia.org/resource/Category:God> .
+<http://dbpedia.org/resource/Category:Natural_Resources> a skos:Concept;
+skos:prefLabel"natural_resources"@en.
+
+<http://dbpedia.org/resource/Category:Social_information_processing> a skos:Concept;
+skos:prefLabel"Social_information_processing"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Crowdsourcing> .
+<http://dbpedia.org/resource/Category:National_security> a skos:Concept;
+skos:prefLabel"National_security"@en;
+skos:narrower <http://dbpedia.org/resource/Category:War> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Military> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Terrorism> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Surveillance> .
+<http://dbpedia.org/resource/Category:Goods> a skos:Concept;
+skos:prefLabel"Goods"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Materials> .
+<http://dbpedia.org/resource/Category:Deception> a skos:Concept;
+skos:prefLabel"Deception"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Corruption> .
+<http://dbpedia.org/resource/Category:Academic_disciplines> a skos:Concept;
+skos:prefLabel"Academic_disciplines"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Philosophy> .
+<http://dbpedia.org/resource/Category:Public_sphere> a skos:Concept;
+skos:prefLabel"Public_sphere"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Politics> .
+<http://dbpedia.org/resource/Category:Submarine> a skos:Concept;
+skos:prefLabel"submarine"@en.
+
+<http://dbpedia.org/resource/Category:Environmentalism> a skos:Concept;
+skos:prefLabel"Environmentalism"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Sustainability> .
+<http://dbpedia.org/resource/Category:Behavior> a skos:Concept;
+skos:prefLabel"Behavior"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Communication> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Sleep> .
+<http://dbpedia.org/resource/Category:Culture> a skos:Concept;
+skos:prefLabel"culture"@en;
+skos:broader <http://dbpedia.org/resource/Category:Categories_requiring_diffusion> ; 
+skos:broader <http://dbpedia.org/resource/Category:Society> ; 
+skos:broader <http://dbpedia.org/resource/Category:Humans> ;skos:narrower <http://dbpedia.org/resource/Category:Literature> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Music> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Religion> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Language> .
+<http://dbpedia.org/resource/Category:Crime_prevention> a skos:Concept;
+skos:prefLabel"Crime_prevention"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Surveillance> .
+<http://dbpedia.org/resource/Category:Computers> a skos:Concept;
+skos:prefLabel"computers"@en.
+
+<http://dbpedia.org/resource/Category:Conservation_and_restoration> a skos:Concept;
+skos:prefLabel"Conservation_and_restoration"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Archaeology> .
+<http://dbpedia.org/resource/Category:Hobbies> a skos:Concept;
+skos:prefLabel"Hobbies"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Sports> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Photography> .
+<http://dbpedia.org/resource/Category:Wikipedia_categories_named_after_countries> a skos:Concept;
+skos:prefLabel"Wikipedia_categories_named_after_countries"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Syria> ; 
+skos:narrower <http://dbpedia.org/resource/Category:India> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Brazil> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Iraq> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Egypt> ; 
+skos:narrower <http://dbpedia.org/resource/Category:United_States> ; 
+skos:narrower <http://dbpedia.org/resource/Category:China> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Iran> .
+<http://dbpedia.org/resource/Category:Fear> a skos:Concept;
+skos:prefLabel"fear"@en.
+
+<http://dbpedia.org/resource/Category:Vulnerability> a skos:Concept;
+skos:prefLabel"vulnerability"@en.
+
+<http://dbpedia.org/resource/Category:Motion_(physics)> a skos:Concept;
+skos:prefLabel"Motion_(physics)"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Flight> .
+<http://dbpedia.org/resource/Category:Debate> a skos:Concept;
+skos:prefLabel"debate"@en.
+
+<http://dbpedia.org/resource/Category:Skateboarding> a skos:Concept;
+skos:prefLabel"skateboarding"@en.
+
+<http://dbpedia.org/resource/Category:Educational_psychology> a skos:Concept;
+skos:prefLabel"Educational_psychology"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Intelligence> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Creativity> .
+<http://dbpedia.org/resource/Category:Political_concepts> a skos:Concept;
+skos:prefLabel"Political_concepts"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Leadership> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Peace> .
+<http://dbpedia.org/resource/Category:Interface_Design> a skos:Concept;
+skos:prefLabel"interface_design"@en.
+
+<http://dbpedia.org/resource/Category:Western_Asian_countries> a skos:Concept;
+skos:prefLabel"Western_Asian_countries"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Syria> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Iraq> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Egypt> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Iran> .
+<http://dbpedia.org/resource/Category:Crowdsourcing> a skos:Concept;
+skos:prefLabel"crowdsourcing"@en.
+
+<http://dbpedia.org/resource/Category:Continents> a skos:Concept;
+skos:prefLabel"Continents"@en;
+skos:narrower <http://dbpedia.org/resource/Category:South_America> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Africa> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Europe> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Asia> .
+<http://dbpedia.org/resource/Category:Primates> a skos:Concept;
+skos:prefLabel"primates"@en.
+
+<http://dbpedia.org/resource/Category:Refugees> a skos:Concept;
+skos:prefLabel"refugees"@en.
+
+<http://dbpedia.org/resource/Category:Abrahamic_religions> a skos:Concept;
+skos:prefLabel"Abrahamic_religions"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Christianity> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Islam> .
+<http://dbpedia.org/resource/Category:Apoidea> a skos:Concept;
+skos:prefLabel"Apoidea"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Bees> .
+<http://dbpedia.org/resource/Category:Member_states_of_the_Arab_League> a skos:Concept;
+skos:prefLabel"Member_states_of_the_Arab_League"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Iraq> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Egypt> .
+<http://dbpedia.org/resource/Category:Roller_sports> a skos:Concept;
+skos:prefLabel"Roller_sports"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Skateboarding> .
+<http://dbpedia.org/resource/Category:Learning> a skos:Concept;
+skos:prefLabel"Learning"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Intelligence> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Teaching> .
+<http://dbpedia.org/resource/Category:Humanities> a skos:Concept;
+skos:prefLabel"Humanities"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Archaeology> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Philosophy> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Politics> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Anthropology> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Entertainment> ; 
+skos:narrower <http://dbpedia.org/resource/Category:History> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Comedy> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Law> .
+<http://dbpedia.org/resource/Category:Cancer> a skos:Concept;
+skos:prefLabel"cancer"@en.
+
+<http://dbpedia.org/resource/Category:Azerbaijani-speaking_countries_and_territories> a skos:Concept;
+skos:prefLabel"Azerbaijani-speaking_countries_and_territories"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Iraq> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Iran> .
+<http://dbpedia.org/resource/Category:Countries_in_Africa> a skos:Concept;
+skos:prefLabel"Countries_in_Africa"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Egypt> .
+<http://dbpedia.org/resource/Category:Materials> a skos:Concept;
+skos:prefLabel"materials"@en.
+
+<http://dbpedia.org/resource/Category:Events> a skos:Concept;
+skos:prefLabel"Events"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Protests> ; 
+skos:narrower <http://dbpedia.org/resource/Category:News> .
+<http://dbpedia.org/resource/Category:Physical_phenomena> a skos:Concept;
+skos:prefLabel"Physical_phenomena"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Weather> .
+<http://dbpedia.org/resource/Category:Vocals> a skos:Concept;
+skos:prefLabel"vocals"@en.
+
+<http://dbpedia.org/resource/Category:Gender_equality> a skos:Concept;
+skos:prefLabel"Gender_equality"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Feminism> .
+<http://dbpedia.org/resource/Category:Iran> a skos:Concept;
+skos:prefLabel"iran"@en.
+
+<http://dbpedia.org/resource/Category:Kurdish-speaking_countries_and_territories> a skos:Concept;
+skos:prefLabel"Kurdish-speaking_countries_and_territories"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Syria> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Iraq> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Iran> .
+<http://dbpedia.org/resource/Category:Middle_East> a skos:Concept;
+skos:prefLabel"middle_east"@en.
+
+<http://dbpedia.org/resource/Category:Ted-Ed> a skos:Concept;
+skos:prefLabel"ted-ed"@en.
+
+<http://dbpedia.org/resource/Category:Natural_resource_management> a skos:Concept;
+skos:prefLabel"Natural_resource_management"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Conservation> .
+<http://dbpedia.org/resource/Category:Disciplines_by_type> a skos:Concept;
+skos:prefLabel"Disciplines_by_type"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Sports> .
+<http://dbpedia.org/resource/Category:Pain> a skos:Concept;
+skos:prefLabel"pain"@en.
+
+<http://dbpedia.org/resource/Category:East_Asian_countries> a skos:Concept;
+skos:prefLabel"East_Asian_countries"@en;
+skos:narrower <http://dbpedia.org/resource/Category:China> .
+<http://dbpedia.org/resource/Category:History> a skos:Concept;
+skos:prefLabel"history"@en.
+
+<http://dbpedia.org/resource/Category:Insects> a skos:Concept;
+skos:prefLabel"insects"@en.
+
+<http://dbpedia.org/resource/Category:Iraq> a skos:Concept;
+skos:prefLabel"iraq"@en.
+
+<http://dbpedia.org/resource/Category:Monotheistic_religions> a skos:Concept;
+skos:prefLabel"Monotheistic_religions"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Christianity> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Islam> .
+<http://dbpedia.org/resource/Category:Protests> a skos:Concept;
+skos:prefLabel"protests"@en.
+
+<http://dbpedia.org/resource/Category:Media> a skos:Concept;
+skos:prefLabel"media"@en.
+
+<http://dbpedia.org/resource/Category:Control_(social_and_political)> a skos:Concept;
+skos:prefLabel"Control_(social_and_political)"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Surveillance> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Leadership> .
+<http://dbpedia.org/resource/Category:Macarthur_Grant> a skos:Concept;
+skos:prefLabel"macarthur_grant"@en.
+
+<http://dbpedia.org/resource/Category:Politics_by_issue> a skos:Concept;
+skos:prefLabel"Politics_by_issue"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Terrorism> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Corruption> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Policy> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Peace> .
+<http://dbpedia.org/resource/Category:Peace> a skos:Concept;
+skos:prefLabel"Peace"@en;
+skos:broader <http://dbpedia.org/resource/Category:Political_concepts> ; 
+skos:broader <http://dbpedia.org/resource/Category:Nonviolence> ; 
+skos:broader <http://dbpedia.org/resource/Category:Issues_in_ethics> ; 
+skos:broader <http://dbpedia.org/resource/Category:Ethical_principles> ; 
+skos:broader <http://dbpedia.org/resource/Category:Virtue> ; 
+skos:broader <http://dbpedia.org/resource/Category:Politics_by_issue> ; 
+skos:broader <http://dbpedia.org/resource/Category:Fruit_of_the_Holy_Spirit> ; 
+skos:broader <http://dbpedia.org/resource/Category:International_security> ; 
+skos:broader <http://dbpedia.org/resource/Category:Social_concepts> ;skos:narrower <http://dbpedia.org/resource/Category:Inequality> .
+<http://dbpedia.org/resource/Category:Indian_religions> a skos:Concept;
+skos:prefLabel"Indian_religions"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Buddhism> .
+<http://dbpedia.org/resource/Category:Causes_of_death> a skos:Concept;
+skos:prefLabel"Causes_of_death"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Violence> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Suicide> .
+<http://dbpedia.org/resource/Category:Astrophysics_theories> a skos:Concept;
+skos:prefLabel"Astrophysics_theories"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Big_Bang> .
+<http://dbpedia.org/resource/Category:Experimental_psychology> a skos:Concept;
+skos:prefLabel"Experimental_psychology"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Motivation> .
+<http://dbpedia.org/resource/Category:Machines> a skos:Concept;
+skos:prefLabel"Machines"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Robots> .
+<http://dbpedia.org/resource/Category:Nobel_Prize> a skos:Concept;
+skos:prefLabel"nobel_prize"@en.
+
+<http://dbpedia.org/resource/Category:Product_Design> a skos:Concept;
+skos:prefLabel"product_design"@en.
+
+<http://dbpedia.org/resource/Category:Sociology_of_culture> a skos:Concept;
+skos:prefLabel"Sociology_of_culture"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Immigration> .
+<http://dbpedia.org/resource/Category:Eukaryotes> a skos:Concept;
+skos:prefLabel"Eukaryotes"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Animals> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Plants> .
+<http://dbpedia.org/resource/Category:G20_nations> a skos:Concept;
+skos:prefLabel"G20_nations"@en;
+skos:narrower <http://dbpedia.org/resource/Category:India> .
+<http://dbpedia.org/resource/Category:Astronomical_imaging> a skos:Concept;
+skos:prefLabel"Astronomical_imaging"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Telescopes> .
+<http://dbpedia.org/resource/Category:Environmental_issues> a skos:Concept;
+skos:prefLabel"Environmental_issues"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Consumerism> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Pollution> .
+<http://dbpedia.org/resource/Category:Transparent_materials> a skos:Concept;
+skos:prefLabel"Transparent_materials"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Water> .
+<http://dbpedia.org/resource/Category:Virus> a skos:Concept;
+skos:prefLabel"virus"@en.
+
+<http://dbpedia.org/resource/Category:Pregnancy> a skos:Concept;
+skos:prefLabel"pregnancy"@en.
+
+<http://dbpedia.org/resource/Category:Persian-speaking_countries_and_territories> a skos:Concept;
+skos:prefLabel"Persian-speaking_countries_and_territories"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Iran> .
+<http://dbpedia.org/resource/Category:Machine_Learning> a skos:Concept;
+skos:prefLabel"machine_learning"@en.
+
+<http://dbpedia.org/resource/Category:Global_Issues> a skos:Concept;
+skos:prefLabel"global_issues"@en.
+
+<http://dbpedia.org/resource/Category:Human_life_stages> a skos:Concept;
+skos:prefLabel"Human_life_stages"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Youth> .
+<http://dbpedia.org/resource/Category:Buildings_and_structures> a skos:Concept;
+skos:prefLabel"Buildings_and_structures"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Infrastructure> .
+<http://dbpedia.org/resource/Category:Race> a skos:Concept;
+skos:prefLabel"race"@en.
+
+<http://dbpedia.org/resource/Category:Poverty> a skos:Concept;
+skos:prefLabel"poverty"@en.
+
+<http://dbpedia.org/resource/Category:Written_communication> a skos:Concept;
+skos:prefLabel"Written_communication"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Literature> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Books> .
+<http://dbpedia.org/resource/Category:Structure> a skos:Concept;
+skos:prefLabel"Structure"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Society> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Design> .
+<http://dbpedia.org/resource/Category:Suicide> a skos:Concept;
+skos:prefLabel"suicide"@en.
+
+<http://dbpedia.org/resource/Category:Knowledge_sharing> a skos:Concept;
+skos:prefLabel"Knowledge_sharing"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Education> .
+<http://dbpedia.org/resource/Category:Misconduct> a skos:Concept;
+skos:prefLabel"Misconduct"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Crime> .
+<http://dbpedia.org/resource/Category:Technology_in_society> a skos:Concept;
+skos:prefLabel"Technology_in_society"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Infrastructure> .
+<http://dbpedia.org/resource/Category:Risk> a skos:Concept;
+skos:prefLabel"Risk"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Vulnerability> .
+<http://dbpedia.org/resource/Category:Google> a skos:Concept;
+skos:prefLabel"google"@en.
+
+<http://dbpedia.org/resource/Category:Museums> a skos:Concept;
+skos:prefLabel"museums"@en.
+
+<http://dbpedia.org/resource/Category:Birds> a skos:Concept;
+skos:prefLabel"birds"@en.
+
+<http://dbpedia.org/resource/Category:Science_and_law> a skos:Concept;
+skos:prefLabel"Science_and_law"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Forensics> .
+<http://dbpedia.org/resource/Category:Microbiology> a skos:Concept;
+skos:prefLabel"Microbiology"@en;
+skos:broader <http://dbpedia.org/resource/Category:Clinical_pathology> ; 
+skos:broader <http://dbpedia.org/resource/Category:Branches_of_biology> ;skos:narrower <http://dbpedia.org/resource/Category:Bacteria> .
+<http://dbpedia.org/resource/Category:International_relations> a skos:Concept;
+skos:prefLabel"International_relations"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Collaboration> .
+<http://dbpedia.org/resource/Category:Dna> a skos:Concept;
+skos:prefLabel"dna"@en.
+
+<http://dbpedia.org/resource/Category:Turkish-speaking_countries_and_territories> a skos:Concept;
+skos:prefLabel"Turkish-speaking_countries_and_territories"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Iraq> .
+<http://dbpedia.org/resource/Category:Disability> a skos:Concept;
+skos:prefLabel"disability"@en.
+
+<http://dbpedia.org/resource/Category:Slavery> a skos:Concept;
+skos:prefLabel"slavery"@en.
+
+<http://dbpedia.org/resource/Category:Popular_culture> a skos:Concept;
+skos:prefLabel"Popular_culture"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Entertainment> .
+<http://dbpedia.org/resource/Category:Map> a skos:Concept;
+skos:prefLabel"map"@en.
+
+<http://dbpedia.org/resource/Category:Alternative_Energy> a skos:Concept;
+skos:prefLabel"alternative_energy"@en.
+
+<http://dbpedia.org/resource/Category:Energy> a skos:Concept;
+skos:prefLabel"energy"@en.
+
+<http://dbpedia.org/resource/Category:Wikipedia> a skos:Concept;
+skos:prefLabel"wikipedia"@en.
+
+<http://dbpedia.org/resource/Category:Disease> a skos:Concept;
+skos:prefLabel"disease"@en.
+
+<http://dbpedia.org/resource/Category:Primate_taxonomy> a skos:Concept;
+skos:prefLabel"Primate_taxonomy"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Monkeys> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Apes> .
+<http://dbpedia.org/resource/Category:Narcotics> a skos:Concept;
+skos:prefLabel"narcotics"@en.
+
+<http://dbpedia.org/resource/Category:Prejudice_and_discrimination> a skos:Concept;
+skos:prefLabel"Prejudice_and_discrimination"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Bullying> .
+<http://dbpedia.org/resource/Category:Popular_music> a skos:Concept;
+skos:prefLabel"Popular_music"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Jazz> .
+<http://dbpedia.org/resource/Category:Oceans> a skos:Concept;
+skos:prefLabel"oceans"@en.
+
+<http://dbpedia.org/resource/Category:Heart_Health> a skos:Concept;
+skos:prefLabel"heart_health"@en.
+
+<http://dbpedia.org/resource/Category:Meme> a skos:Concept;
+skos:prefLabel"meme"@en.
+
+<http://dbpedia.org/resource/Category:Aging> a skos:Concept;
+skos:prefLabel"aging"@en.
+
+<http://dbpedia.org/resource/Category:Social_history> a skos:Concept;
+skos:prefLabel"Social_history"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Exploration> .
+<http://dbpedia.org/resource/Category:Emotion> a skos:Concept;
+skos:prefLabel"Emotion"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Love> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Motivation> .
+<http://dbpedia.org/resource/Category:Advertising> a skos:Concept;
+skos:prefLabel"advertising"@en.
+
+<http://dbpedia.org/resource/Category:Habitat> a skos:Concept;
+skos:prefLabel"Habitat"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Conservation> .
+<http://dbpedia.org/resource/Category:Applied_sciences> a skos:Concept;
+skos:prefLabel"Applied_sciences"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Design> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Technology> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Agriculture> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Psychology> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Economics> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Architecture> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Forensics> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Engineering> .
+<http://dbpedia.org/resource/Category:Linguistics> a skos:Concept;
+skos:prefLabel"Linguistics"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Grammar> .
+<http://dbpedia.org/resource/Category:Historical_scientific_instruments> a skos:Concept;
+skos:prefLabel"Historical_scientific_instruments"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Telescopes> .
+<http://dbpedia.org/resource/Category:Food_and_drink> a skos:Concept;
+skos:prefLabel"Food_and_drink"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Agriculture> .
+<http://dbpedia.org/resource/Category:Literature_by_medium> a skos:Concept;
+skos:prefLabel"Literature_by_medium"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Storytelling> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Books> .
+<http://dbpedia.org/resource/Category:Arabic-speaking_countries_and_territories> a skos:Concept;
+skos:prefLabel"Arabic-speaking_countries_and_territories"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Syria> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Iraq> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Egypt> .
+<http://dbpedia.org/resource/Category:Planetary-mass_satellites> a skos:Concept;
+skos:prefLabel"Planetary-mass_satellites"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Moon> .
+<http://dbpedia.org/resource/Category:Statements> a skos:Concept;
+skos:prefLabel"Statements"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Prediction> .
+<http://dbpedia.org/resource/Category:Astrobiology> a skos:Concept;
+skos:prefLabel"astrobiology"@en.
+
+<http://dbpedia.org/resource/Category:Ptsd> a skos:Concept;
+skos:prefLabel"ptsd"@en.
+
+<http://dbpedia.org/resource/Category:Personal_Growth> a skos:Concept;
+skos:prefLabel"personal_growth"@en.
+
+<http://dbpedia.org/resource/Category:Defense> a skos:Concept;
+skos:prefLabel"Defense"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Military> .
+<http://dbpedia.org/resource/Category:Language_mechanics> a skos:Concept;
+skos:prefLabel"Language_mechanics"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Grammar> .
+<http://dbpedia.org/resource/Category:Life_sciences> a skos:Concept;
+skos:prefLabel"Life_sciences"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Biology> .
+<http://dbpedia.org/resource/Category:Member_states_of_the_South_Asian_Association_for_Regional_Cooperation> a skos:Concept;
+skos:prefLabel"Member_states_of_the_South_Asian_Association_for_Regional_Cooperation"@en;
+skos:narrower <http://dbpedia.org/resource/Category:India> .
+<http://dbpedia.org/resource/Category:Human-based_computation> a skos:Concept;
+skos:prefLabel"Human-based_computation"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Crowdsourcing> .
+<http://dbpedia.org/resource/Category:Romance_countries_and_territories> a skos:Concept;
+skos:prefLabel"Romance_countries_and_territories"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Brazil> .
+<http://dbpedia.org/resource/Category:Cars> a skos:Concept;
+skos:prefLabel"cars"@en.
+
+<http://dbpedia.org/resource/Category:Spirituality> a skos:Concept;
+skos:prefLabel"Spirituality"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Meditation> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Religion> .
+<http://dbpedia.org/resource/Category:Cartooning> a skos:Concept;
+skos:prefLabel"Cartooning"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Animation> .
+<http://dbpedia.org/resource/Category:Manmade_objects> a skos:Concept;
+skos:prefLabel"Manmade_objects"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Infrastructure> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Technology> .
+<http://dbpedia.org/resource/Category:Ants> a skos:Concept;
+skos:prefLabel"ants"@en.
+
+<http://dbpedia.org/resource/Category:Movies> a skos:Concept;
+skos:prefLabel"movies"@en.
+
+<http://dbpedia.org/resource/Category:Collective_intelligence> a skos:Concept;
+skos:prefLabel"Collective_intelligence"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Crowdsourcing> .
+<http://dbpedia.org/resource/Category:Political_systems> a skos:Concept;
+skos:prefLabel"Political_systems"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Democracy> .
+<http://dbpedia.org/resource/Category:Latin_alphabet> a skos:Concept;
+skos:prefLabel"Latin_alphabet"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Typography> .
+<http://dbpedia.org/resource/Category:Individualism> a skos:Concept;
+skos:prefLabel"Individualism"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Capitalism> .
+<http://dbpedia.org/resource/Category:Computer_science> a skos:Concept;
+skos:prefLabel"Computer_science"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Software> .
+<http://dbpedia.org/resource/Category:Fluvial_landforms> a skos:Concept;
+skos:prefLabel"Fluvial_landforms"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Rivers> .
+<http://dbpedia.org/resource/Category:Industries> a skos:Concept;
+skos:prefLabel"Industries"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Mining> .
+<http://dbpedia.org/resource/Category:Biomechanics> a skos:Concept;
+skos:prefLabel"biomechanics"@en.
+
+<http://dbpedia.org/resource/Category:Cognitive_Science> a skos:Concept;
+skos:prefLabel"cognitive_science"@en.
+
+<http://dbpedia.org/resource/Category:Poetry> a skos:Concept;
+skos:prefLabel"poetry"@en.
+
+<http://dbpedia.org/resource/Category:Aggression> a skos:Concept;
+skos:prefLabel"Aggression"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Violence> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Bullying> .
+<http://dbpedia.org/resource/Category:Mid-Atlantic> a skos:Concept;
+skos:prefLabel"Mid-Atlantic"@en;
+skos:narrower <http://dbpedia.org/resource/Category:New_York> .
+<http://dbpedia.org/resource/Category:Superpowers> a skos:Concept;
+skos:prefLabel"Superpowers"@en;
+skos:narrower <http://dbpedia.org/resource/Category:United_States> .
+<http://dbpedia.org/resource/Category:Concepts_in_logic> a skos:Concept;
+skos:prefLabel"Concepts_in_logic"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Identity> .
+<http://dbpedia.org/resource/Category:Technology_companies_based_in_the_San_Francisco_Bay_Area> a skos:Concept;
+skos:prefLabel"Technology_companies_based_in_the_San_Francisco_Bay_Area"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Google> .
+<http://dbpedia.org/resource/Category:Amputations> a skos:Concept;
+skos:prefLabel"Amputations"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Prosthetics> .
+<http://dbpedia.org/resource/Category:Universe> a skos:Concept;
+skos:prefLabel"universe"@en.
+
+<http://dbpedia.org/resource/Category:Senses> a skos:Concept;
+skos:prefLabel"Senses"@en;
+skos:broader <http://dbpedia.org/resource/Category:Perception> ; 
+skos:broader <http://dbpedia.org/resource/Category:Sensory_systems> ;skos:narrower <http://dbpedia.org/resource/Category:Hearing> .
+<http://dbpedia.org/resource/Category:Relationships> a skos:Concept;
+skos:prefLabel"relationships"@en.
+
+<http://dbpedia.org/resource/Category:Psychological_concepts> a skos:Concept;
+skos:prefLabel"Psychological_concepts"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Personality> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Consciousness> .
+<http://dbpedia.org/resource/Category:Consumerism> a skos:Concept;
+skos:prefLabel"consumerism"@en.
+
+<http://dbpedia.org/resource/Category:Cities> a skos:Concept;
+skos:prefLabel"cities"@en.
+
+<http://dbpedia.org/resource/Category:Atheism> a skos:Concept;
+skos:prefLabel"atheism"@en.
+
+<http://dbpedia.org/resource/Category:Organizational_behavior> a skos:Concept;
+skos:prefLabel"Organizational_behavior"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Motivation> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Collaboration> .
+<http://dbpedia.org/resource/Category:Living_arrangements> a skos:Concept;
+skos:prefLabel"Living_arrangements"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Family> .
+<http://dbpedia.org/resource/Category:Wunderkind> a skos:Concept;
+skos:prefLabel"wunderkind"@en.
+
+<http://dbpedia.org/resource/Category:Deities> a skos:Concept;
+skos:prefLabel"Deities"@en;
+skos:narrower <http://dbpedia.org/resource/Category:God> .
+<http://dbpedia.org/resource/Category:Bees> a skos:Concept;
+skos:prefLabel"bees"@en.
+
+<http://dbpedia.org/resource/Category:Arthropod-borne_viral_fevers_and_viral_haemorrhagic_fevers> a skos:Concept;
+skos:prefLabel"Arthropod-borne_viral_fevers_and_viral_haemorrhagic_fevers"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Ebola> .
+<http://dbpedia.org/resource/Category:Philosophy> a skos:Concept;
+skos:prefLabel"philosophy"@en.
+
+<http://dbpedia.org/resource/Category:Planets_of_the_Solar_System> a skos:Concept;
+skos:prefLabel"Planets_of_the_Solar_System"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Mars> .
+<http://dbpedia.org/resource/Category:Systems_engineering> a skos:Concept;
+skos:prefLabel"Systems_engineering"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Failure> .
+<http://dbpedia.org/resource/Category:Humanity> a skos:Concept;
+skos:prefLabel"humanity"@en.
+
+<http://dbpedia.org/resource/Category:Economics> a skos:Concept;
+skos:prefLabel"economics"@en.
+
+<http://dbpedia.org/resource/Category:Origin_of_life> a skos:Concept;
+skos:prefLabel"Origin_of_life"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Astrobiology> .
+<http://dbpedia.org/resource/Category:Memory> a skos:Concept;
+skos:prefLabel"Memory"@en;
+skos:broader <http://dbpedia.org/resource/Category:Cognitive_science> ; 
+skos:broader <http://dbpedia.org/resource/Category:Cognitive_neuroscience> ; 
+skos:broader <http://dbpedia.org/resource/Category:Neuropsychological_assessment> ; 
+skos:broader <http://dbpedia.org/resource/Category:Sources_of_knowledge> ; 
+skos:broader <http://dbpedia.org/resource/Category:Past> ; 
+skos:broader <http://dbpedia.org/resource/Category:Limbic_system> ;skos:narrower <http://dbpedia.org/resource/Category:Intelligence> .
+<http://dbpedia.org/resource/Category:Interpersonal_relationships> a skos:Concept;
+skos:prefLabel"Interpersonal_relationships"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Family> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Friendship> .
+<http://dbpedia.org/resource/Category:Consciousness> a skos:Concept;
+skos:prefLabel"consciousness"@en;
+skos:broader <http://dbpedia.org/resource/Category:Mental_content> ; 
+skos:broader <http://dbpedia.org/resource/Category:Psychological_concepts> ; 
+skos:broader <http://dbpedia.org/resource/Category:Humans> ;skos:narrower <http://dbpedia.org/resource/Category:Self> .
+<http://dbpedia.org/resource/Category:Symptoms_and_signs:_General> a skos:Concept;
+skos:prefLabel"_General"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Pain> .
+<http://dbpedia.org/resource/Category:Office_equipment> a skos:Concept;
+skos:prefLabel"Office_equipment"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Computers> .
+<http://dbpedia.org/resource/Category:World_Cultures> a skos:Concept;
+skos:prefLabel"world_cultures"@en.
+
+<http://dbpedia.org/resource/Category:Piano> a skos:Concept;
+skos:prefLabel"piano"@en.
+
+<http://dbpedia.org/resource/Category:Nobel_family> a skos:Concept;
+skos:prefLabel"Nobel_family"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Nobel_Prize> .
+<http://dbpedia.org/resource/Category:Botany> a skos:Concept;
+skos:prefLabel"botany"@en;
+skos:broader <http://dbpedia.org/resource/Category:Branches_of_biology> ;skos:narrower <http://dbpedia.org/resource/Category:Plants> .
+<http://dbpedia.org/resource/Category:Herbivorous_animals> a skos:Concept;
+skos:prefLabel"Herbivorous_animals"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Bees> .
+<http://dbpedia.org/resource/Category:Morality> a skos:Concept;
+skos:prefLabel"morality"@en.
+
+<http://dbpedia.org/resource/Category:Ted_Books> a skos:Concept;
+skos:prefLabel"ted_books"@en.
+
+<http://dbpedia.org/resource/Category:Physical_systems> a skos:Concept;
+skos:prefLabel"Physical_systems"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Infrastructure> .
+<http://dbpedia.org/resource/Category:Regions_of_the_Americas> a skos:Concept;
+skos:prefLabel"Regions_of_the_Americas"@en;
+skos:narrower <http://dbpedia.org/resource/Category:South_America> .
+<http://dbpedia.org/resource/Category:Latin_America> a skos:Concept;
+skos:prefLabel"Latin_America"@en;
+skos:narrower <http://dbpedia.org/resource/Category:South_America> .
+<http://dbpedia.org/resource/Category:Death> a skos:Concept;
+skos:prefLabel"death"@en.
+
+<http://dbpedia.org/resource/Category:Visual_arts> a skos:Concept;
+skos:prefLabel"Visual_arts"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Design> .
+<http://dbpedia.org/resource/Category:Feminism> a skos:Concept;
+skos:prefLabel"feminism"@en.
+
+<http://dbpedia.org/resource/Category:Education> a skos:Concept;
+skos:prefLabel"education"@en;
+skos:broader <http://dbpedia.org/resource/Category:Professional_studies> ; 
+skos:broader <http://dbpedia.org/resource/Category:Knowledge_sharing> ; 
+skos:broader <http://dbpedia.org/resource/Category:Euthenics> ;skos:narrower <http://dbpedia.org/resource/Category:Teaching> .
+<http://dbpedia.org/resource/Category:Philanthropy> a skos:Concept;
+skos:prefLabel"philanthropy"@en.
+
+<http://dbpedia.org/resource/Category:Organizations_by_type> a skos:Concept;
+skos:prefLabel"Organizations_by_type"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Government> .
+<http://dbpedia.org/resource/Category:Comedy> a skos:Concept;
+skos:prefLabel"comedy"@en.
+
+<http://dbpedia.org/resource/Category:Aviation> a skos:Concept;
+skos:prefLabel"Aviation"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Aircraft> .
+<http://dbpedia.org/resource/Category:Political_ideologies> a skos:Concept;
+skos:prefLabel"Political_ideologies"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Consumerism> .
+<http://dbpedia.org/resource/Category:Science_and_technology_awards> a skos:Concept;
+skos:prefLabel"Science_and_technology_awards"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Nobel_Prize> .
+<http://dbpedia.org/resource/Category:Social_theories> a skos:Concept;
+skos:prefLabel"Social_theories"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Feminism> .
+<http://dbpedia.org/resource/Category:Imaging> a skos:Concept;
+skos:prefLabel"Imaging"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Photography> .
+<http://dbpedia.org/resource/Category:Industrial_Design> a skos:Concept;
+skos:prefLabel"industrial_design"@en.
+
+<http://dbpedia.org/resource/Category:Sources_of_knowledge> a skos:Concept;
+skos:prefLabel"Sources_of_knowledge"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Memory> .
+<http://dbpedia.org/resource/Category:Immigration> a skos:Concept;
+skos:prefLabel"immigration"@en;
+skos:broader <http://dbpedia.org/resource/Category:Human_migration> ; 
+skos:broader <http://dbpedia.org/resource/Category:Sociology_of_culture> ; 
+skos:broader <http://dbpedia.org/resource/Category:Cultural_geography> ; 
+skos:broader <http://dbpedia.org/resource/Category:Demography> ;skos:narrower <http://dbpedia.org/resource/Category:Refugees> .
+<http://dbpedia.org/resource/Category:Journalism> a skos:Concept;
+skos:prefLabel"journalism"@en.
+
+<http://dbpedia.org/resource/Category:Biota> a skos:Concept;
+skos:prefLabel"Biota"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Biodiversity> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Animals> .
+<http://dbpedia.org/resource/Category:Conservation> a skos:Concept;
+skos:prefLabel"conservation"@en.
+
+<http://dbpedia.org/resource/Category:Artificial_intelligence> a skos:Concept;
+skos:prefLabel"Artificial_intelligence"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Robots> .
+<http://dbpedia.org/resource/Category:Human_Origins> a skos:Concept;
+skos:prefLabel"human_origins"@en.
+
+<http://dbpedia.org/resource/Category:Sex> a skos:Concept;
+skos:prefLabel"sex"@en.
+
+<http://dbpedia.org/resource/Category:Paper_art> a skos:Concept;
+skos:prefLabel"Paper_art"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Origami> .
+<http://dbpedia.org/resource/Category:Verbs> a skos:Concept;
+skos:prefLabel"Verbs"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Dance> .
+<http://dbpedia.org/resource/Category:Weather> a skos:Concept;
+skos:prefLabel"weather"@en.
+
+<http://dbpedia.org/resource/Category:Software_companies_based_in_the_San_Francisco_Bay_Area> a skos:Concept;
+skos:prefLabel"Software_companies_based_in_the_San_Francisco_Bay_Area"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Google> .
+<http://dbpedia.org/resource/Category:Planemos> a skos:Concept;
+skos:prefLabel"Planemos"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Planets> .
+<http://dbpedia.org/resource/Category:English-speaking_countries_and_territories> a skos:Concept;
+skos:prefLabel"English-speaking_countries_and_territories"@en;
+skos:narrower <http://dbpedia.org/resource/Category:India> .
+<http://dbpedia.org/resource/Category:Ted_Brain_Trust> a skos:Concept;
+skos:prefLabel"ted_brain_trust"@en.
+
+<http://dbpedia.org/resource/Category:Medical_jurisprudence> a skos:Concept;
+skos:prefLabel"Medical_jurisprudence"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Forensics> .
+<http://dbpedia.org/resource/Category:Adventure> a skos:Concept;
+skos:prefLabel"adventure"@en.
+
+<http://dbpedia.org/resource/Category:Library> a skos:Concept;
+skos:prefLabel"library"@en.
+
+<http://dbpedia.org/resource/Category:Manufactured_goods> a skos:Concept;
+skos:prefLabel"Manufactured_goods"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Books> .
+<http://dbpedia.org/resource/Category:Wide_area_networks> a skos:Concept;
+skos:prefLabel"Wide_area_networks"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Internet> .
+<http://dbpedia.org/resource/Category:Plants_by_habit> a skos:Concept;
+skos:prefLabel"Plants_by_habit"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Trees> .
+<http://dbpedia.org/resource/Category:Environmental_ethics> a skos:Concept;
+skos:prefLabel"Environmental_ethics"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Conservation> .
+<http://dbpedia.org/resource/Category:Males> a skos:Concept;
+skos:prefLabel"Males"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Men> .
+<http://dbpedia.org/resource/Category:Planetary_satellite_systems> a skos:Concept;
+skos:prefLabel"Planetary_satellite_systems"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Moon> .
+<http://dbpedia.org/resource/Category:Mental_training> a skos:Concept;
+skos:prefLabel"Mental_training"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Meditation> .
+<http://dbpedia.org/resource/Category:Demo> a skos:Concept;
+skos:prefLabel"demo"@en.
+
+<http://dbpedia.org/resource/Category:South_America> a skos:Concept;
+skos:prefLabel"south_america"@en.
+
+<http://dbpedia.org/resource/Category:Mobility> a skos:Concept;
+skos:prefLabel"mobility"@en.
+
+<http://dbpedia.org/resource/Category:Film> a skos:Concept;
+skos:prefLabel"film"@en.
+
+<http://dbpedia.org/resource/Category:Box_zithers> a skos:Concept;
+skos:prefLabel"Box_zithers"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Piano> .
+<http://dbpedia.org/resource/Category:Pollinator_Hymenoptera> a skos:Concept;
+skos:prefLabel"Pollinator_Hymenoptera"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Bees> .
+<http://dbpedia.org/resource/Category:Happiness> a skos:Concept;
+skos:prefLabel"happiness"@en.
+
+<http://dbpedia.org/resource/Category:Pollution> a skos:Concept;
+skos:prefLabel"pollution"@en.
+
+<http://dbpedia.org/resource/Category:Policy> a skos:Concept;
+skos:prefLabel"policy"@en.
+
+<http://dbpedia.org/resource/Category:Neuropsychological_assessment> a skos:Concept;
+skos:prefLabel"Neuropsychological_assessment"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Memory> .
+<http://dbpedia.org/resource/Category:Manufacturing> a skos:Concept;
+skos:prefLabel"manufacturing"@en;
+skos:broader <http://dbpedia.org/resource/Category:Industry> ; 
+skos:broader <http://dbpedia.org/resource/Category:Production_and_manufacturing> ;skos:narrower <http://dbpedia.org/resource/Category:Materials> .
+<http://dbpedia.org/resource/Category:Countries_in_Asia> a skos:Concept;
+skos:prefLabel"Countries_in_Asia"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Syria> ; 
+skos:narrower <http://dbpedia.org/resource/Category:India> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Iraq> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Egypt> ; 
+skos:narrower <http://dbpedia.org/resource/Category:China> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Iran> .
+<http://dbpedia.org/resource/Category:Terrorism> a skos:Concept;
+skos:prefLabel"terrorism"@en.
+
+<http://dbpedia.org/resource/Category:Western_Asia> a skos:Concept;
+skos:prefLabel"Western_Asia"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Middle_East> .
+<http://dbpedia.org/resource/Category:States_of_the_East_Coast_of_the_United_States> a skos:Concept;
+skos:prefLabel"States_of_the_East_Coast_of_the_United_States"@en;
+skos:narrower <http://dbpedia.org/resource/Category:New_York> .
+<http://dbpedia.org/resource/Category:Applied_statistics> a skos:Concept;
+skos:prefLabel"Applied_statistics"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Epidemiology> .
+<http://dbpedia.org/resource/Category:Human_behavior> a skos:Concept;
+skos:prefLabel"Human_behavior"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Personality> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Love> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Parenting> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Creativity> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Motivation> .
+<http://dbpedia.org/resource/Category:Flight> a skos:Concept;
+skos:prefLabel"flight"@en.
+
+<http://dbpedia.org/resource/Category:Origami> a skos:Concept;
+skos:prefLabel"origami"@en.
+
+<http://dbpedia.org/resource/Category:Optical_devices> a skos:Concept;
+skos:prefLabel"Optical_devices"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Telescopes> .
+<http://dbpedia.org/resource/Category:Women> a skos:Concept;
+skos:prefLabel"Women"@en;
+skos:broader <http://dbpedia.org/resource/Category:Female_mammals> ; 
+skos:broader <http://dbpedia.org/resource/Category:People_by_gender> ;skos:narrower <http://dbpedia.org/resource/Category:Feminism> .
+<http://dbpedia.org/resource/Category:Paravians> a skos:Concept;
+skos:prefLabel"Paravians"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Birds> .
+<http://dbpedia.org/resource/Category:Inequality> a skos:Concept;
+skos:prefLabel"inequality"@en.
+
+<http://dbpedia.org/resource/Category:Agriculture> a skos:Concept;
+skos:prefLabel"agriculture"@en.
+
+<http://dbpedia.org/resource/Category:Illusion> a skos:Concept;
+skos:prefLabel"illusion"@en.
+
+<http://dbpedia.org/resource/Category:Egypt> a skos:Concept;
+skos:prefLabel"egypt"@en.
+
+<http://dbpedia.org/resource/Category:Member_states_of_the_Commonwealth_of_Nations> a skos:Concept;
+skos:prefLabel"Member_states_of_the_Commonwealth_of_Nations"@en;
+skos:narrower <http://dbpedia.org/resource/Category:India> .
+<http://dbpedia.org/resource/Category:Physical_sciences> a skos:Concept;
+skos:prefLabel"Physical_sciences"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Chemistry> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Physics> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Astronomy> .
+<http://dbpedia.org/resource/Category:African-American_music> a skos:Concept;
+skos:prefLabel"African-American_music"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Jazz> .
+<http://dbpedia.org/resource/Category:Wikipedia_categories_named_after_information_technology_companies_of_the_United_States> a skos:Concept;
+skos:prefLabel"Wikipedia_categories_named_after_information_technology_companies_of_the_United_States"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Google> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Microsoft> .
+<http://dbpedia.org/resource/Category:Fundamental_categories> a skos:Concept;
+skos:prefLabel"Fundamental_categories"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Life> .
+<http://dbpedia.org/resource/Category:Medical_Research> a skos:Concept;
+skos:prefLabel"medical_research"@en.
+
+<http://dbpedia.org/resource/Category:Theatrical_occupations> a skos:Concept;
+skos:prefLabel"Theatrical_occupations"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Dance> .
+<http://dbpedia.org/resource/Category:Social_ethics> a skos:Concept;
+skos:prefLabel"Social_ethics"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Bioethics> .
+<http://dbpedia.org/resource/Category:Dimension> a skos:Concept;
+skos:prefLabel"Dimension"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Time> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Space> .
+<http://dbpedia.org/resource/Category:Earth_sciences> a skos:Concept;
+skos:prefLabel"Earth_sciences"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Paleontology> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Geology> .
+<http://dbpedia.org/resource/Category:Zoonoses> a skos:Concept;
+skos:prefLabel"Zoonoses"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Ebola> .
+<http://dbpedia.org/resource/Category:Life> a skos:Concept;
+skos:prefLabel"Life"@en;
+skos:broader <http://dbpedia.org/resource/Category:Nature> ; 
+skos:broader <http://dbpedia.org/resource/Category:Fundamental_categories> ; 
+skos:broader <http://dbpedia.org/resource/Category:Biology> ;skos:narrower <http://dbpedia.org/resource/Category:Death> .
+<http://dbpedia.org/resource/Category:News> a skos:Concept;
+skos:prefLabel"news"@en.
+
+<http://dbpedia.org/resource/Category:Liquids> a skos:Concept;
+skos:prefLabel"Liquids"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Water> .
+<http://dbpedia.org/resource/Category:Member_states_of_the_United_Nations> a skos:Concept;
+skos:prefLabel"Member_states_of_the_United_Nations"@en;
+skos:narrower <http://dbpedia.org/resource/Category:India> .
+<http://dbpedia.org/resource/Category:Trafficking> a skos:Concept;
+skos:prefLabel"trafficking"@en.
+
+<http://dbpedia.org/resource/Category:Video> a skos:Concept;
+skos:prefLabel"Video"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Film> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Television> .
+<http://dbpedia.org/resource/Category:Sexuality_and_society> a skos:Concept;
+skos:prefLabel"Sexuality_and_society"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Gender> .
+<http://dbpedia.org/resource/Category:Ethical_issues_in_religion> a skos:Concept;
+skos:prefLabel"Ethical_issues_in_religion"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Love> .
+<http://dbpedia.org/resource/Category:Arts_by_type> a skos:Concept;
+skos:prefLabel"Arts_by_type"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Literature> .
+<http://dbpedia.org/resource/Category:Central_nervous_system> a skos:Concept;
+skos:prefLabel"Central_nervous_system"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Brain> .
+<http://dbpedia.org/resource/Category:Myrmecology> a skos:Concept;
+skos:prefLabel"Myrmecology"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Ants> .
+<http://dbpedia.org/resource/Category:Human_communication> a skos:Concept;
+skos:prefLabel"Human_communication"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Speech> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Language> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Collaboration> .
+<http://dbpedia.org/resource/Category:News_media> a skos:Concept;
+skos:prefLabel"News_media"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Journalism> .
+<http://dbpedia.org/resource/Category:Social_change> a skos:Concept;
+skos:prefLabel"Social_change"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Activism> .
+<http://dbpedia.org/resource/Category:States_of_the_United_States> a skos:Concept;
+skos:prefLabel"States_of_the_United_States"@en;
+skos:narrower <http://dbpedia.org/resource/Category:New_York> .
+<http://dbpedia.org/resource/Category:Nature> a skos:Concept;
+skos:prefLabel"Nature"@en;
+skos:broader <http://dbpedia.org/resource/Category:Main_topic_classifications> ; 
+skos:broader <http://dbpedia.org/resource/Category:Environmental_science> ; 
+skos:broader <http://dbpedia.org/resource/Category:Environmental_social_science_concepts> ; 
+skos:broader <http://dbpedia.org/resource/Category:Physical_universe> ;skos:narrower <http://dbpedia.org/resource/Category:Energy> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Evolution> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Life> .
+<http://dbpedia.org/resource/Category:Bacteria> a skos:Concept;
+skos:prefLabel"bacteria"@en.
+
+<http://dbpedia.org/resource/Category:Science_and_technology_studies> a skos:Concept;
+skos:prefLabel"Science_and_technology_studies"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Innovation> .
+<http://dbpedia.org/resource/Category:Empathy> a skos:Concept;
+skos:prefLabel"empathy"@en.
+
+<http://dbpedia.org/resource/Category:Fields_of_history> a skos:Concept;
+skos:prefLabel"Fields_of_history"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Archaeology> .
+<http://dbpedia.org/resource/Category:Democracy> a skos:Concept;
+skos:prefLabel"democracy"@en.
+
+<http://dbpedia.org/resource/Category:Biogeochemistry> a skos:Concept;
+skos:prefLabel"Biogeochemistry"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Ecology> .
+<http://dbpedia.org/resource/Category:Action_(genre)> a skos:Concept;
+skos:prefLabel"Action_(genre)"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Adventure> .
+<http://dbpedia.org/resource/Category:Data> a skos:Concept;
+skos:prefLabel"data"@en;
+skos:broader <http://dbpedia.org/resource/Category:Information_technology> ; 
+skos:broader <http://dbpedia.org/resource/Category:Information> ; 
+skos:broader <http://dbpedia.org/resource/Category:Computing> ;skos:narrower <http://dbpedia.org/resource/Category:Statistics> .
+<http://dbpedia.org/resource/Category:Tednyc> a skos:Concept;
+skos:prefLabel"tednyc"@en.
+
+<http://dbpedia.org/resource/Category:Mass_media_by_type> a skos:Concept;
+skos:prefLabel"Mass_media_by_type"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Advertising> .
+<http://dbpedia.org/resource/Category:Writing> a skos:Concept;
+skos:prefLabel"Writing"@en;
+skos:broader <http://dbpedia.org/resource/Category:Language> ;skos:narrower <http://dbpedia.org/resource/Category:Literature> .
+<http://dbpedia.org/resource/Category:Neuroscience> a skos:Concept;
+skos:prefLabel"Neuroscience"@en;
+skos:broader <http://dbpedia.org/resource/Category:Branches_of_biology> ; 
+skos:broader <http://dbpedia.org/resource/Category:Nervous_system> ;skos:narrower <http://dbpedia.org/resource/Category:Brain> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Intelligence> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Addiction> .
+<http://dbpedia.org/resource/Category:Goal-Setting> a skos:Concept;
+skos:prefLabel"goal-setting"@en.
+
+<http://dbpedia.org/resource/Category:Metabolic_disorders> a skos:Concept;
+skos:prefLabel"Metabolic_disorders"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Obesity> .
+<http://dbpedia.org/resource/Category:Multimedia> a skos:Concept;
+skos:prefLabel"Multimedia"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Presentation> .
+<http://dbpedia.org/resource/Category:Visualizations> a skos:Concept;
+skos:prefLabel"visualizations"@en.
+
+<http://dbpedia.org/resource/Category:Robotics_projects> a skos:Concept;
+skos:prefLabel"Robotics_projects"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Robots> .
+<http://dbpedia.org/resource/Category:Humans> a skos:Concept;
+skos:prefLabel"Humans"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Mind> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Culture> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Self> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Consciousness> .
+<http://dbpedia.org/resource/Category:Violin> a skos:Concept;
+skos:prefLabel"violin"@en.
+
+<http://dbpedia.org/resource/Category:Fish> a skos:Concept;
+skos:prefLabel"fish"@en.
+
+<http://dbpedia.org/resource/Category:Branches_of_biology> a skos:Concept;
+skos:prefLabel"Branches_of_biology"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Astrobiology> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Botany> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Medicine> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Ecology> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Microbiology> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Genetics> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Physiology> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Neuroscience> .
+<http://dbpedia.org/resource/Category:Biosphere> a skos:Concept;
+skos:prefLabel"biosphere"@en.
+
+<http://dbpedia.org/resource/Category:Economic_liberalism> a skos:Concept;
+skos:prefLabel"Economic_liberalism"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Capitalism> .
+<http://dbpedia.org/resource/Category:Formal_sciences> a skos:Concept;
+skos:prefLabel"Formal_sciences"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Statistics> .
+<http://dbpedia.org/resource/Category:Agriculturally_beneficial_insects> a skos:Concept;
+skos:prefLabel"Agriculturally_beneficial_insects"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Bees> .
+<http://dbpedia.org/resource/Category:Middle_Eastern_culture> a skos:Concept;
+skos:prefLabel"Middle_Eastern_culture"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Islam> .
+<http://dbpedia.org/resource/Category:Concepts_in_ethics> a skos:Concept;
+skos:prefLabel"Concepts_in_ethics"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Morality> .
+<http://dbpedia.org/resource/Category:Storytelling> a skos:Concept;
+skos:prefLabel"storytelling"@en.
+
+<http://dbpedia.org/resource/Category:Venomous_Hymenoptera> a skos:Concept;
+skos:prefLabel"Venomous_Hymenoptera"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Bees> .
+<http://dbpedia.org/resource/Category:Espionage_techniques> a skos:Concept;
+skos:prefLabel"Espionage_techniques"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Surveillance> .
+<http://dbpedia.org/resource/Category:Mass_media> a skos:Concept;
+skos:prefLabel"Mass_media"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Software> .
+<http://dbpedia.org/resource/Category:Legal_entities> a skos:Concept;
+skos:prefLabel"Legal_entities"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Government> .
+<http://dbpedia.org/resource/Category:Physiology> a skos:Concept;
+skos:prefLabel"Physiology"@en;
+skos:broader <http://dbpedia.org/resource/Category:Branches_of_biology> ;skos:narrower <http://dbpedia.org/resource/Category:Biomechanics> .
+<http://dbpedia.org/resource/Category:Performance_Art> a skos:Concept;
+skos:prefLabel"performance_art"@en.
+
+<http://dbpedia.org/resource/Category:Cognitive_neuroscience> a skos:Concept;
+skos:prefLabel"Cognitive_neuroscience"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Memory> .
+<http://dbpedia.org/resource/Category:Works_by_academic_discipline> a skos:Concept;
+skos:prefLabel"Works_by_academic_discipline"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Literature> .
+<http://dbpedia.org/resource/Category:Biology> a skos:Concept;
+skos:prefLabel"biology"@en;
+skos:broader <http://dbpedia.org/resource/Category:Life_sciences> ;skos:narrower <http://dbpedia.org/resource/Category:Gender> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Life> .
+<http://dbpedia.org/resource/Category:Rivers> a skos:Concept;
+skos:prefLabel"rivers"@en.
+
+<http://dbpedia.org/resource/Category:Communication_design> a skos:Concept;
+skos:prefLabel"Communication_design"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Advertising> .
+<http://dbpedia.org/resource/Category:Student> a skos:Concept;
+skos:prefLabel"student"@en.
+
+<http://dbpedia.org/resource/Category:Garden> a skos:Concept;
+skos:prefLabel"garden"@en.
+
+<http://dbpedia.org/resource/Category:Telecom> a skos:Concept;
+skos:prefLabel"telecom"@en.
+
+<http://dbpedia.org/resource/Category:Spacetime> a skos:Concept;
+skos:prefLabel"Spacetime"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Time> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Space> .
+<http://dbpedia.org/resource/Category:Online_Video> a skos:Concept;
+skos:prefLabel"online_video"@en.
+
+<http://dbpedia.org/resource/Category:Government> a skos:Concept;
+skos:prefLabel"government"@en;
+skos:broader <http://dbpedia.org/resource/Category:Organizations_by_type> ; 
+skos:broader <http://dbpedia.org/resource/Category:Politics> ; 
+skos:broader <http://dbpedia.org/resource/Category:Legal_entities> ; 
+skos:broader <http://dbpedia.org/resource/Category:Social_institutions> ;skos:narrower <http://dbpedia.org/resource/Category:Law> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Policy> .
+<http://dbpedia.org/resource/Category:Health> a skos:Concept;
+skos:prefLabel"Health"@en;
+skos:broader <http://dbpedia.org/resource/Category:Main_topic_classifications> ; 
+skos:broader <http://dbpedia.org/resource/Category:Personal_life> ;skos:narrower <http://dbpedia.org/resource/Category:Disability> .
+<http://dbpedia.org/resource/Category:Pandemic> a skos:Concept;
+skos:prefLabel"pandemic"@en.
+
+<http://dbpedia.org/resource/Category:Mindfulness> a skos:Concept;
+skos:prefLabel"mindfulness"@en.
+
+<http://dbpedia.org/resource/Category:Hindustani-speaking_countries_and_territories> a skos:Concept;
+skos:prefLabel"Hindustani-speaking_countries_and_territories"@en;
+skos:narrower <http://dbpedia.org/resource/Category:India> .
+<http://dbpedia.org/resource/Category:Dinosaurs> a skos:Concept;
+skos:prefLabel"dinosaurs"@en.
+
+<http://dbpedia.org/resource/Category:Personality> a skos:Concept;
+skos:prefLabel"personality"@en.
+
+<http://dbpedia.org/resource/Category:String_instruments> a skos:Concept;
+skos:prefLabel"String_instruments"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Piano> .
+<http://dbpedia.org/resource/Category:Metaphysics_of_mind> a skos:Concept;
+skos:prefLabel"Metaphysics_of_mind"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Self> .
+<http://dbpedia.org/resource/Category:Live_Music> a skos:Concept;
+skos:prefLabel"live_music"@en.
+
+<http://dbpedia.org/resource/Category:Aesthetic_beauty> a skos:Concept;
+skos:prefLabel"Aesthetic_beauty"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Beauty> .
+<http://dbpedia.org/resource/Category:Social_issues> a skos:Concept;
+skos:prefLabel"Social_issues"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Privacy> .
+<http://dbpedia.org/resource/Category:Extraterrestrial_Life> a skos:Concept;
+skos:prefLabel"extraterrestrial_life"@en.
+
+<http://dbpedia.org/resource/Category:Human_development> a skos:Concept;
+skos:prefLabel"Human_development"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Parenting> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Death> .
+<http://dbpedia.org/resource/Category:Republics> a skos:Concept;
+skos:prefLabel"Republics"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Syria> ; 
+skos:narrower <http://dbpedia.org/resource/Category:India> ; 
+skos:narrower <http://dbpedia.org/resource/Category:China> .
+<http://dbpedia.org/resource/Category:Probability_and_statistics> a skos:Concept;
+skos:prefLabel"Probability_and_statistics"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Statistics> .
+<http://dbpedia.org/resource/Category:Reality> a skos:Concept;
+skos:prefLabel"Reality"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Identity> .
+<http://dbpedia.org/resource/Category:Dance> a skos:Concept;
+skos:prefLabel"dance"@en.
+
+<http://dbpedia.org/resource/Category:Vehicles_by_media> a skos:Concept;
+skos:prefLabel"Vehicles_by_media"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Aircraft> .
+<http://dbpedia.org/resource/Category:Entertainment> a skos:Concept;
+skos:prefLabel"Entertainment"@en;
+skos:broader <http://dbpedia.org/resource/Category:Personal_life> ; 
+skos:broader <http://dbpedia.org/resource/Category:Leisure> ; 
+skos:broader <http://dbpedia.org/resource/Category:Humanities> ; 
+skos:broader <http://dbpedia.org/resource/Category:Concepts_in_aesthetics> ; 
+skos:broader <http://dbpedia.org/resource/Category:Popular_culture> ; 
+skos:broader <http://dbpedia.org/resource/Category:Service_industries> ;skos:narrower <http://dbpedia.org/resource/Category:Television> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Adventure> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Film> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Dance> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Gaming> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Comedy> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Music> .
+<http://dbpedia.org/resource/Category:Mechanics> a skos:Concept;
+skos:prefLabel"Mechanics"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Biomechanics> .
+<http://dbpedia.org/resource/Category:Economy> a skos:Concept;
+skos:prefLabel"Economy"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Economics> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Money> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Business> .
+<http://dbpedia.org/resource/Category:Hack> a skos:Concept;
+skos:prefLabel"hack"@en.
+
+<http://dbpedia.org/resource/Category:South_Asian_countries> a skos:Concept;
+skos:prefLabel"South_Asian_countries"@en;
+skos:narrower <http://dbpedia.org/resource/Category:India> .
+<http://dbpedia.org/resource/Category:Industry> a skos:Concept;
+skos:prefLabel"Industry"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Manufacturing> .
+<http://dbpedia.org/resource/Category:Hearing> a skos:Concept;
+skos:prefLabel"hearing"@en.
+
+<http://dbpedia.org/resource/Category:Tedmed> a skos:Concept;
+skos:prefLabel"tedmed"@en.
+
+<http://dbpedia.org/resource/Category:Action_(philosophy)> a skos:Concept;
+skos:prefLabel"Action_(philosophy)"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Motivation> .
+<http://dbpedia.org/resource/Category:Hygiene> a skos:Concept;
+skos:prefLabel"Hygiene"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Sanitation> .
+<http://dbpedia.org/resource/Category:Political_events> a skos:Concept;
+skos:prefLabel"Political_events"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Protests> .
+<http://dbpedia.org/resource/Category:Female_mammals> a skos:Concept;
+skos:prefLabel"Female_mammals"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Women> .
+<http://dbpedia.org/resource/Category:Transgender> a skos:Concept;
+skos:prefLabel"transgender"@en.
+
+<http://dbpedia.org/resource/Category:Conservation_biology> a skos:Concept;
+skos:prefLabel"Conservation_biology"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Biodiversity> .
+<http://dbpedia.org/resource/Category:Chinese-speaking_countries_and_territories> a skos:Concept;
+skos:prefLabel"Chinese-speaking_countries_and_territories"@en;
+skos:narrower <http://dbpedia.org/resource/Category:China> .
+<http://dbpedia.org/resource/Category:Recreation> a skos:Concept;
+skos:prefLabel"Recreation"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Dance> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Gaming> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Sports> .
+<http://dbpedia.org/resource/Category:Accountability> a skos:Concept;
+skos:prefLabel"Accountability"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Surveillance> .
+<http://dbpedia.org/resource/Category:Complexity> a skos:Concept;
+skos:prefLabel"complexity"@en.
+
+<http://dbpedia.org/resource/Category:Monkeys> a skos:Concept;
+skos:prefLabel"monkeys"@en.
+
+<http://dbpedia.org/resource/Category:Productivity> a skos:Concept;
+skos:prefLabel"productivity"@en.
+
+<http://dbpedia.org/resource/Category:Bat-borne_viruses> a skos:Concept;
+skos:prefLabel"Bat-borne_viruses"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Ebola> .
+<http://dbpedia.org/resource/Category:Extreme_Sports> a skos:Concept;
+skos:prefLabel"extreme_sports"@en.
+
+<http://dbpedia.org/resource/Category:Swedish_awards> a skos:Concept;
+skos:prefLabel"Swedish_awards"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Nobel_Prize> .
+<http://dbpedia.org/resource/Category:Forensics> a skos:Concept;
+skos:prefLabel"forensics"@en.
+
+<http://dbpedia.org/resource/Category:Biological_hypotheses> a skos:Concept;
+skos:prefLabel"Biological_hypotheses"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Astrobiology> .
+<http://dbpedia.org/resource/Category:Faith> a skos:Concept;
+skos:prefLabel"faith"@en.
+
+<http://dbpedia.org/resource/Category:Vaccination> a skos:Concept;
+skos:prefLabel"Vaccination"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Vaccines> .
+<http://dbpedia.org/resource/Category:Work-Life_Balance> a skos:Concept;
+skos:prefLabel"work-life_balance"@en.
+
+<http://dbpedia.org/resource/Category:Biophysics> a skos:Concept;
+skos:prefLabel"Biophysics"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Biomechanics> .
+<http://dbpedia.org/resource/Category:Phenomena> a skos:Concept;
+skos:prefLabel"Phenomena"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Evolution> .
+<http://dbpedia.org/resource/Category:Urban> a skos:Concept;
+skos:prefLabel"urban"@en.
+
+<http://dbpedia.org/resource/Category:Conceptions_of_self> a skos:Concept;
+skos:prefLabel"Conceptions_of_self"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Personality> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Identity> .
+<http://dbpedia.org/resource/Category:Political_activism> a skos:Concept;
+skos:prefLabel"Political_activism"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Leadership> .
+<http://dbpedia.org/resource/Category:Self> a skos:Concept;
+skos:prefLabel"self"@en.
+
+<http://dbpedia.org/resource/Category:Internet> a skos:Concept;
+skos:prefLabel"internet"@en.
+
+<http://dbpedia.org/resource/Category:Prediction> a skos:Concept;
+skos:prefLabel"prediction"@en.
+
+<http://dbpedia.org/resource/Category:Meteorology> a skos:Concept;
+skos:prefLabel"Meteorology"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Weather> .
+<http://dbpedia.org/resource/Category:Social_sciences> a skos:Concept;
+skos:prefLabel"Social_sciences"@en;
+skos:narrower <http://dbpedia.org/resource/Category:History> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Law> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Anthropology> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Economics> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Sociology> .
+<http://dbpedia.org/resource/Category:Humor> a skos:Concept;
+skos:prefLabel"humor"@en.
+
+<http://dbpedia.org/resource/Category:Chemistry> a skos:Concept;
+skos:prefLabel"chemistry"@en.
+
+<http://dbpedia.org/resource/Category:Symbols> a skos:Concept;
+skos:prefLabel"Symbols"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Language> .
+<http://dbpedia.org/resource/Category:Street_Art> a skos:Concept;
+skos:prefLabel"street_art"@en.
+
+<http://dbpedia.org/resource/Category:Sustainability> a skos:Concept;
+skos:prefLabel"sustainability"@en.
+
+<http://dbpedia.org/resource/Category:Health_sciences> a skos:Concept;
+skos:prefLabel"Health_sciences"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Epidemiology> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Medicine> .
+<http://dbpedia.org/resource/Category:Electromechanical_engineering> a skos:Concept;
+skos:prefLabel"Electromechanical_engineering"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Robots> .
+<http://dbpedia.org/resource/Category:Activism> a skos:Concept;
+skos:prefLabel"activism"@en.
+
+<http://dbpedia.org/resource/Category:Art> a skos:Concept;
+skos:prefLabel"art"@en.
+
+<http://dbpedia.org/resource/Category:Main_topic_classifications> a skos:Concept;
+skos:prefLabel"Main_topic_classifications"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Philosophy> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Society> ; 
+skos:narrower <http://dbpedia.org/resource/Category:History> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Health> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Nature> .
+<http://dbpedia.org/resource/Category:Physical_quantities> a skos:Concept;
+skos:prefLabel"Physical_quantities"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Time> .
+<http://dbpedia.org/resource/Category:Public_Spaces> a skos:Concept;
+skos:prefLabel"public_spaces"@en.
+
+<http://dbpedia.org/resource/Category:Liberal_democracies> a skos:Concept;
+skos:prefLabel"Liberal_democracies"@en;
+skos:narrower <http://dbpedia.org/resource/Category:India> .
+<http://dbpedia.org/resource/Category:Medicine> a skos:Concept;
+skos:prefLabel"medicine"@en.
+
+<http://dbpedia.org/resource/Category:Surgery> a skos:Concept;
+skos:prefLabel"surgery"@en.
+
+<http://dbpedia.org/resource/Category:Wikipedia_categories_named_after_websites> a skos:Concept;
+skos:prefLabel"Wikipedia_categories_named_after_websites"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Google> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Wikipedia> .
+<http://dbpedia.org/resource/Category:Skepticism> a skos:Concept;
+skos:prefLabel"Skepticism"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Atheism> .
+<http://dbpedia.org/resource/Category:Medical_statistics> a skos:Concept;
+skos:prefLabel"Medical_statistics"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Epidemiology> .
+<http://dbpedia.org/resource/Category:Group_processes> a skos:Concept;
+skos:prefLabel"Group_processes"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Collaboration> .
+<http://dbpedia.org/resource/Category:City> a skos:Concept;
+skos:prefLabel"City"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Cities> .
+<http://dbpedia.org/resource/Category:Species> a skos:Concept;
+skos:prefLabel"Species"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Biodiversity> .
+<http://dbpedia.org/resource/Category:Behavioral_Economics> a skos:Concept;
+skos:prefLabel"behavioral_economics"@en.
+
+<http://dbpedia.org/resource/Category:Animation> a skos:Concept;
+skos:prefLabel"animation"@en.
+
+<http://dbpedia.org/resource/Category:Identity_politics> a skos:Concept;
+skos:prefLabel"Identity_politics"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Feminism> .
+<http://dbpedia.org/resource/Category:Language> a skos:Concept;
+skos:prefLabel"language"@en;
+skos:broader <http://dbpedia.org/resource/Category:Symbols> ; 
+skos:broader <http://dbpedia.org/resource/Category:Conceptual_systems> ; 
+skos:broader <http://dbpedia.org/resource/Category:Human_communication> ; 
+skos:broader <http://dbpedia.org/resource/Category:Culture> ; 
+skos:broader <http://dbpedia.org/resource/Category:Semiotics> ; 
+skos:broader <http://dbpedia.org/resource/Category:Cognition> ;skos:narrower <http://dbpedia.org/resource/Category:Writing> .
+<http://dbpedia.org/resource/Category:Disability_by_type> a skos:Concept;
+skos:prefLabel"Disability_by_type"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Blindness> .
+<http://dbpedia.org/resource/Category:Curiosity> a skos:Concept;
+skos:prefLabel"curiosity"@en.
+
+<http://dbpedia.org/resource/Category:Ebola> a skos:Concept;
+skos:prefLabel"ebola"@en.
+
+<http://dbpedia.org/resource/Category:Trees> a skos:Concept;
+skos:prefLabel"trees"@en.
+
+<http://dbpedia.org/resource/Category:Business> a skos:Concept;
+skos:prefLabel"business"@en;
+skos:broader <http://dbpedia.org/resource/Category:Professional_studies> ; 
+skos:broader <http://dbpedia.org/resource/Category:Economy> ;skos:narrower <http://dbpedia.org/resource/Category:Crowdsourcing> .
+<http://dbpedia.org/resource/Category:Resource_extraction> a skos:Concept;
+skos:prefLabel"Resource_extraction"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Mining> .
+<http://dbpedia.org/resource/Category:Technology> a skos:Concept;
+skos:prefLabel"Technology"@en;
+skos:broader <http://dbpedia.org/resource/Category:Applied_sciences> ; 
+skos:broader <http://dbpedia.org/resource/Category:Intellectual_works> ; 
+skos:broader <http://dbpedia.org/resource/Category:Science_and_technology> ; 
+skos:broader <http://dbpedia.org/resource/Category:Manmade_objects> ;skos:narrower <http://dbpedia.org/resource/Category:Engineering> .
+<http://dbpedia.org/resource/Category:Ethics_of_science_and_technology> a skos:Concept;
+skos:prefLabel"Ethics_of_science_and_technology"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Bioethics> .
+<http://dbpedia.org/resource/Category:Mining> a skos:Concept;
+skos:prefLabel"mining"@en.
+
+<http://dbpedia.org/resource/Category:Civil_rights_and_liberties> a skos:Concept;
+skos:prefLabel"Civil_rights_and_liberties"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Privacy> .
+<http://dbpedia.org/resource/Category:Aquatic_vertebrates> a skos:Concept;
+skos:prefLabel"Aquatic_vertebrates"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Fish> .
+<http://dbpedia.org/resource/Category:Computing> a skos:Concept;
+skos:prefLabel"Computing"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Software> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Internet> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Computers> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Data> .
+<http://dbpedia.org/resource/Category:Media_manipulation> a skos:Concept;
+skos:prefLabel"Media_manipulation"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Advertising> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Marketing> .
+<http://dbpedia.org/resource/Category:Human_Body> a skos:Concept;
+skos:prefLabel"human_body"@en.
+
+<http://dbpedia.org/resource/Category:Synthetic_Biology> a skos:Concept;
+skos:prefLabel"synthetic_biology"@en.
+
+<http://dbpedia.org/resource/Category:Epidemiology> a skos:Concept;
+skos:prefLabel"epidemiology"@en.
+
+<http://dbpedia.org/resource/Category:Money> a skos:Concept;
+skos:prefLabel"Money"@en;
+skos:broader <http://dbpedia.org/resource/Category:Economy> ;skos:narrower <http://dbpedia.org/resource/Category:Finance> .
+<http://dbpedia.org/resource/Category:Prevention> a skos:Concept;
+skos:prefLabel"Prevention"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Security> .
+<http://dbpedia.org/resource/Category:Biodiversity> a skos:Concept;
+skos:prefLabel"biodiversity"@en.
+
+<http://dbpedia.org/resource/Category:Nasa> a skos:Concept;
+skos:prefLabel"nasa"@en.
+
+<http://dbpedia.org/resource/Category:Feeling> a skos:Concept;
+skos:prefLabel"Feeling"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Pain> .
+<http://dbpedia.org/resource/Category:Women's_rights> a skos:Concept;
+skos:prefLabel"Women's_rights"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Feminism> .
+<http://dbpedia.org/resource/Category:Autonomy> a skos:Concept;
+skos:prefLabel"Autonomy"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Suicide> .
+<http://dbpedia.org/resource/Category:Law> a skos:Concept;
+skos:prefLabel"law"@en;
+skos:broader <http://dbpedia.org/resource/Category:Professional_studies> ; 
+skos:broader <http://dbpedia.org/resource/Category:Virtue> ; 
+skos:broader <http://dbpedia.org/resource/Category:Social_sciences> ; 
+skos:broader <http://dbpedia.org/resource/Category:Justice> ; 
+skos:broader <http://dbpedia.org/resource/Category:Government> ; 
+skos:broader <http://dbpedia.org/resource/Category:Social_institutions> ; 
+skos:broader <http://dbpedia.org/resource/Category:Government_information> ; 
+skos:broader <http://dbpedia.org/resource/Category:Humanities> ; 
+skos:broader <http://dbpedia.org/resource/Category:Social_concepts> ;skos:narrower <http://dbpedia.org/resource/Category:Politics> .
+<http://dbpedia.org/resource/Category:Software_companies_based_in_Washington_(state)> a skos:Concept;
+skos:prefLabel"Software_companies_based_in_Washington_(state)"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Microsoft> .
+<http://dbpedia.org/resource/Category:Africa> a skos:Concept;
+skos:prefLabel"africa"@en.
+
+<http://dbpedia.org/resource/Category:Observation> a skos:Concept;
+skos:prefLabel"Observation"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Journalism> .
+<http://dbpedia.org/resource/Category:Moons> a skos:Concept;
+skos:prefLabel"Moons"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Moon> .
+<http://dbpedia.org/resource/Category:Commonwealth_republics> a skos:Concept;
+skos:prefLabel"Commonwealth_republics"@en;
+skos:narrower <http://dbpedia.org/resource/Category:India> .
+<http://dbpedia.org/resource/Category:Cyberspace> a skos:Concept;
+skos:prefLabel"Cyberspace"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Internet> .
+<http://dbpedia.org/resource/Category:Sociology> a skos:Concept;
+skos:prefLabel"sociology"@en.
+
+<http://dbpedia.org/resource/Category:Introvert> a skos:Concept;
+skos:prefLabel"introvert"@en.
+
+<http://dbpedia.org/resource/Category:Religion> a skos:Concept;
+skos:prefLabel"religion"@en.
+
+<http://dbpedia.org/resource/Category:Cultural_trends> a skos:Concept;
+skos:prefLabel"Cultural_trends"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Fashion> .
+<http://dbpedia.org/resource/Category:Tedyouth> a skos:Concept;
+skos:prefLabel"tedyouth"@en.
+
+<http://dbpedia.org/resource/Category:Rocket_Science> a skos:Concept;
+skos:prefLabel"rocket_science"@en.
+
+<http://dbpedia.org/resource/Category:G15_nations> a skos:Concept;
+skos:prefLabel"G15_nations"@en;
+skos:narrower <http://dbpedia.org/resource/Category:India> .
+<http://dbpedia.org/resource/Category:Visual_disturbances_and_blindness> a skos:Concept;
+skos:prefLabel"Visual_disturbances_and_blindness"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Blindness> .
+<http://dbpedia.org/resource/Category:E7_nations> a skos:Concept;
+skos:prefLabel"E7_nations"@en;
+skos:narrower <http://dbpedia.org/resource/Category:India> .
+<http://dbpedia.org/resource/Category:Killings_by_type> a skos:Concept;
+skos:prefLabel"Killings_by_type"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Suicide> .
+<http://dbpedia.org/resource/Category:Ted_Residency> a skos:Concept;
+skos:prefLabel"ted_residency"@en.
+
+<http://dbpedia.org/resource/Category:Glacier> a skos:Concept;
+skos:prefLabel"glacier"@en.
+
+<http://dbpedia.org/resource/Category:Performance> a skos:Concept;
+skos:prefLabel"performance"@en.
+
+<http://dbpedia.org/resource/Category:International_security> a skos:Concept;
+skos:prefLabel"International_security"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Military> ; 
+skos:narrower <http://dbpedia.org/resource/Category:War> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Peace> .
+<http://dbpedia.org/resource/Category:Levant> a skos:Concept;
+skos:prefLabel"Levant"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Syria> .
+<http://dbpedia.org/resource/Category:Nuclear_Weapons> a skos:Concept;
+skos:prefLabel"nuclear_weapons"@en.
+
+<http://dbpedia.org/resource/Category:Regions> a skos:Concept;
+skos:prefLabel"Regions"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Oceans> .
+<http://dbpedia.org/resource/Category:Central_Asian_countries> a skos:Concept;
+skos:prefLabel"Central_Asian_countries"@en;
+skos:narrower <http://dbpedia.org/resource/Category:China> .
+<http://dbpedia.org/resource/Category:Nanoscale> a skos:Concept;
+skos:prefLabel"nanoscale"@en.
+
+<http://dbpedia.org/resource/Category:Justice> a skos:Concept;
+skos:prefLabel"Justice"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Law> .
+<http://dbpedia.org/resource/Category:Pleasure> a skos:Concept;
+skos:prefLabel"Pleasure"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Happiness> .
+<http://dbpedia.org/resource/Category:Crimes_against_humanity> a skos:Concept;
+skos:prefLabel"Crimes_against_humanity"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Slavery> .
+<http://dbpedia.org/resource/Category:Federal_republics> a skos:Concept;
+skos:prefLabel"Federal_republics"@en;
+skos:narrower <http://dbpedia.org/resource/Category:India> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Brazil> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Iraq> .
+<http://dbpedia.org/resource/Category:States_and_territories_established_in_1947> a skos:Concept;
+skos:prefLabel"States_and_territories_established_in_1947"@en;
+skos:narrower <http://dbpedia.org/resource/Category:India> .
+<http://dbpedia.org/resource/Category:Statistics> a skos:Concept;
+skos:prefLabel"statistics"@en.
+
+<http://dbpedia.org/resource/Category:People_by_status> a skos:Concept;
+skos:prefLabel"People_by_status"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Refugees> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Children> .
+<http://dbpedia.org/resource/Category:Politics> a skos:Concept;
+skos:prefLabel"Politics"@en;
+skos:broader <http://dbpedia.org/resource/Category:Humanities> ; 
+skos:broader <http://dbpedia.org/resource/Category:Public_sphere> ; 
+skos:broader <http://dbpedia.org/resource/Category:Law> ;skos:narrower <http://dbpedia.org/resource/Category:Activism> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Government> .
+<http://dbpedia.org/resource/Category:Algorithm> a skos:Concept;
+skos:prefLabel"algorithm"@en.
+
+<http://dbpedia.org/resource/Category:Sensory_systems> a skos:Concept;
+skos:prefLabel"Sensory_systems"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Senses> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Pain> .
+<http://dbpedia.org/resource/Category:Corruption> a skos:Concept;
+skos:prefLabel"corruption"@en.
+
+<http://dbpedia.org/resource/Category:Literature> a skos:Concept;
+skos:prefLabel"literature"@en;
+skos:broader <http://dbpedia.org/resource/Category:Fiction> ; 
+skos:broader <http://dbpedia.org/resource/Category:Written_communication> ; 
+skos:broader <http://dbpedia.org/resource/Category:Works_by_academic_discipline> ; 
+skos:broader <http://dbpedia.org/resource/Category:Writing> ; 
+skos:broader <http://dbpedia.org/resource/Category:Culture> ; 
+skos:broader <http://dbpedia.org/resource/Category:Narratology> ; 
+skos:broader <http://dbpedia.org/resource/Category:Works_by_medium> ; 
+skos:broader <http://dbpedia.org/resource/Category:Arts_by_type> ;skos:narrower <http://dbpedia.org/resource/Category:Poetry> .
+<http://dbpedia.org/resource/Category:Medical_specialties> a skos:Concept;
+skos:prefLabel"Medical_specialties"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Surgery> .
+<http://dbpedia.org/resource/Category:Keyboard_instruments> a skos:Concept;
+skos:prefLabel"Keyboard_instruments"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Piano> .
+<http://dbpedia.org/resource/Category:Crimes> a skos:Concept;
+skos:prefLabel"Crimes"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Corruption> .
+<http://dbpedia.org/resource/Category:Buddhism> a skos:Concept;
+skos:prefLabel"buddhism"@en.
+
+<http://dbpedia.org/resource/Category:Astronomical_objects> a skos:Concept;
+skos:prefLabel"Astronomical_objects"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Planets> .
+<http://dbpedia.org/resource/Category:Microorganisms> a skos:Concept;
+skos:prefLabel"Microorganisms"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Bacteria> .
+<http://dbpedia.org/resource/Category:Robots> a skos:Concept;
+skos:prefLabel"robots"@en.
+
+<http://dbpedia.org/resource/Category:Travel> a skos:Concept;
+skos:prefLabel"travel"@en.
+
+<http://dbpedia.org/resource/Category:State-Building> a skos:Concept;
+skos:prefLabel"state-building"@en.
+
+<http://dbpedia.org/resource/Category:Beauty> a skos:Concept;
+skos:prefLabel"beauty"@en.
+
+<http://dbpedia.org/resource/Category:Open-Source> a skos:Concept;
+skos:prefLabel"open-source"@en.
+
+<http://dbpedia.org/resource/Category:China> a skos:Concept;
+skos:prefLabel"china"@en.
+
+<http://dbpedia.org/resource/Category:Minerals> a skos:Concept;
+skos:prefLabel"Minerals"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Mining> .
+<http://dbpedia.org/resource/Category:Printing> a skos:Concept;
+skos:prefLabel"Printing"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Books> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Typography> .
+<http://dbpedia.org/resource/Category:Law_enforcement_techniques> a skos:Concept;
+skos:prefLabel"Law_enforcement_techniques"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Surveillance> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Forensics> .
+<http://dbpedia.org/resource/Category:Television> a skos:Concept;
+skos:prefLabel"television"@en.
+
+<http://dbpedia.org/resource/Category:Vespoidea> a skos:Concept;
+skos:prefLabel"Vespoidea"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Ants> .
+<http://dbpedia.org/resource/Category:Violent_conflict> a skos:Concept;
+skos:prefLabel"Violent_conflict"@en;
+skos:narrower <http://dbpedia.org/resource/Category:War> .
+<http://dbpedia.org/resource/Category:Waves> a skos:Concept;
+skos:prefLabel"Waves"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Sound> .
+<http://dbpedia.org/resource/Category:Sexually_transmitted_diseases_and_infections> a skos:Concept;
+skos:prefLabel"Sexually_transmitted_diseases_and_infections"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Ebola> .
+<http://dbpedia.org/resource/Category:Brain> a skos:Concept;
+skos:prefLabel"brain"@en;
+skos:broader <http://dbpedia.org/resource/Category:Organs_(anatomy)> ; 
+skos:broader <http://dbpedia.org/resource/Category:Human_anatomy_by_organ> ; 
+skos:broader <http://dbpedia.org/resource/Category:Central_nervous_system> ; 
+skos:broader <http://dbpedia.org/resource/Category:Neuroscience> ; 
+skos:broader <http://dbpedia.org/resource/Category:Animal_anatomy> ;skos:narrower <http://dbpedia.org/resource/Category:Mind> .
+<http://dbpedia.org/resource/Category:Potential> a skos:Concept;
+skos:prefLabel"potential"@en.
+
+<http://dbpedia.org/resource/Category:Sociological_theories> a skos:Concept;
+skos:prefLabel"Sociological_theories"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Feminism> .
+<http://dbpedia.org/resource/Category:Cello> a skos:Concept;
+skos:prefLabel"cello"@en.
+
+<http://dbpedia.org/resource/Category:Gender_Equality> a skos:Concept;
+skos:prefLabel"gender_equality"@en.
+
+<http://dbpedia.org/resource/Category:Composing> a skos:Concept;
+skos:prefLabel"composing"@en.
+
+<http://dbpedia.org/resource/Category:Natural_environment> a skos:Concept;
+skos:prefLabel"Natural_environment"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Ecology> .
+<http://dbpedia.org/resource/Category:Reliability_engineering> a skos:Concept;
+skos:prefLabel"Reliability_engineering"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Failure> .
+<http://dbpedia.org/resource/Category:New_York> a skos:Concept;
+skos:prefLabel"new_york"@en.
+
+<http://dbpedia.org/resource/Category:Deviance_(sociology)> a skos:Concept;
+skos:prefLabel"Deviance_(sociology)"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Crime> .
+<http://dbpedia.org/resource/Category:Conducting> a skos:Concept;
+skos:prefLabel"conducting"@en.
+
+<http://dbpedia.org/resource/Category:Astronomy> a skos:Concept;
+skos:prefLabel"astronomy"@en.
+
+<http://dbpedia.org/resource/Category:Violence> a skos:Concept;
+skos:prefLabel"Violence"@en;
+skos:broader <http://dbpedia.org/resource/Category:Causes_of_death> ; 
+skos:broader <http://dbpedia.org/resource/Category:Aggression> ;skos:narrower <http://dbpedia.org/resource/Category:Terrorism> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Nonviolence> .
+<http://dbpedia.org/resource/Category:Biomedical_engineering> a skos:Concept;
+skos:prefLabel"Biomedical_engineering"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Prosthetics> .
+<http://dbpedia.org/resource/Category:Style> a skos:Concept;
+skos:prefLabel"Style"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Fashion> .
+<http://dbpedia.org/resource/Category:Web_2.0_neologisms> a skos:Concept;
+skos:prefLabel"Web_2.0_neologisms"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Crowdsourcing> .
+<http://dbpedia.org/resource/Category:Sanitation> a skos:Concept;
+skos:prefLabel"sanitation"@en.
+
+<http://dbpedia.org/resource/Category:Wikimedia_projects> a skos:Concept;
+skos:prefLabel"Wikimedia_projects"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Wikipedia> .
+<http://dbpedia.org/resource/Category:Psychology> a skos:Concept;
+skos:prefLabel"psychology"@en.
+
+<http://dbpedia.org/resource/Category:Web_2.0> a skos:Concept;
+skos:prefLabel"Web_2.0"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Crowdsourcing> .
+<http://dbpedia.org/resource/Category:Outsourcing> a skos:Concept;
+skos:prefLabel"Outsourcing"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Crowdsourcing> .
+<http://dbpedia.org/resource/Category:Victims_of_human_rights_abuses> a skos:Concept;
+skos:prefLabel"Victims_of_human_rights_abuses"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Refugees> .
+<http://dbpedia.org/resource/Category:Auxiliary_sciences_of_history> a skos:Concept;
+skos:prefLabel"Auxiliary_sciences_of_history"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Archaeology> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Statistics> .
+<http://dbpedia.org/resource/Category:Human_rights_abuses> a skos:Concept;
+skos:prefLabel"Human_rights_abuses"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Slavery> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Terrorism> ; 
+skos:narrower <http://dbpedia.org/resource/Category:War> .
+<http://dbpedia.org/resource/Category:Drugs> a skos:Concept;
+skos:prefLabel"Drugs"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Vaccines> .
+<http://dbpedia.org/resource/Category:Future> a skos:Concept;
+skos:prefLabel"future"@en;
+skos:broader <http://dbpedia.org/resource/Category:Time> ;skos:narrower <http://dbpedia.org/resource/Category:Prediction> .
+<http://dbpedia.org/resource/Category:Green> a skos:Concept;
+skos:prefLabel"green"@en.
+
+<http://dbpedia.org/resource/Category:Success> a skos:Concept;
+skos:prefLabel"success"@en.
+
+<http://dbpedia.org/resource/Category:Presentation> a skos:Concept;
+skos:prefLabel"presentation"@en.
+
+<http://dbpedia.org/resource/Category:Surveillance> a skos:Concept;
+skos:prefLabel"surveillance"@en.
+
+<http://dbpedia.org/resource/Category:Islam> a skos:Concept;
+skos:prefLabel"islam"@en.
+
+<http://dbpedia.org/resource/Category:Ai> a skos:Concept;
+skos:prefLabel"ai"@en.
+
+<http://dbpedia.org/resource/Category:Hiv> a skos:Concept;
+skos:prefLabel"hiv"@en.
+
+<http://dbpedia.org/resource/Category:Work> a skos:Concept;
+skos:prefLabel"work"@en.
+
+<http://dbpedia.org/resource/Category:Subfields_of_geology> a skos:Concept;
+skos:prefLabel"Subfields_of_geology"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Paleontology> .
+<http://dbpedia.org/resource/Category:Forced_migration> a skos:Concept;
+skos:prefLabel"Forced_migration"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Refugees> .
+<http://dbpedia.org/resource/Category:Aftermath_of_war> a skos:Concept;
+skos:prefLabel"Aftermath_of_war"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Refugees> .
+<http://dbpedia.org/resource/Category:Emotions> a skos:Concept;
+skos:prefLabel"Emotions"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Love> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Happiness> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Fear> .
+<http://dbpedia.org/resource/Category:Testing> a skos:Concept;
+skos:prefLabel"testing"@en.
+
+<http://dbpedia.org/resource/Category:Human_rights_by_issue> a skos:Concept;
+skos:prefLabel"Human_rights_by_issue"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Privacy> .
+<http://dbpedia.org/resource/Category:Evil> a skos:Concept;
+skos:prefLabel"evil"@en.
+
+<http://dbpedia.org/resource/Category:Information_Age> a skos:Concept;
+skos:prefLabel"Information_Age"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Internet> .
+<http://dbpedia.org/resource/Category:Europe> a skos:Concept;
+skos:prefLabel"europe"@en.
+
+<http://dbpedia.org/resource/Category:Decision-making> a skos:Concept;
+skos:prefLabel"Decision-making"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Policy> .
+<http://dbpedia.org/resource/Category:Afro-Eurasia> a skos:Concept;
+skos:prefLabel"Afro-Eurasia"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Africa> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Europe> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Asia> .
+<http://dbpedia.org/resource/Category:Boardsports> a skos:Concept;
+skos:prefLabel"Boardsports"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Skateboarding> .
+<http://dbpedia.org/resource/Category:Unfree_labour> a skos:Concept;
+skos:prefLabel"Unfree_labour"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Slavery> .
+<http://dbpedia.org/resource/Category:Guitar> a skos:Concept;
+skos:prefLabel"guitar"@en.
+
+<http://dbpedia.org/resource/Category:Earth> a skos:Concept;
+skos:prefLabel"Earth"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Oceans> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Moon> .
+<http://dbpedia.org/resource/Category:Concepts_in_metaphysics> a skos:Concept;
+skos:prefLabel"Concepts_in_metaphysics"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Time> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Mind> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Identity> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Self> .
+<http://dbpedia.org/resource/Category:Activism_by_type> a skos:Concept;
+skos:prefLabel"Activism_by_type"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Protests> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Philanthropy> .
+<http://dbpedia.org/resource/Category:Promotion_and_marketing_communications> a skos:Concept;
+skos:prefLabel"Promotion_and_marketing_communications"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Advertising> .
+<http://dbpedia.org/resource/Category:Determinants_of_health> a skos:Concept;
+skos:prefLabel"Determinants_of_health"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Sleep> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Pollution> .
+<http://dbpedia.org/resource/Category:Invention> a skos:Concept;
+skos:prefLabel"invention"@en.
+
+<http://dbpedia.org/resource/Category:Personal_life> a skos:Concept;
+skos:prefLabel"Personal_life"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Happiness> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Entertainment> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Love> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Privacy> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Health> .
+<http://dbpedia.org/resource/Category:Meditation> a skos:Concept;
+skos:prefLabel"meditation"@en;
+skos:broader <http://dbpedia.org/resource/Category:Mental_training> ; 
+skos:broader <http://dbpedia.org/resource/Category:Religious_behaviour_and_experience> ; 
+skos:broader <http://dbpedia.org/resource/Category:Mind–body_interventions> ; 
+skos:broader <http://dbpedia.org/resource/Category:Spirituality> ;skos:narrower <http://dbpedia.org/resource/Category:Mindfulness> .
+<http://dbpedia.org/resource/Category:String_Theory> a skos:Concept;
+skos:prefLabel"string_theory"@en.
+
+<http://dbpedia.org/resource/Category:Anxiety> a skos:Concept;
+skos:prefLabel"Anxiety"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Fear> .
+<http://dbpedia.org/resource/Category:Mutualism_(movement)> a skos:Concept;
+skos:prefLabel"Mutualism_(movement)"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Microfinance> .
+<http://dbpedia.org/resource/Category:Novel> a skos:Concept;
+skos:prefLabel"novel"@en.
+
+<http://dbpedia.org/resource/Category:Male_mammals> a skos:Concept;
+skos:prefLabel"Male_mammals"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Men> .
+<http://dbpedia.org/resource/Category:Historical_geology> a skos:Concept;
+skos:prefLabel"Historical_geology"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Paleontology> .
+<http://dbpedia.org/resource/Category:Creativity> a skos:Concept;
+skos:prefLabel"creativity"@en;
+skos:broader <http://dbpedia.org/resource/Category:Cognition> ; 
+skos:broader <http://dbpedia.org/resource/Category:Human_behavior> ; 
+skos:broader <http://dbpedia.org/resource/Category:Educational_psychology> ; 
+skos:broader <http://dbpedia.org/resource/Category:Intelligence> ;skos:narrower <http://dbpedia.org/resource/Category:Innovation> .
+<http://dbpedia.org/resource/Category:Member_states_of_the_Union_of_South_American_Nations> a skos:Concept;
+skos:prefLabel"Member_states_of_the_Union_of_South_American_Nations"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Brazil> .
+<http://dbpedia.org/resource/Category:Persecution> a skos:Concept;
+skos:prefLabel"Persecution"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Refugees> .
+<http://dbpedia.org/resource/Category:Mashriq> a skos:Concept;
+skos:prefLabel"Mashriq"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Syria> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Iraq> .
+<http://dbpedia.org/resource/Category:Foreign_Policy> a skos:Concept;
+skos:prefLabel"foreign_policy"@en.
+
+<http://dbpedia.org/resource/Category:Hyperalimentation> a skos:Concept;
+skos:prefLabel"Hyperalimentation"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Obesity> .
+<http://dbpedia.org/resource/Category:Paper_folding> a skos:Concept;
+skos:prefLabel"Paper_folding"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Origami> .
+<http://dbpedia.org/resource/Category:Military_science> a skos:Concept;
+skos:prefLabel"Military_science"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Vulnerability> .
+<http://dbpedia.org/resource/Category:Farming> a skos:Concept;
+skos:prefLabel"farming"@en.
+
+<http://dbpedia.org/resource/Category:Theism> a skos:Concept;
+skos:prefLabel"Theism"@en;
+skos:narrower <http://dbpedia.org/resource/Category:God> .
+<http://dbpedia.org/resource/Category:Information_retrieval_organizations> a skos:Concept;
+skos:prefLabel"Information_retrieval_organizations"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Google> .
+<http://dbpedia.org/resource/Category:Women_In_Business> a skos:Concept;
+skos:prefLabel"women_in_business"@en.
+
+<http://dbpedia.org/resource/Category:Drones> a skos:Concept;
+skos:prefLabel"drones"@en.
+
+<http://dbpedia.org/resource/Category:Aircraft> a skos:Concept;
+skos:prefLabel"aircraft"@en.
+
+<http://dbpedia.org/resource/Category:Physical_cosmology> a skos:Concept;
+skos:prefLabel"Physical_cosmology"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Big_Bang> .
+<http://dbpedia.org/resource/Category:Science> a skos:Concept;
+skos:prefLabel"science"@en.
+
+<http://dbpedia.org/resource/Category:Computer_companies_established_in_1975> a skos:Concept;
+skos:prefLabel"Computer_companies_established_in_1975"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Microsoft> .
+<http://dbpedia.org/resource/Category:Combat> a skos:Concept;
+skos:prefLabel"Combat"@en;
+skos:narrower <http://dbpedia.org/resource/Category:War> .
+<http://dbpedia.org/resource/Category:Exploration> a skos:Concept;
+skos:prefLabel"exploration"@en.
+
+<http://dbpedia.org/resource/Category:Communication> a skos:Concept;
+skos:prefLabel"communication"@en;
+skos:broader <http://dbpedia.org/resource/Category:Information> ; 
+skos:broader <http://dbpedia.org/resource/Category:Society> ; 
+skos:broader <http://dbpedia.org/resource/Category:Behavior> ; 
+skos:broader <http://dbpedia.org/resource/Category:Semiotics> ;skos:narrower <http://dbpedia.org/resource/Category:Teaching> .
+<http://dbpedia.org/resource/Category:Works_by_medium> a skos:Concept;
+skos:prefLabel"Works_by_medium"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Literature> .
+<http://dbpedia.org/resource/Category:Gaming> a skos:Concept;
+skos:prefLabel"gaming"@en.
+
+<http://dbpedia.org/resource/Category:Leisure> a skos:Concept;
+skos:prefLabel"Leisure"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Entertainment> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Sports> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Travel> .
+<http://dbpedia.org/resource/Category:Big_Bang> a skos:Concept;
+skos:prefLabel"big_bang"@en.
+
+<http://dbpedia.org/resource/Category:Concepts_in_aesthetics> a skos:Concept;
+skos:prefLabel"Concepts_in_aesthetics"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Entertainment> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Comedy> .
+<http://dbpedia.org/resource/Category:Archaeology> a skos:Concept;
+skos:prefLabel"archaeology"@en.
+
+<http://dbpedia.org/resource/Category:Diasporas> a skos:Concept;
+skos:prefLabel"Diasporas"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Refugees> .
+<http://dbpedia.org/resource/Category:Intellectual_works> a skos:Concept;
+skos:prefLabel"Intellectual_works"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Software> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Technology> .
+<http://dbpedia.org/resource/Category:War> a skos:Concept;
+skos:prefLabel"war"@en.
+
+<http://dbpedia.org/resource/Category:Trust> a skos:Concept;
+skos:prefLabel"trust"@en.
+
+<http://dbpedia.org/resource/Category:History_of_social_movements> a skos:Concept;
+skos:prefLabel"History_of_social_movements"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Protests> .
+<http://dbpedia.org/resource/Category:Aerodynamics> a skos:Concept;
+skos:prefLabel"Aerodynamics"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Flight> .
+<http://dbpedia.org/resource/Category:Human_geography> a skos:Concept;
+skos:prefLabel"Human_geography"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Population> .
+<http://dbpedia.org/resource/Category:Self-sufficiency> a skos:Concept;
+skos:prefLabel"Self-sufficiency"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Sustainability> .
+<http://dbpedia.org/resource/Category:Physical_universe> a skos:Concept;
+skos:prefLabel"Physical_universe"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Energy> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Nature> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Space> .
+<http://dbpedia.org/resource/Category:Mental_content> a skos:Concept;
+skos:prefLabel"Mental_content"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Consciousness> .
+<http://dbpedia.org/resource/Category:Sexual_reproduction> a skos:Concept;
+skos:prefLabel"Sexual_reproduction"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Sex> .
+<http://dbpedia.org/resource/Category:Special_effects> a skos:Concept;
+skos:prefLabel"Special_effects"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Animation> .
+<http://dbpedia.org/resource/Category:Financial_problems> a skos:Concept;
+skos:prefLabel"Financial_problems"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Corruption> .
+<http://dbpedia.org/resource/Category:BRICS_nations> a skos:Concept;
+skos:prefLabel"BRICS_nations"@en;
+skos:narrower <http://dbpedia.org/resource/Category:India> .
+<http://dbpedia.org/resource/Category:Animal_viral_diseases> a skos:Concept;
+skos:prefLabel"Animal_viral_diseases"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Ebola> .
+<http://dbpedia.org/resource/Category:Philosophy_of_biology> a skos:Concept;
+skos:prefLabel"Philosophy_of_biology"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Bioethics> .
+<http://dbpedia.org/resource/Category:Obesity> a skos:Concept;
+skos:prefLabel"obesity"@en.
+
+<http://dbpedia.org/resource/Category:Museology> a skos:Concept;
+skos:prefLabel"Museology"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Anthropology> .
+<http://dbpedia.org/resource/Category:Anthropocene> a skos:Concept;
+skos:prefLabel"anthropocene"@en.
+
+<http://dbpedia.org/resource/Category:Solar_Energy> a skos:Concept;
+skos:prefLabel"solar_energy"@en.
+
+<http://dbpedia.org/resource/Category:Americas> a skos:Concept;
+skos:prefLabel"Americas"@en;
+skos:narrower <http://dbpedia.org/resource/Category:South_America> .
+<http://dbpedia.org/resource/Category:Plastic> a skos:Concept;
+skos:prefLabel"plastic"@en.
+
+<http://dbpedia.org/resource/Category:Tropical_diseases> a skos:Concept;
+skos:prefLabel"Tropical_diseases"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Ebola> .
+<http://dbpedia.org/resource/Category:Play> a skos:Concept;
+skos:prefLabel"play"@en.
+
+<http://dbpedia.org/resource/Category:Middle_Eastern_countries> a skos:Concept;
+skos:prefLabel"Middle_Eastern_countries"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Syria> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Iraq> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Egypt> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Iran> .
+<http://dbpedia.org/resource/Category:Horticulture_and_gardening> a skos:Concept;
+skos:prefLabel"Horticulture_and_gardening"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Plants> .
+<http://dbpedia.org/resource/Category:Music> a skos:Concept;
+skos:prefLabel"music"@en.
+
+<http://dbpedia.org/resource/Category:Cognition> a skos:Concept;
+skos:prefLabel"Cognition"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Intelligence> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Creativity> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Language> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Motivation> .
+<http://dbpedia.org/resource/Category:Microfinance> a skos:Concept;
+skos:prefLabel"microfinance"@en.
+
+<http://dbpedia.org/resource/Category:Nonviolence> a skos:Concept;
+skos:prefLabel"nonviolence"@en;
+skos:broader <http://dbpedia.org/resource/Category:Violence> ; 
+skos:broader <http://dbpedia.org/resource/Category:Issues_in_ethics> ;skos:narrower <http://dbpedia.org/resource/Category:Peace> .
+<http://dbpedia.org/resource/Category:Behavioural_sciences> a skos:Concept;
+skos:prefLabel"Behavioural_sciences"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Psychology> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Sociology> .
+<http://dbpedia.org/resource/Category:Environmental_science> a skos:Concept;
+skos:prefLabel"Environmental_science"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Nature> .
+<http://dbpedia.org/resource/Category:Capitalism> a skos:Concept;
+skos:prefLabel"capitalism"@en.
+
+<http://dbpedia.org/resource/Category:Military> a skos:Concept;
+skos:prefLabel"military"@en.
+
+<http://dbpedia.org/resource/Category:Economic_ideologies> a skos:Concept;
+skos:prefLabel"Economic_ideologies"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Consumerism> .
+<http://dbpedia.org/resource/Category:Ancient_World> a skos:Concept;
+skos:prefLabel"ancient_world"@en.
+
+<http://dbpedia.org/resource/Category:Social_Media> a skos:Concept;
+skos:prefLabel"social_media"@en.
+
+<http://dbpedia.org/resource/Category:Clinical_pathology> a skos:Concept;
+skos:prefLabel"Clinical_pathology"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Microbiology> .
+<http://dbpedia.org/resource/Category:Urban_Planning> a skos:Concept;
+skos:prefLabel"urban_planning"@en.
+
+<http://dbpedia.org/resource/Category:Environment> a skos:Concept;
+skos:prefLabel"environment"@en.
+
+<http://dbpedia.org/resource/Category:Cognitive_science> a skos:Concept;
+skos:prefLabel"Cognitive_science"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Memory> .
+<http://dbpedia.org/resource/Category:Positive_psychology> a skos:Concept;
+skos:prefLabel"Positive_psychology"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Happiness> .
+<http://dbpedia.org/resource/Category:Belief> a skos:Concept;
+skos:prefLabel"Belief"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Philosophy> .
+<http://dbpedia.org/resource/Category:Positive_mental_attitude> a skos:Concept;
+skos:prefLabel"Positive_mental_attitude"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Happiness> .
+<http://dbpedia.org/resource/Category:Organic_gardening> a skos:Concept;
+skos:prefLabel"Organic_gardening"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Bees> .
+<http://dbpedia.org/resource/Category:Aesthetics> a skos:Concept;
+skos:prefLabel"Aesthetics"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Design> .
+<http://dbpedia.org/resource/Category:Art_media> a skos:Concept;
+skos:prefLabel"Art_media"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Film> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Architecture> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Painting> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Television> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Photography> .
+<http://dbpedia.org/resource/Category:Government_information> a skos:Concept;
+skos:prefLabel"Government_information"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Law> .
+<http://dbpedia.org/resource/Category:Dark_Matter> a skos:Concept;
+skos:prefLabel"dark_matter"@en.
+
+<http://dbpedia.org/resource/Category:Wikipedia_categories_named_after_events> a skos:Concept;
+skos:prefLabel"Wikipedia_categories_named_after_events"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Big_Bang> .
+<http://dbpedia.org/resource/Category:LGBT> a skos:Concept;
+skos:prefLabel"LGBT"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Transgender> .
+<http://dbpedia.org/resource/Category:Business_economics> a skos:Concept;
+skos:prefLabel"Business_economics"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Marketing> .
+<http://dbpedia.org/resource/Category:Intimate_relationships> a skos:Concept;
+skos:prefLabel"Intimate_relationships"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Love> .
+<http://dbpedia.org/resource/Category:Environmental_social_science_concepts> a skos:Concept;
+skos:prefLabel"Environmental_social_science_concepts"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Sustainability> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Nature> .
+<http://dbpedia.org/resource/Category:Filmmaking> a skos:Concept;
+skos:prefLabel"Filmmaking"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Animation> .
+<http://dbpedia.org/resource/Category:Design> a skos:Concept;
+skos:prefLabel"design"@en;
+skos:broader <http://dbpedia.org/resource/Category:Applied_sciences> ; 
+skos:broader <http://dbpedia.org/resource/Category:Structure> ; 
+skos:broader <http://dbpedia.org/resource/Category:Aesthetics> ; 
+skos:broader <http://dbpedia.org/resource/Category:Visual_arts> ;skos:narrower <http://dbpedia.org/resource/Category:Innovation> .
+<http://dbpedia.org/resource/Category:Sight> a skos:Concept;
+skos:prefLabel"sight"@en.
+
+<http://dbpedia.org/resource/Category:Clothing> a skos:Concept;
+skos:prefLabel"Clothing"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Fashion> .
+<http://dbpedia.org/resource/Category:Human_migration> a skos:Concept;
+skos:prefLabel"Human_migration"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Immigration> .
+<http://dbpedia.org/resource/Category:Grammar> a skos:Concept;
+skos:prefLabel"grammar"@en.
+
+<http://dbpedia.org/resource/Category:Banking> a skos:Concept;
+skos:prefLabel"Banking"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Microfinance> .
+<http://dbpedia.org/resource/Category:Water> a skos:Concept;
+skos:prefLabel"water"@en.
+
+<http://dbpedia.org/resource/Category:Natural_Disaster> a skos:Concept;
+skos:prefLabel"natural_disaster"@en.
+
+<http://dbpedia.org/resource/Category:Lgbt> a skos:Concept;
+skos:prefLabel"lgbt"@en.
+
+<http://dbpedia.org/resource/Category:Travelers> a skos:Concept;
+skos:prefLabel"Travelers"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Refugees> .
+<http://dbpedia.org/resource/Category:Cyborg> a skos:Concept;
+skos:prefLabel"cyborg"@en.
+
+<http://dbpedia.org/resource/Category:Global_Development> a skos:Concept;
+skos:prefLabel"global_development"@en.
+
+<http://dbpedia.org/resource/Category:Digital_labor> a skos:Concept;
+skos:prefLabel"Digital_labor"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Crowdsourcing> .
+<http://dbpedia.org/resource/Category:Hymenoptera> a skos:Concept;
+skos:prefLabel"Hymenoptera"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Ants> .
+<http://dbpedia.org/resource/Category:Collaboration> a skos:Concept;
+skos:prefLabel"collaboration"@en;
+skos:broader <http://dbpedia.org/resource/Category:Human_communication> ; 
+skos:broader <http://dbpedia.org/resource/Category:Group_processes> ; 
+skos:broader <http://dbpedia.org/resource/Category:Organizational_culture> ; 
+skos:broader <http://dbpedia.org/resource/Category:International_relations> ; 
+skos:broader <http://dbpedia.org/resource/Category:Organizational_behavior> ;skos:narrower <http://dbpedia.org/resource/Category:Crowdsourcing> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Community> .
+<http://dbpedia.org/resource/Category:Neoplasms> a skos:Concept;
+skos:prefLabel"Neoplasms"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Cancer> .
+<http://dbpedia.org/resource/Category:Production_and_manufacturing> a skos:Concept;
+skos:prefLabel"Production_and_manufacturing"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Manufacturing> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Resources> .
+<http://dbpedia.org/resource/Category:Criminal_Justice> a skos:Concept;
+skos:prefLabel"criminal_justice"@en.
+
+<http://dbpedia.org/resource/Category:Human_weight> a skos:Concept;
+skos:prefLabel"Human_weight"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Obesity> .
+<http://dbpedia.org/resource/Category:Finance> a skos:Concept;
+skos:prefLabel"finance"@en;
+skos:broader <http://dbpedia.org/resource/Category:Money> ;skos:narrower <http://dbpedia.org/resource/Category:Investment> .
+<http://dbpedia.org/resource/Category:Conceptual_systems> a skos:Concept;
+skos:prefLabel"Conceptual_systems"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Language> .
+<http://dbpedia.org/resource/Category:Resources> a skos:Concept;
+skos:prefLabel"resources"@en.
+
+<http://dbpedia.org/resource/Category:Mammals_by_classification> a skos:Concept;
+skos:prefLabel"Mammals_by_classification"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Primates> .
+<http://dbpedia.org/resource/Category:Water_streams> a skos:Concept;
+skos:prefLabel"Water_streams"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Rivers> .
+<http://dbpedia.org/resource/Category:Abstraction> a skos:Concept;
+skos:prefLabel"Abstraction"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Philosophy> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Identity> .
+<http://dbpedia.org/resource/Category:Credit> a skos:Concept;
+skos:prefLabel"Credit"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Microfinance> .
+<http://dbpedia.org/resource/Category:Innovation> a skos:Concept;
+skos:prefLabel"innovation"@en.
+
+<http://dbpedia.org/resource/Category:Social_economy> a skos:Concept;
+skos:prefLabel"Social_economy"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Philanthropy> .
+<http://dbpedia.org/resource/Category:Population_genetics> a skos:Concept;
+skos:prefLabel"Population_genetics"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Biodiversity> .
+<http://dbpedia.org/resource/Category:Digital_media> a skos:Concept;
+skos:prefLabel"Digital_media"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Software> .
+<http://dbpedia.org/resource/Category:Nutrition> a skos:Concept;
+skos:prefLabel"Nutrition"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Obesity> .
+<http://dbpedia.org/resource/Category:Geography> a skos:Concept;
+skos:prefLabel"Geography"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Exploration> .
+<http://dbpedia.org/resource/Category:Member_states_of_the_Community_of_Portuguese_Language_Countries> a skos:Concept;
+skos:prefLabel"Member_states_of_the_Community_of_Portuguese_Language_Countries"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Brazil> .
+<http://dbpedia.org/resource/Category:Simplicity> a skos:Concept;
+skos:prefLabel"simplicity"@en.
+
+<http://dbpedia.org/resource/Category:Tourist_attractions> a skos:Concept;
+skos:prefLabel"Tourist_attractions"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Museums> .
+<http://dbpedia.org/resource/Category:Ecology> a skos:Concept;
+skos:prefLabel"Ecology"@en;
+skos:broader <http://dbpedia.org/resource/Category:Biogeochemistry> ; 
+skos:broader <http://dbpedia.org/resource/Category:Branches_of_biology> ; 
+skos:broader <http://dbpedia.org/resource/Category:Natural_environment> ;skos:narrower <http://dbpedia.org/resource/Category:Biodiversity> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Conservation> .
+<http://dbpedia.org/resource/Category:Cosmos> a skos:Concept;
+skos:prefLabel"cosmos"@en.
+
+<http://dbpedia.org/resource/Category:Conflicts> a skos:Concept;
+skos:prefLabel"Conflicts"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Protests> .
+<http://dbpedia.org/resource/Category:Asia> a skos:Concept;
+skos:prefLabel"asia"@en.
+
+<http://dbpedia.org/resource/Category:Text> a skos:Concept;
+skos:prefLabel"Text"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Typography> .
+<http://dbpedia.org/resource/Category:Software> a skos:Concept;
+skos:prefLabel"Software"@en;
+skos:broader <http://dbpedia.org/resource/Category:Intellectual_works> ; 
+skos:broader <http://dbpedia.org/resource/Category:Digital_media> ; 
+skos:broader <http://dbpedia.org/resource/Category:Computer_science> ; 
+skos:broader <http://dbpedia.org/resource/Category:Mass_media> ; 
+skos:broader <http://dbpedia.org/resource/Category:Computing> ;skos:narrower <http://dbpedia.org/resource/Category:Microsoft> .
+<http://dbpedia.org/resource/Category:Biomimicry> a skos:Concept;
+skos:prefLabel"biomimicry"@en.
+
+<http://dbpedia.org/resource/Category:Vaccines> a skos:Concept;
+skos:prefLabel"vaccines"@en.
+
+<http://dbpedia.org/resource/Category:Big_Problems> a skos:Concept;
+skos:prefLabel"big_problems"@en.
+
+<http://dbpedia.org/resource/Category:Spoken_Word> a skos:Concept;
+skos:prefLabel"spoken_word"@en.
+
+<http://dbpedia.org/resource/Category:Physical_attractiveness> a skos:Concept;
+skos:prefLabel"Physical_attractiveness"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Beauty> .
+<http://dbpedia.org/resource/Category:Bariatrics> a skos:Concept;
+skos:prefLabel"Bariatrics"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Obesity> .
+<http://dbpedia.org/resource/Category:Code> a skos:Concept;
+skos:prefLabel"code"@en.
+
+<http://dbpedia.org/resource/Category:Identity> a skos:Concept;
+skos:prefLabel"Identity"@en;
+skos:broader <http://dbpedia.org/resource/Category:Concepts_in_logic> ; 
+skos:broader <http://dbpedia.org/resource/Category:Philosophical_logic> ; 
+skos:broader <http://dbpedia.org/resource/Category:Concepts_in_metaphysics> ; 
+skos:broader <http://dbpedia.org/resource/Category:Conceptions_of_self> ; 
+skos:broader <http://dbpedia.org/resource/Category:Reality> ; 
+skos:broader <http://dbpedia.org/resource/Category:Abstraction> ;skos:narrower <http://dbpedia.org/resource/Category:Gender> .
+<http://dbpedia.org/resource/Category:Information_technology> a skos:Concept;
+skos:prefLabel"Information_technology"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Data> .
+<http://dbpedia.org/resource/Category:Plants> a skos:Concept;
+skos:prefLabel"plants"@en;
+skos:broader <http://dbpedia.org/resource/Category:Horticulture_and_gardening> ; 
+skos:broader <http://dbpedia.org/resource/Category:Eukaryotes> ; 
+skos:broader <http://dbpedia.org/resource/Category:Botany> ;skos:narrower <http://dbpedia.org/resource/Category:Trees> .
+<http://dbpedia.org/resource/Category:Hemorrhagic_fevers> a skos:Concept;
+skos:prefLabel"Hemorrhagic_fevers"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Ebola> .
+<http://dbpedia.org/resource/Category:Evolutionary_biology> a skos:Concept;
+skos:prefLabel"Evolutionary_biology"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Paleontology> .
+<http://dbpedia.org/resource/Category:Brand> a skos:Concept;
+skos:prefLabel"brand"@en.
+
+<http://dbpedia.org/resource/Category:Ethical_principles> a skos:Concept;
+skos:prefLabel"Ethical_principles"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Love> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Peace> .
+<http://dbpedia.org/resource/Category:Biotech> a skos:Concept;
+skos:prefLabel"biotech"@en.
+
+<http://dbpedia.org/resource/Category:United_States> a skos:Concept;
+skos:prefLabel"united_states"@en.
+
+<http://dbpedia.org/resource/Category:Evolutionary_Psychology> a skos:Concept;
+skos:prefLabel"evolutionary_psychology"@en.
+
+<http://dbpedia.org/resource/Category:Infrastructure> a skos:Concept;
+skos:prefLabel"infrastructure"@en.
+
+<http://dbpedia.org/resource/Category:Interview> a skos:Concept;
+skos:prefLabel"interview"@en.
+
+<http://dbpedia.org/resource/Category:Iranian-speaking_countries_and_territories> a skos:Concept;
+skos:prefLabel"Iranian-speaking_countries_and_territories"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Iraq> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Iran> .
+<http://dbpedia.org/resource/Category:Astronomical_hypotheses> a skos:Concept;
+skos:prefLabel"Astronomical_hypotheses"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Astrobiology> .
+<http://dbpedia.org/resource/Category:Physics> a skos:Concept;
+skos:prefLabel"physics"@en.
+
+<http://dbpedia.org/resource/Category:Exoskeleton> a skos:Concept;
+skos:prefLabel"exoskeleton"@en.
+
+<http://dbpedia.org/resource/Category:Public_Health> a skos:Concept;
+skos:prefLabel"public_health"@en.
+
+<http://dbpedia.org/resource/Category:Arab_republics> a skos:Concept;
+skos:prefLabel"Arab_republics"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Syria> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Egypt> .
+<http://dbpedia.org/resource/Category:Demography> a skos:Concept;
+skos:prefLabel"Demography"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Population> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Refugees> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Immigration> .
+<http://dbpedia.org/resource/Category:Asteroid> a skos:Concept;
+skos:prefLabel"asteroid"@en.
+
+<http://dbpedia.org/resource/Category:Disaster_Relief> a skos:Concept;
+skos:prefLabel"disaster_relief"@en.
+
+<http://dbpedia.org/resource/Category:Former_confederations> a skos:Concept;
+skos:prefLabel"Former_confederations"@en;
+skos:narrower <http://dbpedia.org/resource/Category:United_States> .
+<http://dbpedia.org/resource/Category:Christianity> a skos:Concept;
+skos:prefLabel"christianity"@en.
+
+<http://dbpedia.org/resource/Category:Solar_System> a skos:Concept;
+skos:prefLabel"solar_system"@en.
+
+<http://dbpedia.org/resource/Category:Mission_Blue> a skos:Concept;
+skos:prefLabel"mission_blue"@en.
+
+<http://dbpedia.org/resource/Category:Science_and_technology_in_Sweden> a skos:Concept;
+skos:prefLabel"Science_and_technology_in_Sweden"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Nobel_Prize> .
+<http://dbpedia.org/resource/Category:Math> a skos:Concept;
+skos:prefLabel"math"@en.
+
+<http://dbpedia.org/resource/Category:Mars> a skos:Concept;
+skos:prefLabel"mars"@en.
+
+<http://dbpedia.org/resource/Category:Pharmaceuticals> a skos:Concept;
+skos:prefLabel"pharmaceuticals"@en.
+
+<http://dbpedia.org/resource/Category:Municipalities> a skos:Concept;
+skos:prefLabel"Municipalities"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Cities> .
+<http://dbpedia.org/resource/Category:Diseases_and_disorders> a skos:Concept;
+skos:prefLabel"Diseases_and_disorders"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Cancer> .
+<http://dbpedia.org/resource/Category:Buildings_and_structures_by_type> a skos:Concept;
+skos:prefLabel"Buildings_and_structures_by_type"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Museums> .
+<http://dbpedia.org/resource/Category:Crime> a skos:Concept;
+skos:prefLabel"crime"@en.
+
+<http://dbpedia.org/resource/Category:Web> a skos:Concept;
+skos:prefLabel"web"@en.
+
+<http://dbpedia.org/resource/Category:Shopping> a skos:Concept;
+skos:prefLabel"shopping"@en.
+
+<http://dbpedia.org/resource/Category:Categories_requiring_diffusion> a skos:Concept;
+skos:prefLabel"Categories_requiring_diffusion"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Culture> .
+<http://dbpedia.org/resource/Category:Body_Language> a skos:Concept;
+skos:prefLabel"body_language"@en.
+
+<http://dbpedia.org/resource/Category:Driverless_Cars> a skos:Concept;
+skos:prefLabel"driverless_cars"@en.
+
+<http://dbpedia.org/resource/Category:Compassion> a skos:Concept;
+skos:prefLabel"compassion"@en.
+
+<http://dbpedia.org/resource/Category:Professional_studies> a skos:Concept;
+skos:prefLabel"Professional_studies"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Marketing> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Law> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Engineering> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Education> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Business> .
+<http://dbpedia.org/resource/Category:Bullying> a skos:Concept;
+skos:prefLabel"bullying"@en.
+
+<http://dbpedia.org/resource/Category:Augmented_Reality> a skos:Concept;
+skos:prefLabel"augmented_reality"@en.
+
+<http://dbpedia.org/resource/Category:Gender> a skos:Concept;
+skos:prefLabel"gender"@en;
+skos:broader <http://dbpedia.org/resource/Category:Sexuality_and_society> ; 
+skos:broader <http://dbpedia.org/resource/Category:Biology> ; 
+skos:broader <http://dbpedia.org/resource/Category:Identity> ;skos:narrower <http://dbpedia.org/resource/Category:Transgender> .
+<http://dbpedia.org/resource/Category:Astronomical_sub-disciplines> a skos:Concept;
+skos:prefLabel"Astronomical_sub-disciplines"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Astrobiology> .
+<http://dbpedia.org/resource/Category:Social_concepts> a skos:Concept;
+skos:prefLabel"Social_concepts"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Inequality> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Law> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Disability> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Peace> .
+<http://dbpedia.org/resource/Category:Guns> a skos:Concept;
+skos:prefLabel"guns"@en.
+
+<http://dbpedia.org/resource/Category:Architecture> a skos:Concept;
+skos:prefLabel"architecture"@en.
+
+<http://dbpedia.org/resource/Category:Transportation> a skos:Concept;
+skos:prefLabel"transportation"@en.
+
+<http://dbpedia.org/resource/Category:Deextinction> a skos:Concept;
+skos:prefLabel"deextinction"@en.
+
+<http://dbpedia.org/resource/Category:Astronomical_instruments> a skos:Concept;
+skos:prefLabel"Astronomical_instruments"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Telescopes> .
+<http://dbpedia.org/resource/Category:Ancient_mediterranean_religions> a skos:Concept;
+skos:prefLabel"Ancient_mediterranean_religions"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Christianity> .
+<http://dbpedia.org/resource/Category:Motivation> a skos:Concept;
+skos:prefLabel"motivation"@en.
+
+<http://dbpedia.org/resource/Category:Singer> a skos:Concept;
+skos:prefLabel"singer"@en.
+
+<http://dbpedia.org/resource/Category:Love> a skos:Concept;
+skos:prefLabel"love"@en.
+
+<http://dbpedia.org/resource/Category:Economic_systems> a skos:Concept;
+skos:prefLabel"Economic_systems"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Capitalism> .
+<http://dbpedia.org/resource/Category:Euthenics> a skos:Concept;
+skos:prefLabel"Euthenics"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Education> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Sanitation> .
+<http://dbpedia.org/resource/Category:Mental_health> a skos:Concept;
+skos:prefLabel"Mental_health"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Addiction> .
+<http://dbpedia.org/resource/Category:Blockchain> a skos:Concept;
+skos:prefLabel"blockchain"@en.
+
+<http://dbpedia.org/resource/Category:Local_Interstellar_Cloud> a skos:Concept;
+skos:prefLabel"Local_Interstellar_Cloud"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Solar_System> .
+<http://dbpedia.org/resource/Category:Construction> a skos:Concept;
+skos:prefLabel"Construction"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Infrastructure> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Architecture> .
+<http://dbpedia.org/resource/Category:Philosophy_of_love> a skos:Concept;
+skos:prefLabel"Philosophy_of_love"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Happiness> .
+<http://dbpedia.org/resource/Category:Observational_astronomy> a skos:Concept;
+skos:prefLabel"Observational_astronomy"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Telescopes> .
+<http://dbpedia.org/resource/Category:Politology> a skos:Concept;
+skos:prefLabel"Politology"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Philanthropy> .
+<http://dbpedia.org/resource/Category:Rules> a skos:Concept;
+skos:prefLabel"Rules"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Grammar> .
+<http://dbpedia.org/resource/Category:Human_anatomy_by_organ> a skos:Concept;
+skos:prefLabel"Human_anatomy_by_organ"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Brain> .
+<http://dbpedia.org/resource/Category:Security> a skos:Concept;
+skos:prefLabel"security"@en.
+
+<http://dbpedia.org/resource/Category:Kinship_and_descent> a skos:Concept;
+skos:prefLabel"Kinship_and_descent"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Family> .
+<http://dbpedia.org/resource/Category:Disputed_territories_in_Asia> a skos:Concept;
+skos:prefLabel"Disputed_territories_in_Asia"@en;
+skos:narrower <http://dbpedia.org/resource/Category:China> .
+<http://dbpedia.org/resource/Category:Life_skills> a skos:Concept;
+skos:prefLabel"Life_skills"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Parenting> .
+<http://dbpedia.org/resource/Category:Humour> a skos:Concept;
+skos:prefLabel"Humour"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Comedy> .
+<http://dbpedia.org/resource/Category:Science_And_Art> a skos:Concept;
+skos:prefLabel"science_and_art"@en.
+
+<http://dbpedia.org/resource/Category:Educational_buildings> a skos:Concept;
+skos:prefLabel"Educational_buildings"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Museums> .
+<http://dbpedia.org/resource/Category:Perception> a skos:Concept;
+skos:prefLabel"Perception"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Senses> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Pain> .
+<http://dbpedia.org/resource/Category:Service_industries> a skos:Concept;
+skos:prefLabel"Service_industries"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Advertising> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Marketing> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Entertainment> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Travel> .
+<http://dbpedia.org/resource/Category:Web_portals> a skos:Concept;
+skos:prefLabel"Web_portals"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Google> .
+<http://dbpedia.org/resource/Category:Ted_Fellows> a skos:Concept;
+skos:prefLabel"ted_fellows"@en.
+
+<http://dbpedia.org/resource/Category:Heritage_organizations> a skos:Concept;
+skos:prefLabel"Heritage_organizations"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Museums> .
+<http://dbpedia.org/resource/Category:God> a skos:Concept;
+skos:prefLabel"god"@en.
+
+<http://dbpedia.org/resource/Category:Crafts> a skos:Concept;
+skos:prefLabel"Crafts"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Photography> .
+<http://dbpedia.org/resource/Category:Entrepreneur> a skos:Concept;
+skos:prefLabel"entrepreneur"@en.
+
+<http://dbpedia.org/resource/Category:Free_internet_encyclopedias> a skos:Concept;
+skos:prefLabel"Free_internet_encyclopedias"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Wikipedia> .
+<http://dbpedia.org/resource/Category:Countries_in_South_America> a skos:Concept;
+skos:prefLabel"Countries_in_South_America"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Brazil> .
+<http://dbpedia.org/resource/Category:Animal_physiology> a skos:Concept;
+skos:prefLabel"Animal_physiology"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Sleep> .
+<http://dbpedia.org/resource/Category:Women's_culture> a skos:Concept;
+skos:prefLabel"Women's_culture"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Feminism> .
+<http://dbpedia.org/resource/Category:Social_institutions> a skos:Concept;
+skos:prefLabel"Social_institutions"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Religion> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Law> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Government> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Family> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Friendship> .
+<http://dbpedia.org/resource/Category:Hexapoda> a skos:Concept;
+skos:prefLabel"Hexapoda"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Insects> .
+<http://dbpedia.org/resource/Category:Substellar_objects> a skos:Concept;
+skos:prefLabel"Substellar_objects"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Planets> .
+<http://dbpedia.org/resource/Category:Moon> a skos:Concept;
+skos:prefLabel"moon"@en.
+
+<http://dbpedia.org/resource/Category:Social_systems> a skos:Concept;
+skos:prefLabel"Social_systems"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Community> .
+<http://dbpedia.org/resource/Category:Income_distribution> a skos:Concept;
+skos:prefLabel"Income_distribution"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Poverty> .
+<http://dbpedia.org/resource/Category:Land_management> a skos:Concept;
+skos:prefLabel"Land_management"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Agriculture> .
+<http://dbpedia.org/resource/Category:Change> a skos:Concept;
+skos:prefLabel"Change"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Innovation> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Evolution> .
+<http://dbpedia.org/resource/Category:Arts_in_Japan> a skos:Concept;
+skos:prefLabel"Arts_in_Japan"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Origami> .
+<http://dbpedia.org/resource/Category:Aids> a skos:Concept;
+skos:prefLabel"aids"@en.
+
+<http://dbpedia.org/resource/Category:Royal_Swedish_Academy_of_Sciences> a skos:Concept;
+skos:prefLabel"Royal_Swedish_Academy_of_Sciences"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Nobel_Prize> .
+<http://dbpedia.org/resource/Category:Climate_Change> a skos:Concept;
+skos:prefLabel"climate_change"@en.
+
+<http://dbpedia.org/resource/Category:Science_and_technology> a skos:Concept;
+skos:prefLabel"Science_and_technology"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Science> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Technology> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Engineering> .
+<http://dbpedia.org/resource/Category:Wikipedia_categories_named_after_awards> a skos:Concept;
+skos:prefLabel"Wikipedia_categories_named_after_awards"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Nobel_Prize> .
+<http://dbpedia.org/resource/Category:Publications_by_format> a skos:Concept;
+skos:prefLabel"Publications_by_format"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Books> .
+<http://dbpedia.org/resource/Category:Cultural_geography> a skos:Concept;
+skos:prefLabel"Cultural_geography"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Community> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Immigration> .
+<http://dbpedia.org/resource/Category:Smell> a skos:Concept;
+skos:prefLabel"smell"@en.
+
+<http://dbpedia.org/resource/Category:Plastic_arts> a skos:Concept;
+skos:prefLabel"Plastic_arts"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Film> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Painting> .
+<http://dbpedia.org/resource/Category:Wikipedia_categories_named_after_planets> a skos:Concept;
+skos:prefLabel"Wikipedia_categories_named_after_planets"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Mars> .
+<http://dbpedia.org/resource/Category:Health_Care> a skos:Concept;
+skos:prefLabel"health_care"@en.
+
+<http://dbpedia.org/resource/Category:Qualia> a skos:Concept;
+skos:prefLabel"Qualia"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Sound> .
+<http://dbpedia.org/resource/Category:Brazil> a skos:Concept;
+skos:prefLabel"brazil"@en.
+
+<http://dbpedia.org/resource/Category:People_by_gender> a skos:Concept;
+skos:prefLabel"People_by_gender"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Men> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Women> .
+<http://dbpedia.org/resource/Category:Privacy> a skos:Concept;
+skos:prefLabel"privacy"@en;
+skos:broader <http://dbpedia.org/resource/Category:Social_issues> ; 
+skos:broader <http://dbpedia.org/resource/Category:Medical_ethics> ; 
+skos:broader <http://dbpedia.org/resource/Category:Human_rights_by_issue> ; 
+skos:broader <http://dbpedia.org/resource/Category:Civil_rights_and_liberties> ; 
+skos:broader <http://dbpedia.org/resource/Category:Personal_life> ;skos:narrower <http://dbpedia.org/resource/Category:Surveillance> .
+<http://dbpedia.org/resource/Category:Dinosauriforms> a skos:Concept;
+skos:prefLabel"Dinosauriforms"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Dinosaurs> .
+<http://dbpedia.org/resource/Category:Discovery> a skos:Concept;
+skos:prefLabel"discovery"@en.
+
+<http://dbpedia.org/resource/Category:Monotheism> a skos:Concept;
+skos:prefLabel"Monotheism"@en;
+skos:narrower <http://dbpedia.org/resource/Category:God> .
+<http://dbpedia.org/resource/Category:Liberalism> a skos:Concept;
+skos:prefLabel"Liberalism"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Democracy> .
+<http://dbpedia.org/resource/Category:Social_Change> a skos:Concept;
+skos:prefLabel"social_change"@en.
+
+<http://dbpedia.org/resource/Category:Family> a skos:Concept;
+skos:prefLabel"family"@en;
+skos:broader <http://dbpedia.org/resource/Category:Interpersonal_relationships> ; 
+skos:broader <http://dbpedia.org/resource/Category:Living_arrangements> ; 
+skos:broader <http://dbpedia.org/resource/Category:Kinship_and_descent> ; 
+skos:broader <http://dbpedia.org/resource/Category:Social_institutions> ;skos:narrower <http://dbpedia.org/resource/Category:Parenting> .
+<http://dbpedia.org/resource/Category:Night> a skos:Concept;
+skos:prefLabel"Night"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Sleep> .
+<http://dbpedia.org/resource/Category:North_African_countries> a skos:Concept;
+skos:prefLabel"North_African_countries"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Egypt> .
+<http://dbpedia.org/resource/Category:Population> a skos:Concept;
+skos:prefLabel"population"@en;
+skos:broader <http://dbpedia.org/resource/Category:Human_geography> ; 
+skos:broader <http://dbpedia.org/resource/Category:Demography> ;skos:narrower <http://dbpedia.org/resource/Category:Refugees> .
+<http://dbpedia.org/resource/Category:Entertainment_occupations> a skos:Concept;
+skos:prefLabel"Entertainment_occupations"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Dance> .
+<http://dbpedia.org/resource/Category:Modernism_(music)> a skos:Concept;
+skos:prefLabel"Modernism_(music)"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Jazz> .
+<http://dbpedia.org/resource/Category:Public_health> a skos:Concept;
+skos:prefLabel"Public_health"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Epidemiology> .
+<http://dbpedia.org/resource/Category:Nervous_system> a skos:Concept;
+skos:prefLabel"Nervous_system"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Neuroscience> .
+<http://dbpedia.org/resource/Category:Wealth> a skos:Concept;
+skos:prefLabel"Wealth"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Poverty> .
+<http://dbpedia.org/resource/Category:Wikipedia_categories_named_after_Solar_System_objects> a skos:Concept;
+skos:prefLabel"Wikipedia_categories_named_after_Solar_System_objects"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Moon> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Mars> .
+<http://dbpedia.org/resource/Category:Astronomical_observatories> a skos:Concept;
+skos:prefLabel"Astronomical_observatories"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Telescopes> .
+<http://dbpedia.org/resource/Category:Leadership> a skos:Concept;
+skos:prefLabel"leadership"@en.
+
+<http://dbpedia.org/resource/Category:Anthropology> a skos:Concept;
+skos:prefLabel"anthropology"@en.
+
+<http://dbpedia.org/resource/Category:Abuse> a skos:Concept;
+skos:prefLabel"Abuse"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Bullying> .
+<http://dbpedia.org/resource/Category:Natural_resources> a skos:Concept;
+skos:prefLabel"Natural_resources"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Water> .
+<http://dbpedia.org/resource/Category:Psychological_states> a skos:Concept;
+skos:prefLabel"Psychological_states"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Sleep> .
+<http://dbpedia.org/resource/Category:Tetrapods> a skos:Concept;
+skos:prefLabel"Tetrapods"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Birds> .
+<http://dbpedia.org/resource/Category:Multinational_companies_headquartered_in_the_United_States> a skos:Concept;
+skos:prefLabel"Multinational_companies_headquartered_in_the_United_States"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Microsoft> .
+<http://dbpedia.org/resource/Category:Ted_Prize> a skos:Concept;
+skos:prefLabel"ted_prize"@en.
+
+<http://dbpedia.org/resource/Category:Wikipedia_categories_named_after_continents> a skos:Concept;
+skos:prefLabel"Wikipedia_categories_named_after_continents"@en;
+skos:narrower <http://dbpedia.org/resource/Category:South_America> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Africa> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Europe> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Asia> .
+<http://dbpedia.org/resource/Category:Funny> a skos:Concept;
+skos:prefLabel"funny"@en.
+
+<http://dbpedia.org/resource/Category:Causes_of_events> a skos:Concept;
+skos:prefLabel"Causes_of_events"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Big_Bang> .
+<http://dbpedia.org/resource/Category:Theater> a skos:Concept;
+skos:prefLabel"theater"@en.
+
+<http://dbpedia.org/resource/Category:Philosophical_logic> a skos:Concept;
+skos:prefLabel"Philosophical_logic"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Identity> .
+<http://dbpedia.org/resource/Category:Information_storage> a skos:Concept;
+skos:prefLabel"Information_storage"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Museums> .
+<http://dbpedia.org/resource/Category:Marketing> a skos:Concept;
+skos:prefLabel"marketing"@en.
+
+<http://dbpedia.org/resource/Category:Failure> a skos:Concept;
+skos:prefLabel"failure"@en.
+
+<http://dbpedia.org/resource/Category:Children> a skos:Concept;
+skos:prefLabel"children"@en.
+
+<http://dbpedia.org/resource/Category:International_awards> a skos:Concept;
+skos:prefLabel"International_awards"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Nobel_Prize> .
+<http://dbpedia.org/resource/Category:Ethics> a skos:Concept;
+skos:prefLabel"Ethics"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Morality> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Engineering> .
+<http://dbpedia.org/resource/Category:India> a skos:Concept;
+skos:prefLabel"india"@en.
+
+<http://dbpedia.org/resource/Category:Alzheimers> a skos:Concept;
+skos:prefLabel"alzheimers"@en.
+
+<http://dbpedia.org/resource/Category:Time> a skos:Concept;
+skos:prefLabel"Time"@en;
+skos:broader <http://dbpedia.org/resource/Category:Spacetime> ; 
+skos:broader <http://dbpedia.org/resource/Category:Dimension> ; 
+skos:broader <http://dbpedia.org/resource/Category:Concepts_in_metaphysics> ; 
+skos:broader <http://dbpedia.org/resource/Category:Physical_quantities> ;skos:narrower <http://dbpedia.org/resource/Category:Future> .
+<http://dbpedia.org/resource/Category:Religious_behaviour_and_experience> a skos:Concept;
+skos:prefLabel"Religious_behaviour_and_experience"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Meditation> .
+<http://dbpedia.org/resource/Category:Social_conflict> a skos:Concept;
+skos:prefLabel"Social_conflict"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Protests> .
+<http://dbpedia.org/resource/Category:Painting> a skos:Concept;
+skos:prefLabel"painting"@en.
+
+<http://dbpedia.org/resource/Category:Parenting> a skos:Concept;
+skos:prefLabel"parenting"@en.
+
+<http://dbpedia.org/resource/Category:Origins> a skos:Concept;
+skos:prefLabel"Origins"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Evolution> .
+<http://dbpedia.org/resource/Category:Safety> a skos:Concept;
+skos:prefLabel"Safety"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Security> .
+<http://dbpedia.org/resource/Category:Personal_development> a skos:Concept;
+skos:prefLabel"Personal_development"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Happiness> .
+<http://dbpedia.org/resource/Category:Animals> a skos:Concept;
+skos:prefLabel"animals"@en.
+
+<http://dbpedia.org/resource/Category:Mesopotamia> a skos:Concept;
+skos:prefLabel"Mesopotamia"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Iraq> .
+<http://dbpedia.org/resource/Category:Extremism> a skos:Concept;
+skos:prefLabel"Extremism"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Terrorism> .
+<http://dbpedia.org/resource/Category:Sleep> a skos:Concept;
+skos:prefLabel"sleep"@en.
+
+<http://dbpedia.org/resource/Category:Medical_Imaging> a skos:Concept;
+skos:prefLabel"medical_imaging"@en.
+
+<http://dbpedia.org/resource/Category:Typography> a skos:Concept;
+skos:prefLabel"typography"@en.
+
+<http://dbpedia.org/resource/Category:Sports_originating_in_the_United_States> a skos:Concept;
+skos:prefLabel"Sports_originating_in_the_United_States"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Skateboarding> .
+<http://dbpedia.org/resource/Category:Interpersonal_conflict> a skos:Concept;
+skos:prefLabel"Interpersonal_conflict"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Bullying> .
+<http://dbpedia.org/resource/Category:Molecular_Biology> a skos:Concept;
+skos:prefLabel"molecular_biology"@en.
+
+<http://dbpedia.org/resource/Category:Crispr> a skos:Concept;
+skos:prefLabel"crispr"@en.
+
+<http://dbpedia.org/resource/Category:Space> a skos:Concept;
+skos:prefLabel"space"@en.
+
+<http://dbpedia.org/resource/Category:Paleontology> a skos:Concept;
+skos:prefLabel"paleontology"@en.
+
+<http://dbpedia.org/resource/Category:Books> a skos:Concept;
+skos:prefLabel"books"@en.
+
+<http://dbpedia.org/resource/Category:One-party_states> a skos:Concept;
+skos:prefLabel"One-party_states"@en;
+skos:narrower <http://dbpedia.org/resource/Category:China> .
+<http://dbpedia.org/resource/Category:Quality_of_life> a skos:Concept;
+skos:prefLabel"Quality_of_life"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Happiness> .
+<http://dbpedia.org/resource/Category:Irreligion> a skos:Concept;
+skos:prefLabel"Irreligion"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Atheism> .
+<http://dbpedia.org/resource/Category:Communication_disorders> a skos:Concept;
+skos:prefLabel"Communication_disorders"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Blindness> .
+<http://dbpedia.org/resource/Category:Eurasia> a skos:Concept;
+skos:prefLabel"Eurasia"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Europe> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Asia> .
+<http://dbpedia.org/resource/Category:Body_shape> a skos:Concept;
+skos:prefLabel"Body_shape"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Obesity> .
+<http://dbpedia.org/resource/Category:Society> a skos:Concept;
+skos:prefLabel"Society"@en;
+skos:broader <http://dbpedia.org/resource/Category:Main_topic_classifications> ; 
+skos:broader <http://dbpedia.org/resource/Category:Structure> ;skos:narrower <http://dbpedia.org/resource/Category:Communication> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Culture> .
+<http://dbpedia.org/resource/Category:Vision> a skos:Concept;
+skos:prefLabel"Vision"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Blindness> .
+<http://dbpedia.org/resource/Category:States_and_territories_established_in_1788> a skos:Concept;
+skos:prefLabel"States_and_territories_established_in_1788"@en;
+skos:narrower <http://dbpedia.org/resource/Category:New_York> .
+<http://dbpedia.org/resource/Category:Ted_En_Espaol> a skos:Concept;
+skos:prefLabel"ted_en_espaol"@en.
+
+<http://dbpedia.org/resource/Category:Virtue> a skos:Concept;
+skos:prefLabel"Virtue"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Law> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Peace> .
+<http://dbpedia.org/resource/Category:Narratology> a skos:Concept;
+skos:prefLabel"Narratology"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Literature> .
+<http://dbpedia.org/resource/Category:Mesozoic_reptiles> a skos:Concept;
+skos:prefLabel"Mesozoic_reptiles"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Dinosaurs> .
+<http://dbpedia.org/resource/Category:Information_technology_companies_of_the_United_States> a skos:Concept;
+skos:prefLabel"Information_technology_companies_of_the_United_States"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Microsoft> .
+<http://dbpedia.org/resource/Category:Matter> a skos:Concept;
+skos:prefLabel"Matter"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Materials> .
+<http://dbpedia.org/resource/Category:Apes> a skos:Concept;
+skos:prefLabel"apes"@en.
+
+<http://dbpedia.org/resource/Category:Addiction> a skos:Concept;
+skos:prefLabel"addiction"@en.
+
+<http://dbpedia.org/resource/Category:Human_sexuality> a skos:Concept;
+skos:prefLabel"Human_sexuality"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Love> .
+<http://dbpedia.org/resource/Category:Issues_in_ethics> a skos:Concept;
+skos:prefLabel"Issues_in_ethics"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Inequality> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Corruption> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Happiness> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Nonviolence> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Peace> .
+<http://dbpedia.org/resource/Category:Engineering> a skos:Concept;
+skos:prefLabel"engineering"@en.
+
+<http://dbpedia.org/resource/Category:Toy> a skos:Concept;
+skos:prefLabel"toy"@en.
+
+<http://dbpedia.org/resource/Category:Community> a skos:Concept;
+skos:prefLabel"community"@en.
+
+<http://dbpedia.org/resource/Category:Microsoft> a skos:Concept;
+skos:prefLabel"microsoft"@en.
+
+<http://dbpedia.org/resource/Category:Syria> a skos:Concept;
+skos:prefLabel"syria"@en.
+
+<http://dbpedia.org/resource/Category:Planetary_systems> a skos:Concept;
+skos:prefLabel"Planetary_systems"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Solar_System> .
+<http://dbpedia.org/resource/Category:Internet_search_engines> a skos:Concept;
+skos:prefLabel"Internet_search_engines"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Google> .
+<http://dbpedia.org/resource/Category:Nuclear_Energy> a skos:Concept;
+skos:prefLabel"nuclear_energy"@en.
+
+<http://dbpedia.org/resource/Category:Internet_companies_of_the_United_States> a skos:Concept;
+skos:prefLabel"Internet_companies_of_the_United_States"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Google> .
+<http://dbpedia.org/resource/Category:Genres> a skos:Concept;
+skos:prefLabel"Genres"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Comedy> .
+<http://dbpedia.org/resource/Category:Media_formats> a skos:Concept;
+skos:prefLabel"Media_formats"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Film> .
+<http://dbpedia.org/resource/Category:Tedx> a skos:Concept;
+skos:prefLabel"tedx"@en.
+
+<http://dbpedia.org/resource/Category:Organizational_culture> a skos:Concept;
+skos:prefLabel"Organizational_culture"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Collaboration> .
+<http://dbpedia.org/resource/Category:Intelligence> a skos:Concept;
+skos:prefLabel"Intelligence"@en;
+skos:broader <http://dbpedia.org/resource/Category:Cognition> ; 
+skos:broader <http://dbpedia.org/resource/Category:Memory> ; 
+skos:broader <http://dbpedia.org/resource/Category:Educational_psychology> ; 
+skos:broader <http://dbpedia.org/resource/Category:Learning> ; 
+skos:broader <http://dbpedia.org/resource/Category:Neuroscience> ;skos:narrower <http://dbpedia.org/resource/Category:Creativity> .
+<http://dbpedia.org/resource/Category:Forms_of_government> a skos:Concept;
+skos:prefLabel"Forms_of_government"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Democracy> .
+<http://dbpedia.org/resource/Category:Wind_Energy> a skos:Concept;
+skos:prefLabel"wind_energy"@en.
+
+<http://dbpedia.org/resource/Category:Depression> a skos:Concept;
+skos:prefLabel"depression"@en.
+
+<http://dbpedia.org/resource/Category:Heavy_industry> a skos:Concept;
+skos:prefLabel"Heavy_industry"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Mining> .
+<http://dbpedia.org/resource/Category:Fiction> a skos:Concept;
+skos:prefLabel"Fiction"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Literature> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Grammar> .
+<http://dbpedia.org/resource/Category:Past> a skos:Concept;
+skos:prefLabel"Past"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Memory> ; 
+skos:narrower <http://dbpedia.org/resource/Category:History> .
+<http://dbpedia.org/resource/Category:Programming> a skos:Concept;
+skos:prefLabel"programming"@en.
+
+<http://dbpedia.org/resource/Category:Virtual_Reality> a skos:Concept;
+skos:prefLabel"virtual_reality"@en.
+
+<http://dbpedia.org/resource/Category:Regions_of_Asia> a skos:Concept;
+skos:prefLabel"Regions_of_Asia"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Middle_East> .
+<http://dbpedia.org/resource/Category:Sexual_Violence> a skos:Concept;
+skos:prefLabel"sexual_violence"@en.
+
+<http://dbpedia.org/resource/Category:Speech> a skos:Concept;
+skos:prefLabel"speech"@en.
+
+<http://dbpedia.org/resource/Category:Violent_crime> a skos:Concept;
+skos:prefLabel"Violent_crime"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Terrorism> .
+<http://dbpedia.org/resource/Category:Nontheism> a skos:Concept;
+skos:prefLabel"Nontheism"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Atheism> .
+<http://dbpedia.org/resource/Category:Sports> a skos:Concept;
+skos:prefLabel"sports"@en.
+
+<http://dbpedia.org/resource/Category:Magic> a skos:Concept;
+skos:prefLabel"magic"@en.
+
+<http://dbpedia.org/resource/Category:Socialist_states> a skos:Concept;
+skos:prefLabel"Socialist_states"@en;
+skos:narrower <http://dbpedia.org/resource/Category:India> .
+<http://dbpedia.org/resource/Category:Microbes> a skos:Concept;
+skos:prefLabel"microbes"@en.
+
+<http://dbpedia.org/resource/Category:Applications_of_computer_vision> a skos:Concept;
+skos:prefLabel"Applications_of_computer_vision"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Robots> .
+<http://dbpedia.org/resource/Category:Mind> a skos:Concept;
+skos:prefLabel"mind"@en.
+
+<http://dbpedia.org/resource/Category:Investment> a skos:Concept;
+skos:prefLabel"investment"@en.
+
+<http://dbpedia.org/resource/Category:Subfields_of_evolutionary_biology> a skos:Concept;
+skos:prefLabel"Subfields_of_evolutionary_biology"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Paleontology> .
+<http://dbpedia.org/resource/Category:Childhood> a skos:Concept;
+skos:prefLabel"Childhood"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Parenting> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Children> .
+<http://dbpedia.org/resource/Category:Northeast_Asian_countries> a skos:Concept;
+skos:prefLabel"Northeast_Asian_countries"@en;
+skos:narrower <http://dbpedia.org/resource/Category:China> .
+<http://dbpedia.org/resource/Category:Altruism> a skos:Concept;
+skos:prefLabel"Altruism"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Philanthropy> .
+<http://dbpedia.org/resource/Category:Charter_For_Compassion> a skos:Concept;
+skos:prefLabel"charter_for_compassion"@en.
+
+<http://dbpedia.org/resource/Category:Public_speaking> a skos:Concept;
+skos:prefLabel"Public_speaking"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Presentation> .
+<http://dbpedia.org/resource/Category:Health_care> a skos:Concept;
+skos:prefLabel"Health_care"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Medicine> .
+<http://dbpedia.org/resource/Category:Oral_tradition> a skos:Concept;
+skos:prefLabel"Oral_tradition"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Storytelling> .
+<http://dbpedia.org/resource/Category:Friendship> a skos:Concept;
+skos:prefLabel"friendship"@en.
+
+<http://dbpedia.org/resource/Category:Mental_Health> a skos:Concept;
+skos:prefLabel"mental_health"@en.
+
+<http://dbpedia.org/resource/Category:Gender_Spectrum> a skos:Concept;
+skos:prefLabel"gender_spectrum"@en.
+
+<http://dbpedia.org/resource/Category:Animal_anatomy> a skos:Concept;
+skos:prefLabel"Animal_anatomy"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Brain> .
+<http://dbpedia.org/resource/Category:Robotics> a skos:Concept;
+skos:prefLabel"Robotics"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Robots> .
+<http://dbpedia.org/resource/Category:Populated_places_by_type> a skos:Concept;
+skos:prefLabel"Populated_places_by_type"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Cities> .
+<http://dbpedia.org/resource/Category:Games> a skos:Concept;
+skos:prefLabel"Games"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Sports> .
+<http://dbpedia.org/resource/Category:Government_institutions> a skos:Concept;
+skos:prefLabel"Government_institutions"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Military> .
+<http://dbpedia.org/resource/Category:Economic_geology> a skos:Concept;
+skos:prefLabel"Economic_geology"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Mining> .
+<http://dbpedia.org/resource/Category:Consumer> a skos:Concept;
+skos:prefLabel"Consumer"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Consumerism> .
+<http://dbpedia.org/resource/Category:Food> a skos:Concept;
+skos:prefLabel"food"@en.
+
+<http://dbpedia.org/resource/Category:Catarrhini> a skos:Concept;
+skos:prefLabel"Catarrhini"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Apes> .
+<http://dbpedia.org/resource/Category:Freedom_of_assembly> a skos:Concept;
+skos:prefLabel"Freedom_of_assembly"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Protests> .
+<http://dbpedia.org/resource/Category:Teaching> a skos:Concept;
+skos:prefLabel"teaching"@en.
+
+<http://dbpedia.org/resource/Category:Atmosphere> a skos:Concept;
+skos:prefLabel"Atmosphere"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Weather> .
+<http://dbpedia.org/resource/Category:Semiotics> a skos:Concept;
+skos:prefLabel"Semiotics"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Communication> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Language> .
+<http://dbpedia.org/resource/Category:Style_(fiction)> a skos:Concept;
+skos:prefLabel"Style_(fiction)"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Grammar> .
+<http://dbpedia.org/resource/Category:Autism_Spectrum_Disorder> a skos:Concept;
+skos:prefLabel"autism_spectrum_disorder"@en.
+
+<http://dbpedia.org/resource/Category:Plant_life-form> a skos:Concept;
+skos:prefLabel"Plant_life-form"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Trees> .
+<http://dbpedia.org/resource/Category:Coastal_and_oceanic_landforms> a skos:Concept;
+skos:prefLabel"Coastal_and_oceanic_landforms"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Oceans> .
+<http://dbpedia.org/resource/Category:Youth> a skos:Concept;
+skos:prefLabel"youth"@en.
+
+<http://dbpedia.org/resource/Category:Physical_exercise> a skos:Concept;
+skos:prefLabel"Physical_exercise"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Dance> .
+<http://dbpedia.org/resource/Category:Companies_based_in_Mountain_View,_California> a skos:Concept;
+skos:prefLabel"Companies_based_in_Mountain_View,_California"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Google> .
+<http://dbpedia.org/resource/Category:Sound> a skos:Concept;
+skos:prefLabel"Sound"@en;
+skos:broader <http://dbpedia.org/resource/Category:Qualia> ; 
+skos:broader <http://dbpedia.org/resource/Category:Waves> ;skos:narrower <http://dbpedia.org/resource/Category:Music> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Hearing> .
+<http://dbpedia.org/resource/Category:Countries_in_North_America> a skos:Concept;
+skos:prefLabel"Countries_in_North_America"@en;
+skos:narrower <http://dbpedia.org/resource/Category:United_States> .
+<http://dbpedia.org/resource/Category:Prosthetics> a skos:Concept;
+skos:prefLabel"prosthetics"@en.
+
+<http://dbpedia.org/resource/Category:Limbic_system> a skos:Concept;
+skos:prefLabel"Limbic_system"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Memory> .
+<http://dbpedia.org/resource/Category:Information> a skos:Concept;
+skos:prefLabel"Information"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Communication> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Statistics> ; 
+skos:narrower <http://dbpedia.org/resource/Category:News> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Data> .
+<http://dbpedia.org/resource/Category:Photography> a skos:Concept;
+skos:prefLabel"photography"@en.
+
+<http://dbpedia.org/resource/Category:Fashion> a skos:Concept;
+skos:prefLabel"Fashion"@en;
+skos:broader <http://dbpedia.org/resource/Category:Clothing> ; 
+skos:broader <http://dbpedia.org/resource/Category:Style> ; 
+skos:broader <http://dbpedia.org/resource/Category:Cultural_trends> ;skos:narrower <http://dbpedia.org/resource/Category:Beauty> .
+<http://dbpedia.org/resource/Category:Cloud> a skos:Concept;
+skos:prefLabel"cloud"@en.
+
+<http://dbpedia.org/resource/Category:Choice> a skos:Concept;
+skos:prefLabel"choice"@en.
+
+<http://dbpedia.org/resource/Category:Jazz> a skos:Concept;
+skos:prefLabel"jazz"@en.
+
+<http://dbpedia.org/resource/Category:Virus-related_cutaneous_conditions> a skos:Concept;
+skos:prefLabel"Virus-related_cutaneous_conditions"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Ebola> .
+<http://dbpedia.org/resource/Category:Performing_arts> a skos:Concept;
+skos:prefLabel"Performing_arts"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Dance> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Poetry> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Comedy> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Storytelling> ; 
+skos:narrower <http://dbpedia.org/resource/Category:Music> .
+<http://dbpedia.org/resource/Category:Eating_behaviors_of_humans> a skos:Concept;
+skos:prefLabel"Eating_behaviors_of_humans"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Obesity> .
+<http://dbpedia.org/resource/Category:Mind–body_interventions> a skos:Concept;
+skos:prefLabel"Mind–body_interventions"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Meditation> .
+<http://dbpedia.org/resource/Category:Bodies_of_water> a skos:Concept;
+skos:prefLabel"Bodies_of_water"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Oceans> .
+<http://dbpedia.org/resource/Category:Genetics> a skos:Concept;
+skos:prefLabel"genetics"@en.
+
+<http://dbpedia.org/resource/Category:Economic_inequality> a skos:Concept;
+skos:prefLabel"Economic_inequality"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Poverty> .
+<http://dbpedia.org/resource/Category:Decision-Making> a skos:Concept;
+skos:prefLabel"decision-making"@en.
+
+<http://dbpedia.org/resource/Category:Broadcasting> a skos:Concept;
+skos:prefLabel"Broadcasting"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Television> .
+<http://dbpedia.org/resource/Category:Communist_states> a skos:Concept;
+skos:prefLabel"Communist_states"@en;
+skos:narrower <http://dbpedia.org/resource/Category:China> .
+<http://dbpedia.org/resource/Category:Bioethics> a skos:Concept;
+skos:prefLabel"bioethics"@en.
+
+<http://dbpedia.org/resource/Category:Domains_(biology)> a skos:Concept;
+skos:prefLabel"Domains_(biology)"@en;
+skos:narrower <http://dbpedia.org/resource/Category:Bacteria> .
+<http://dbpedia.org/resource/Category:Geology> a skos:Concept;
+skos:prefLabel"geology"@en.
